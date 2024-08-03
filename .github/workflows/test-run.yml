@@ -1,0 +1,85 @@
+name: Postman Test and Allure Report
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  run_tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install newman and newman-reporter-allure
+        run: |
+          npm install -g newman newman-reporter-allure
+          echo "Newman and newman-reporter-allure installed."
+
+      - name: Run Postman tests
+        if: always()
+        continue-on-error: true
+        run: |
+          newman run postman-collections/reqres.json --reporters cli,allure
+          echo "Postman tests run."
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Allure report action
+        id: build
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        continue-on-error: true
+        with:
+          allure_results: allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
+
+      - name: Wait for Allure report to be generated
+        if: always()
+        continue-on-error: true
+        run: sleep 10
+
+      # - name: Find latest folder and update Allure Report Title
+      #   run: |
+      #     latest_folder=$(find allure-report -type d -name '[0-9]*' | sort -n | tail -n 1)
+      #     echo "Latest Folder: $latest_folder"
+      #     sed -i 's/<title>Allure Report<\/title>/<title>[Open Banking] - API Quality Readiness<\/title>/' "$latest_folder/index.html"
+
+      - name: Update Allure Report Widget Title
+        if: always()
+        continue-on-error: true
+        run: |
+          # Find the latest folder with numerical values in the allure-history directory
+          latest_folder=$(find allure-history -mindepth 1 -maxdepth 1 -type d -name '[0-9]*' | sort -n | tail -n 1)
+          echo "Latest Folder: $latest_folder"
+          # Check if summary.json exists in the latest folder
+          summary_path="$latest_folder/widgets/summary.json"
+          echo "Summary Path: $summary_path"
+          if [[ -e "$summary_path" ]]; then
+            # Debug output to check the content before and after the sed command
+            cat "$summary_path"  # Print content before
+            # Use sed to update the content within the <h2> element
+            sudo sed -i 's/Allure Report/Admin - API Quality Readiness/' "$summary_path"
+            cat "$summary_path"  # Print content after
+          else
+            echo "Error: summary.json not found in the latest folder."
+          fi
+
+      - name: Deploy report to GitHub Pages
+        id: deploy
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history
