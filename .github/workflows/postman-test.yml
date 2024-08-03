@@ -54,7 +54,7 @@ jobs:
       #   run: |
       #     latest_folder=$(find allure-report -type d -name '[0-9]*' | sort -n | tail -n 1)
       #     echo "Latest Folder: $latest_folder"
-      #     sed -i 's/<title>Allure Report<\/title>/<title>[Open Banking] - API Quality Readiness<\/title>/' "$latest_folder/index.html"
+      #     sed -i 's/<title>Allure Report<\/title>/<title>[Reqres] - API Quality Readiness<\/title>/' "$latest_folder/index.html"
 
       - name: Update Allure Report Widget Title
         continue-on-error: true
@@ -74,7 +74,7 @@ jobs:
             cat "$summary_path"  # Print content before
 
             # Use sed to update the content within the <h2> element
-            sudo sed -i 's/Allure Report/Admin - API Quality Readiness/' "$summary_path"
+            sudo sed -i 's/Allure Report/Reqres - API Quality Readiness/' "$summary_path"
 
             cat "$summary_path"  # Print content after
           else
