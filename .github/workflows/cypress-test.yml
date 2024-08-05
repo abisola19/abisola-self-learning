@@ -83,7 +83,7 @@ jobs:
       #       cat "$summary_path"  # Print content before
 
       #       # Use sed to update the content within the <h2> element
-      #       sudo sed -i 's/Allure Report/NGX ADMIN FRONTEND AUTOMATION/' "$summary_path"
+      #       sudo sed -i 's/Allure Report/NYSC WEB FRONTEND AUTOMATION/' "$summary_path"
 
       #       cat "$summary_path"  # Print content after
       #     else
@@ -93,5 +93,5 @@ jobs:
       - name: Deploy Report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
           publish_dir: ./allure-history
