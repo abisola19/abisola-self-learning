@@ -1,0 +1,18 @@
+{
+  "name": "second-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser:chrome": "npx cypress run --browser=chrome --headed --spec cypress/e2e/nysc.cy.js --reporter mocha-allure-reporter",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "allure-mocha": "^3.0.0-beta.8",
+    "cypress": "^13.13.2",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}
