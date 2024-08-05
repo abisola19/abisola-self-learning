@@ -1,0 +1,97 @@
+name: Cypress Tests and Allure Reporting
+
+on:
+  push:
+    branches:
+      - cypress-automation
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Cache Dependencies
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('/package-lock.json') }}
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Cache Cypress binary
+        uses: actions/cache@v2
+        with:
+          path: /home/runner/.cache/Cypress
+          key: ${{ runner.os }}-cypress-${{ hashFiles('/yarn.lock') }}
+
+      - name: Install Cypress
+        run: npx cypress install
+
+      - name: Run Cypress Tests
+        run: npx cypress run
+        env:
+          baseUrl: 'https://portal.nysc.org.ng'
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Allure report action
+        id: build
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        continue-on-error: true
+        with:
+          allure_results: allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
+
+      - name: Wait for Allure report to be generated
+        if: always()
+        continue-on-error: true
+        run: sleep 10
+
+      # - name: Update Allure Report Widget Title
+      #   continue-on-error: true
+      #   if: steps.build.outcome == 'success'
+      #   run: |
+      #     # Find the latest folder with numerical values in the allure-history directory
+      #     latest_folder=$(find allure-history -mindepth 1 -maxdepth 1 -type d -name '[0-9]*' | sort -n | tail -n 1)
+
+      #     echo "Latest Folder: $latest_folder"
+
+      #     # Check if summary.json exists in the latest folder
+      #     summary_path="$latest_folder/widgets/summary.json"
+      #     echo "Summary Path: $summary_path"
+
+      #     if [[ -e "$summary_path" ]]; then
+      #       # Debug output to check the content before and after the sed command
+      #       cat "$summary_path"  # Print content before
+
+      #       # Use sed to update the content within the <h2> element
+      #       sudo sed -i 's/Allure Report/NGX ADMIN FRONTEND AUTOMATION/' "$summary_path"
+
+      #       cat "$summary_path"  # Print content after
+      #     else
+      #       echo "Error: summary.json not found in the latest folder."
+      #     fi
+
+      - name: Deploy Report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-history
