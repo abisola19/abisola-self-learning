@@ -1,1 +1,1 @@
-{"reportName":"Admin - API Quality Readiness with history","testRuns":[],"statistic":{"failed":2,"broken":0,"skipped":0,"passed":10,"unknown":0,"total":12},"time":{"start":1722674816057,"stop":1722674821565,"duration":5508,"minDuration":52,"maxDuration":3215,"sumDuration":5230}}
+{"reportName":"Admin - API Quality Readiness with history","testRuns":[],"statistic":{"failed":2,"broken":0,"skipped":0,"passed":10,"unknown":0,"total":12},"time":{"start":1723227204063,"stop":1723227209635,"duration":5572,"minDuration":53,"maxDuration":3228,"sumDuration":5281}}
