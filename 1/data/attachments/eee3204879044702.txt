@@ -1,0 +1,6 @@
+{
+    "fullName": "Thelma Hammes III",
+    "emailAddress": "Norwoodmaximize@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09041146241"
+}

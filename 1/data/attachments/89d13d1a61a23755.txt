@@ -1,0 +1,6 @@
+{
+    "fullName": "Leroy Considine",
+    "emailAddress": "CydneyEXE@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Architect - Eniola Adelowo",
+    "description": "Est reprehenderit facilis commodi id unde eveniet qui quibusdam est. Nihil consequatur quod. Repellat et et sit. Sit quasi enim doloribus ut accusantium ut architecto eaque.",
+    "inspiredBy": "Eniola Adelowo"
+}

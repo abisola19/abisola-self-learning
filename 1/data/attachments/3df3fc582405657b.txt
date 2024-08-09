@@ -1,0 +1,6 @@
+{
+    "fullName": "Elijah Franecki",
+    "emailAddress": "Fred35@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09016766367"
+}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Amy Erdman",
+    "emailAddress": "Golda.Langworth@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09039608247"
+}

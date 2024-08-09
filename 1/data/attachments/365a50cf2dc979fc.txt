@@ -1,0 +1,6 @@
+{
+    "fullName": "Jenna Satterfield",
+    "emailAddress": "Jedediah.Willms@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09042697333"
+}
