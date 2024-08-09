@@ -1,0 +1,6 @@
+{
+    "fullName": "Cathy Hirthe",
+    "emailAddress": "CamylleBooks@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09047664360"
+}

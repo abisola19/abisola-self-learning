@@ -1,0 +1,6 @@
+{
+    "fullName": "Ms. Fredrick Kovacek",
+    "emailAddress": "BurleyGeneric@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

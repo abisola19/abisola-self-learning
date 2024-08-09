@@ -1,0 +1,6 @@
+{
+    "fullName": "Meredith Mosciski",
+    "emailAddress": "OdessaDeveloper@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09079433772"
+}

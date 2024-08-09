@@ -1,0 +1,5 @@
+{
+    "name": "Executive - Eniola Adelowo",
+    "description": "Animi quia quo quam libero voluptates quo. Fuga rerum qui. Ut aperiam tempora sit dolor autem ea.",
+    "inspiredBy": "Eniola Adelowo"
+}

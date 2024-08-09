@@ -1,0 +1,6 @@
+{
+    "fullName": "Dr. Vernon Kunde",
+    "emailAddress": "Rachael.Braun35@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09086525762"
+}

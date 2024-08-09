@@ -1,0 +1,6 @@
+{
+    "fullName": "Monica Rosenbaum",
+    "emailAddress": "Brooks0@yahoo.com",
+    "password": "password12@@",
+    "phoneNumber": "09036703478"
+}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Seth Douglas",
+    "emailAddress": "Leonard_Torphy@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

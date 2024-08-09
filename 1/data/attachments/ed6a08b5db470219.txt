@@ -1,0 +1,6 @@
+{
+    "fullName": "Jackie Schultz",
+    "emailAddress": "PascaleRegional@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09025126531"
+}
