@@ -1,0 +1,5 @@
+{
+    "name": "Supervisor - Eniola Adelowo",
+    "description": "Unde qui quis sed. Minus ea aut ea est temporibus. Voluptas nostrum quo ut quia est doloremque dolorum. Facilis distinctio blanditiis. Nesciunt reiciendis earum error.",
+    "inspiredBy": "Eniola Adelowo"
+}

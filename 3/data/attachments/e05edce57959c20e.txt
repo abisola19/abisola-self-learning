@@ -1,0 +1,4 @@
+{
+    "name": "Developer",
+    "description": "Ut eum repellat ut rerum est. Ducimus ullam soluta autem totam officiis velit voluptatibus nostrum. Velit necessitatibus quas quisquam et laborum. Voluptas quo sit labore sint explicabo error aliquid quod eveniet. Consequatur ut ut cum natus minus et adipisci."
+}

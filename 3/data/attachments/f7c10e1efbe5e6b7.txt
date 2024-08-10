@@ -1,0 +1,6 @@
+{
+    "fullName": "Tom Shanahan",
+    "emailAddress": "Fern70@yahoo.com",
+    "password": "password12@@",
+    "phoneNumber": "09059864096"
+}

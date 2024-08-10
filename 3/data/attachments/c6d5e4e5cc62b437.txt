@@ -1,0 +1,5 @@
+{
+    "name": "Orchestrator - David Osimen",
+    "description": "Repellat assumenda qui facere minima dolor aut iste nostrum et. Sapiente quo pariatur nostrum qui. Ad excepturi aspernatur aut nihil dolores qui mollitia quo consectetur.",
+    "inspiredBy": "David Osimen"
+}

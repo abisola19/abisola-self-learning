@@ -1,0 +1,6 @@
+{
+    "fullName": "Alexandra Rempel",
+    "emailAddress": "AlvaPants@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09071583159"
+}

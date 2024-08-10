@@ -1,0 +1,6 @@
+{
+    "fullName": "Sarah Rosenbaum",
+    "emailAddress": "Reymundoe-business@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Alexandra Rempel","emailAddress":"AlvaPants@mailinator.c","status":"active","phoneNumber":"09071583159","role":"admin","orders":[],"_id":"66b7aa9b0f5503c0c80a5f17","cart":[],"createdAt":"2024-08-10T17:59:55.212Z","updatedAt":"2024-08-10T17:59:55.212Z"}}

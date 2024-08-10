@@ -1,0 +1,6 @@
+{
+    "fullName": "Terence Wisozk",
+    "emailAddress": "Nash21@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09028684966"
+}
