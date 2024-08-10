@@ -1,0 +1,6 @@
+{
+    "fullName": "Vanessa Wilderman",
+    "emailAddress": "Mercedesmicrochip@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

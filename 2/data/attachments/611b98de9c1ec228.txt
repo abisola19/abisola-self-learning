@@ -1,0 +1,5 @@
+{
+    "name": "Coordinator - Atiku Mohammed",
+    "description": "Ea reprehenderit itaque rerum aut aut. Explicabo officia harum. Earum iure aut deserunt asperiores.",
+    "inspiredBy": "Atiku Mohammed"
+}

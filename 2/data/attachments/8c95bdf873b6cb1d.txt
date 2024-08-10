@@ -1,0 +1,1 @@
+{"message":"Profile fetched successfully","data":{"_id":"66b729e454230f6a8bceddfc","fullName":"Karen Gleichner PhD","emailAddress":"Nelda_Jacobs40@hotmail.com","status":"active","phoneNumber":"09013012556","role":"customer","orders":[],"cart":[],"createdAt":"2024-08-10T08:50:44.399Z","updatedAt":"2024-08-10T08:50:44.399Z"}}

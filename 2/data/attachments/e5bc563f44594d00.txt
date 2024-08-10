@@ -1,0 +1,6 @@
+{
+    "fullName": "Ms. Helen Waelchi",
+    "emailAddress": "EstaMovies@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09025578776"
+}

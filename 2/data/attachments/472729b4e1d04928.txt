@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Nicholas King","emailAddress":"JuniusAssistant@mailinator.c","status":"active","phoneNumber":"09022367377","role":"admin","orders":[],"_id":"66b7334bc27a48e73801ca25","cart":[],"createdAt":"2024-08-10T09:30:51.641Z","updatedAt":"2024-08-10T09:30:51.641Z"}}

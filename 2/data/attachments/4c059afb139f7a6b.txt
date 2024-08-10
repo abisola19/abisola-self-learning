@@ -1,0 +1,4 @@
+{
+    "name": "Architect",
+    "description": "Quo rem nemo aliquid corporis. Incidunt dignissimos voluptatibus odio est omnis voluptate neque ab necessitatibus. Architecto eligendi esse consequuntur. Pariatur neque iusto non saepe porro repellendus voluptas quod rerum. Iure soluta sed autem officia voluptatem ullam nulla."
+}

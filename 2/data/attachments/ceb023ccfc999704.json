@@ -1,0 +1,14 @@
+{
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Length": "152",
+    "Content-Security-Policy": "default-src 'none'",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Sat, 10 Aug 2024 09:30:59 GMT",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+    "X-Content-Type-Options": "nosniff",
+    "X-Powered-By": "Express",
+    "X-Vercel-Cache": "BYPASS",
+    "X-Vercel-Id": "sfo1::iad1::95cmb-1723282259637-d47f0ed0cd19"
+}

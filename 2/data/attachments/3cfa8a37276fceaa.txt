@@ -1,0 +1,6 @@
+{
+    "fullName": "Anthony Fay",
+    "emailAddress": "Leo_Witting88@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09023414978"
+}

@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Jonathon O'Connell","emailAddress":"Chelsey_West@hotmail.com","status":"active","phoneNumber":"09033026119","role":"customer","orders":[],"_id":"66b73350c27a48e73801ca4b","cart":[],"createdAt":"2024-08-10T09:30:56.817Z","updatedAt":"2024-08-10T09:30:56.817Z"}}
