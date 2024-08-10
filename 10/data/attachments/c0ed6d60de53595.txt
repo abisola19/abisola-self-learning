@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Michele Jones","emailAddress":"JonatanOrganized@mailinator.com","status":"active","phoneNumber":"09079859057","role":"admin","orders":[],"_id":"66b7c474f9cd67bfdefd0a4a","cart":[],"createdAt":"2024-08-10T19:50:12.280Z","updatedAt":"2024-08-10T19:50:12.280Z"}}

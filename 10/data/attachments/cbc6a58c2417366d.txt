@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Lucille Lindgren","emailAddress":"Favian68@yahoo.com","status":"active","phoneNumber":"09052910832","role":"customer","orders":[],"_id":"66b7c477f9cd67bfdefd0a5e","cart":[],"createdAt":"2024-08-10T19:50:15.921Z","updatedAt":"2024-08-10T19:50:15.921Z"}}

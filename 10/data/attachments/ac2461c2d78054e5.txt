@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Miss Henry Keeling","emailAddress":"KurtFacilitator@mailinator.c","status":"active","phoneNumber":"09093053023","role":"admin","orders":[],"_id":"66b7c474f9cd67bfdefd0a4e","cart":[],"createdAt":"2024-08-10T19:50:12.623Z","updatedAt":"2024-08-10T19:50:12.623Z"}}

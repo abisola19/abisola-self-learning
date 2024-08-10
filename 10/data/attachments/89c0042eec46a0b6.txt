@@ -1,0 +1,6 @@
+{
+    "fullName": "Traci Lind",
+    "emailAddress": "HaileeDevolved@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

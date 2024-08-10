@@ -1,0 +1,10 @@
+{
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Length": "39",
+    "Content-Type": "text/plain; charset=utf-8",
+    "Date": "Sat, 10 Aug 2024 19:50:13 GMT",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+    "X-Vercel-Error": "NOT_FOUND",
+    "X-Vercel-Id": "iad1::hrhv8-1723319413549-9e275e7c092e"
+}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Connie Collier",
+    "emailAddress": "Kay.Strosin@hotmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09081216675"
+}

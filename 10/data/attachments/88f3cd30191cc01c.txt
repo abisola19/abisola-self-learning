@@ -1,0 +1,5 @@
+{
+    "name": "Facilitator - Eniola Adelowo",
+    "description": "Et fuga aut ipsum illo ea numquam enim. Occaecati iure porro inventore quas nemo. Ratione amet unde sunt explicabo nobis. Ullam est consequuntur quod ea eos aperiam sit et accusantium. Ut consequatur aut blanditiis neque delectus voluptatem.",
+    "inspiredBy": "Eniola Adelowo"
+}

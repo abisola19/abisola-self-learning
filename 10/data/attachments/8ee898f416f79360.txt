@@ -1,0 +1,6 @@
+{
+    "fullName": "Bernice Metz II",
+    "emailAddress": "abisola@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09065510012"
+}
