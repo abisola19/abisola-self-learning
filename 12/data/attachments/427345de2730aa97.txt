@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Lydia Zieme","emailAddress":"Sim.Franecki@hotmail.com","status":"active","phoneNumber":"09033737009","role":"customer","orders":[],"_id":"66b7c5f8f9cd67bfdefd0ab2","cart":[],"createdAt":"2024-08-10T19:56:40.518Z","updatedAt":"2024-08-10T19:56:40.518Z"}}

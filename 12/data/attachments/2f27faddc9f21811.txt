@@ -1,0 +1,6 @@
+{
+    "fullName": "Denise Weimann",
+    "emailAddress": "RemingtonNebraska@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09064410523"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Coordinator - David Osimen",
+    "description": "Magnam fugiat non fugiat consectetur voluptatem porro temporibus. Et qui nemo dolorum et harum maxime iste harum eos. Nulla accusantium pariatur harum quos dignissimos aspernatur quos commodi aperiam. Assumenda sunt assumenda eveniet voluptas. Repellat exercitationem distinctio vero quis sequi exercitationem consequuntur omnis. Nisi est debitis quae laboriosam voluptas.",
+    "inspiredBy": "David Osimen"
+}

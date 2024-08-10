@@ -1,0 +1,5 @@
+{
+    "name": "Manager - Atiku Mohammed",
+    "description": "Magni quia dolore mollitia rerum impedit qui sit error reiciendis. Culpa sint voluptatem dolorum nobis ut ipsam occaecati. Vel tempora necessitatibus qui.",
+    "inspiredBy": "Atiku Mohammed"
+}

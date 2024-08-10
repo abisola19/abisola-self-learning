@@ -1,0 +1,6 @@
+{
+    "fullName": "Lydia Zieme",
+    "emailAddress": "Sim.Franecki@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09033737009"
+}

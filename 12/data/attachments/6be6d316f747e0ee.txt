@@ -1,0 +1,4 @@
+{
+    "name": "Producer",
+    "description": "Aut odit sapiente totam asperiores modi velit. Consectetur quis et occaecati saepe reiciendis. Eos laboriosam reiciendis est dolorem ipsa modi ex. Sed non perspiciatis vel ducimus quas. Nihil similique numquam dolore dolorem doloribus temporibus deleniti est accusantium."
+}

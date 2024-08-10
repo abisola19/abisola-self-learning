@@ -1,0 +1,6 @@
+{
+    "fullName": "Doyle Klocko",
+    "emailAddress": "JeramyUpgradable@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}
