@@ -1,0 +1,6 @@
+{
+    "fullName": "Josh Wehner",
+    "emailAddress": "Vallie_Bergnaum@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "A900"
+}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Enrique Walsh DDS",
+    "emailAddress": "Herman68@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09010360924"
+}

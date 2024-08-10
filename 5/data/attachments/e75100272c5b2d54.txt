@@ -1,0 +1,6 @@
+{
+    "fullName": "Tyler Kreiger",
+    "emailAddress": "Tia.McLaughlin73@hotmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09077037673"
+}

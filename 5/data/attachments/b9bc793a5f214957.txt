@@ -1,0 +1,6 @@
+{
+    "fullName": "Blanche McDermott",
+    "emailAddress": "Brendanglobal@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

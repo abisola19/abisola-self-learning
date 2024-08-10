@@ -1,0 +1,5 @@
+{
+    "name": "Designer - David Osimen",
+    "description": "Quo numquam ut quis in eos alias dignissimos voluptatum quas. Et beatae nihil cum illum eum nesciunt dolores voluptas nihil. Possimus qui velit repudiandae distinctio sit.",
+    "inspiredBy": "David Osimen"
+}

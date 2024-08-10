@@ -1,0 +1,6 @@
+{
+    "fullName": "Clara Lindgren",
+    "emailAddress": "Adrianna.Torphy88@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09070048815"
+}

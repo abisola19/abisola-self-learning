@@ -1,0 +1,4 @@
+{
+    "name": "Producer",
+    "description": "Iste optio ab rerum saepe rem omnis sunt aut quia. Ut rerum facilis nesciunt corrupti molestiae rerum iure in eveniet. Consequuntur placeat fugiat illum quo optio est veniam placeat. Deserunt veritatis omnis eaque deleniti adipisci quaerat id consectetur. A hic ut architecto."
+}

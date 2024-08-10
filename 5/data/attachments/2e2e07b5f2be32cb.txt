@@ -1,0 +1,6 @@
+{
+    "fullName": "Dwight Collier IV",
+    "emailAddress": "StanfordWooden@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09063761963"
+}

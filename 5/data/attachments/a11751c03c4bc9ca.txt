@@ -1,0 +1,6 @@
+{
+    "fullName": "Terrance Erdman III",
+    "emailAddress": "KeiraAvon@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09040420207"
+}
