@@ -1,0 +1,6 @@
+{
+    "fullName": "Nadine Strosin Jr.",
+    "emailAddress": "Hollie.Bartoletti68@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09083087613"
+}

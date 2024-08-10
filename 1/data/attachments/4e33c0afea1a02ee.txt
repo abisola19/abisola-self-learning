@@ -1,0 +1,6 @@
+{
+    "fullName": "April Feest",
+    "emailAddress": "Jacquesparallelism@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

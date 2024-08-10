@@ -1,0 +1,6 @@
+{
+    "fullName": "Clinton Block V",
+    "emailAddress": "Yvonne.Wolf@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

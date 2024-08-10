@@ -1,0 +1,5 @@
+{
+    "name": "Director - Atiku Mohammed",
+    "description": "Porro velit unde itaque. Quia eos non optio sit distinctio omnis id recusandae quia. Repellendus consequatur dolorum id. Fugiat odio velit corrupti qui id ea rerum. Sit quas tempore quo tempora porro.",
+    "inspiredBy": "Atiku Mohammed"
+}

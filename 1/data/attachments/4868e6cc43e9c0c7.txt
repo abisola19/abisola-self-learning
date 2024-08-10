@@ -1,0 +1,6 @@
+{
+    "fullName": "Antonia Rohan",
+    "emailAddress": "Zackery.Stiedemann84@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09019229285"
+}

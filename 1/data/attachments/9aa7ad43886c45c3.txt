@@ -1,0 +1,4 @@
+{
+    "name": "Gbagada",
+    "amount": 1500
+}

@@ -1,0 +1,4 @@
+{
+    "name": "Specialist",
+    "description": "Dignissimos ducimus sed est non. Quia temporibus consequuntur hic. Ut necessitatibus autem sed. Eos natus iusto soluta sequi a fugit. Optio recusandae qui maxime omnis soluta nulla cupiditate iusto."
+}

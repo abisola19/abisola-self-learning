@@ -1,0 +1,6 @@
+{
+    "fullName": "Agnes Ebert",
+    "emailAddress": "LunaExecutive@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}
