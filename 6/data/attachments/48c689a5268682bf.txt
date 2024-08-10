@@ -1,0 +1,5 @@
+{
+    "name": "Developer - David Osimen",
+    "description": "Soluta vero quis itaque quisquam magni. Laboriosam dicta rerum dolor. Quibusdam non ipsam. Quia nemo enim architecto. Nesciunt asperiores et dolore ex itaque animi quos.",
+    "inspiredBy": "David Osimen"
+}

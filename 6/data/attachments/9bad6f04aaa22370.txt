@@ -1,0 +1,5 @@
+{
+    "name": "Assistant - Eniola Adelowo",
+    "description": "Consequatur alias autem dignissimos id. Eaque voluptas optio ex eos ducimus veritatis. Ullam neque alias. Rerum pariatur aspernatur fugiat nam omnis rerum eligendi aut odio. Debitis et ut cupiditate in.",
+    "inspiredBy": "Eniola Adelowo"
+}

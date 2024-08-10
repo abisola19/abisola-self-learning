@@ -1,0 +1,6 @@
+{
+    "fullName": "Jeremiah Grimes DVM",
+    "emailAddress": "MartinaLoan@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09031848914"
+}

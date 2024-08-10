@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Dorothy Stokes","emailAddress":"Shanainvoice@mailinator.com","status":"active","phoneNumber":"09038459422","role":"admin","orders":[],"_id":"66b7ad270f5503c0c80a5f91","cart":[],"createdAt":"2024-08-10T18:10:47.065Z","updatedAt":"2024-08-10T18:10:47.065Z"}}

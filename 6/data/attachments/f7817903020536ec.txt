@@ -1,0 +1,6 @@
+{
+    "fullName": "Lori Lakin",
+    "emailAddress": "Beverlycustomized@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09097340973"
+}

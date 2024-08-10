@@ -1,0 +1,6 @@
+{
+    "fullName": "Ms. Max King",
+    "emailAddress": "Milford_Deckow@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09026310990"
+}

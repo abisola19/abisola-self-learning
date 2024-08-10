@@ -1,0 +1,6 @@
+{
+    "fullName": "Loren Prohaska IV",
+    "emailAddress": "Aminaniches@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}
