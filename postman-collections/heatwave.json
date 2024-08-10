@@ -71,7 +71,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/signup"
+								"url": "{{baseURL}}/auth/signup"
 							},
 							"response": []
 						},
@@ -127,7 +127,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/signup"
+								"url": "{{baseURL}}/auth/signup"
 							},
 							"response": []
 						},
@@ -183,7 +183,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/signup"
+								"url": "{{baseURL}}/auth/signup"
 							},
 							"response": []
 						},
@@ -299,7 +299,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/signup"
+								"url": "{{baseURL}}/auth/signup"
 							},
 							"response": []
 						},
@@ -324,10 +324,15 @@
 											"pm.test(\"A User with email 'abisola@mailinator.com' already exists\", function () {",
 											"    pm.expect(jsonData.message).to.eql(\"A User with email 'abisola@mailinator.com' already exists\");",
 											"});",
+											"pm.test(\"Response status code is 404\", function () {",
+											"    pm.expect(pm.response.code).to.equal(404);",
+											"});",
 											"",
 											"} catch (errors) {",
 											"    console.error(errors)",
-											"}"
+											"}",
+											"",
+											""
 										],
 										"type": "text/javascript",
 										"packages": {}
@@ -356,7 +361,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/signup"
+								"url": "{{baseURL}}}/auth/signup"
 							},
 							"response": []
 						},
@@ -412,7 +417,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/signup"
+								"url": "{{baseURL}}/auth/signup"
 							},
 							"response": []
 						},
@@ -478,7 +483,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/login"
+								"url": "{{baseURL}}/auth/login"
 							},
 							"response": []
 						},
@@ -544,7 +549,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/login"
+								"url": "{{baseURL}}/auth/login"
 							},
 							"response": []
 						},
@@ -596,7 +601,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/login"
+								"url": "{{baseURL}}/auth/login"
 							},
 							"response": []
 						},
@@ -648,7 +653,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/login"
+								"url": "{{baseURL}}/auth/login"
 							},
 							"response": []
 						},
@@ -658,23 +663,23 @@
 								{
 									"listen": "test",
 									"script": {
-										"id": "18dd6a89-d26d-444e-8dcf-ec9baedf2368",
+										"id": "4b328805-9708-445f-8a8a-4bd97618c64d",
 										"exec": [
-											"try {",
-											"const jsonData = pm.response.json();",
+											"const jsonData = pm.response.text();",
 											"",
-											"pm.test(\"Response body property\", function () {",
-											"    pm.expect(jsonData).to.be.an('object');",
+											"pm.test(\"Response body is an object\", function () {",
+											"    pm.expect(jsonData).to.be.an('string');",
 											"});",
-											"pm.test(\"Status code is 400\", function () {",
-											"    pm.response.to.have.status(400);",
+											"pm.test(\"Status code is 404\", function () {",
+											"    pm.response.to.have.status(404);",
 											"});",
-											"pm.test(\"Status code name has string\", function () {",
-											"    pm.response.to.have.status(\"Bad Request\");",
+											"pm.test(\"Status code name is Not Found\", function () {",
+											"    pm.expect(pm.response.status).to.equal('Not Found');",
 											"});",
-											"} catch (errors) {",
-											"    console.error(errors)",
-											"}"
+											"pm.test(\"Response time is less than 300ms\", function () {",
+											"    pm.expect(pm.response.responseTime).to.be.below(300);",
+											"});",
+											""
 										],
 										"type": "text/javascript",
 										"packages": {}
@@ -697,7 +702,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/login"
+								"url": "{{baseURL}}}/auth/login"
 							},
 							"response": []
 						},
@@ -749,7 +754,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/login"
+								"url": "{{baseURL}}}/auth/login"
 							},
 							"response": []
 						},
@@ -801,12 +806,503 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/login"
+								"url": "{{baseURL}}/auth/login"
 							},
 							"response": []
 						}
 					],
 					"id": "2f3fae8d-cf64-4816-a3a1-0b23911bb059"
+				},
+				{
+					"name": "Collections",
+					"item": [
+						{
+							"name": "Collections",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "9d6612fe-a85b-46b3-a9d2-2ea948237a28",
+										"exec": [
+											"const inspiredBy = [\"David Osimen\", \"Eniola Adelowo\", \"Atiku Mohammed\"]",
+											"",
+											"const random = Math.floor(Math.random() * 3)",
+											"const randomInspiredBy = inspiredBy[random]",
+											"pm.environment.set('randomInspiredBy', randomInspiredBy)"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"id": "14566ef1-a581-472c-a9a3-caba28f6c832",
+										"exec": [
+											"try {\r",
+											"const jsonData = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Response body property\", function () {\r",
+											"    pm.expect(jsonData).to.be.an('object');\r",
+											"    pm.expect(jsonData.message).to.be.a('string');\r",
+											"    pm.expect(jsonData.data).to.be.an('object');\r",
+											"});\r",
+											"pm.test(\"Status code is 201\", function () {\r",
+											"    pm.response.to.have.status(201);\r",
+											"});\r",
+											"pm.test(\"Collection created successfully\", function () {\r",
+											"    pm.expect(jsonData.message).to.eql('Collection created successfully');\r",
+											"});\r",
+											"    pm.test(\"Status code name has string\", function () {\r",
+											"        pm.response.to.have.status(\"Created\");\r",
+											"    });\r",
+											"\r",
+											"} catch (errors) {\r",
+											"    console.error(errors)\r",
+											"}\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "a19c6767-f91a-4705-8d8a-b0ca537dd042",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-request-source",
+										"value": "admin",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"{{$randomJobType}} - {{randomInspiredBy}}\",\n    \"description\": \"{{$randomLoremSentences}}\",\n    \"inspiredBy\": \"{{randomInspiredBy}}\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseURL}}/collections"
+							},
+							"response": []
+						},
+						{
+							"name": "Collections-Empty fields",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "9d6612fe-a85b-46b3-a9d2-2ea948237a28",
+										"exec": [
+											"const inspiredBy = [\"David Osimen\", \"Eniola Adelowo\", \"Atiku Mohammed\"]",
+											"",
+											"const random = Math.floor(Math.random() * 3)",
+											"const randomInspiredBy = inspiredBy[random]",
+											"pm.environment.set('randomInspiredBy', randomInspiredBy)"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"id": "14566ef1-a581-472c-a9a3-caba28f6c832",
+										"exec": [
+											"try {\r",
+											"    const jsonData = pm.response.json();\r",
+											"\r",
+											"    pm.test(\"Response body property\", function () {\r",
+											"        pm.expect(jsonData).to.be.an('object');\r",
+											"        pm.expect(jsonData.message).to.be.a('string');\r",
+											"    });\r",
+											"pm.test(\"Status code is 400\", function () {\r",
+											"    pm.response.to.have.status(400);\r",
+											"    });\r",
+											"\r",
+											"pm.test(\"Status code name has string\", function () {\r",
+											"    pm.response.to.have.status(\"Bad request\");\r",
+											"});\r",
+											"} catch (errors) {\r",
+											"    console.error(errors)\r",
+											"}\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "135f9747-2ddc-47a8-abd6-5460bf3b3554",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-request-source",
+										"value": "admin",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"\",\n    \"description\": \"\",\n    \"inspiredBy\": \"\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseURL}}/collections"
+							},
+							"response": []
+						},
+						{
+							"name": "Collections-No Auth",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "9d6612fe-a85b-46b3-a9d2-2ea948237a28",
+										"exec": [
+											"const inspiredBy = [\"David Osimen\", \"Eniola Adelowo\", \"Atiku Mohammed\"]",
+											"",
+											"const random = Math.floor(Math.random() * 3)",
+											"const randomInspiredBy = inspiredBy[random]",
+											"pm.environment.set('randomInspiredBy', randomInspiredBy)"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"id": "14566ef1-a581-472c-a9a3-caba28f6c832",
+										"exec": [
+											"try {\r",
+											"const jsonData = pm.response.json();\r",
+											"pm.test(\"Response body property\", function () {\r",
+											"    pm.expect(jsonData).to.be.an('object');\r",
+											"    pm.expect(jsonData.message).to.be.a('string');\r",
+											"});\r",
+											"pm.test(\"Status code is 401\", function () {\r",
+											"    pm.response.to.have.status(401);\r",
+											"});\r",
+											"pm.test(\"No Auth\", function () {\r",
+											"    pm.expect(jsonData.message).to.eql('Unauthorized 0');\r",
+											"});\r",
+											"    pm.test(\"Status code name has string\", function () {\r",
+											"        pm.response.to.have.status(\"Unauthorized\");\r",
+											"    });\r",
+											"\r",
+											"} catch (errors) {\r",
+											"    console.error(errors)\r",
+											"}\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "e436d010-e82f-4982-a549-31d08cf975f2",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-request-source",
+										"value": "admin",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"{{$randomJobType}} - {{randomInspiredBy}}\",\n    \"description\": \"{{$randomLoremSentences}}\",\n    \"inspiredBy\": \"{{randomInspiredBy}}\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseURL}}/collections"
+							},
+							"response": []
+						},
+						{
+							"name": "Collections-Invalid Token",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "9d6612fe-a85b-46b3-a9d2-2ea948237a28",
+										"exec": [
+											"const inspiredBy = [\"David Osimen\", \"Eniola Adelowo\", \"Atiku Mohammed\"]",
+											"",
+											"const random = Math.floor(Math.random() * 3)",
+											"const randomInspiredBy = inspiredBy[random]",
+											"pm.environment.set('randomInspiredBy', randomInspiredBy)"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"id": "14566ef1-a581-472c-a9a3-caba28f6c832",
+										"exec": [
+											"try {\r",
+											"const jsonData = pm.response.json();\r",
+											"pm.test(\"Response body property\", function () {\r",
+											"    pm.expect(jsonData).to.be.an('object');\r",
+											"    pm.expect(jsonData.message).to.be.a('string');\r",
+											"});\r",
+											"pm.test(\"Status code is 401\", function () {\r",
+											"    pm.response.to.have.status(401);\r",
+											"});\r",
+											"pm.test(\"Invalid Token\", function () {\r",
+											"    pm.expect(jsonData.message).to.eql('Invalid Token');\r",
+											"});\r",
+											"    pm.test(\"Status code name has string\", function () {\r",
+											"        pm.response.to.have.status(\"Unauthorized\");\r",
+											"    });\r",
+											"\r",
+											"} catch (errors) {\r",
+											"    console.error(errors)\r",
+											"}\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "91cb0151-140e-4188-b58d-72e8f297a541",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{accessToken}}"
+									}
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-request-source",
+										"value": "admin",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"{{$randomJobType}} - {{randomInspiredBy}}\",\n    \"description\": \"{{$randomLoremSentences}}\",\n    \"inspiredBy\": \"{{randomInspiredBy}}\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseURL}}/collections"
+							},
+							"response": []
+						},
+						{
+							"name": "Collections",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "99a41918-8a8d-4262-b200-a39acf0967eb",
+										"exec": [
+											"try {\r",
+											"const jsonData = pm.response.json();\r",
+											"pm.test(\"Response body property\", function () {\r",
+											"    pm.expect(jsonData).to.be.an('object');\r",
+											"    pm.expect(jsonData.message).to.be.a('string');\r",
+											"    pm.expect(jsonData.data).to.be.an('array');\r",
+											"});\r",
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"pm.test(\"Categories fetched successfully\", function () {\r",
+											"    pm.expect(jsonData.message).to.eql('Categories fetched successfully');\r",
+											"});\r",
+											"    pm.test(\"Status code name has string\", function () {\r",
+											"        pm.response.to.have.status(\"OK\");\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Body matches string\", function () {\r",
+											"        pm.expect(pm.response.text()).to.include(\"_id\");\r",
+											"    });\r",
+											"} catch (errors) {\r",
+											"    console.error(errors)\r",
+											"}"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "50919b0a-c04d-453f-8052-ecd0baa6f858",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "{{baseURL}}/collections"
+							},
+							"response": []
+						},
+						{
+							"name": "Collections-No Auth",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "99a41918-8a8d-4262-b200-a39acf0967eb",
+										"exec": [
+											"try {\r",
+											"const jsonData = pm.response.json();\r",
+											"pm.test(\"Response body property\", function () {\r",
+											"    pm.expect(jsonData).to.be.an('object');\r",
+											"    pm.expect(jsonData.message).to.be.a('string');\r",
+											"});\r",
+											"pm.test(\"Status code is 401\", function () {\r",
+											"    pm.response.to.have.status(401);\r",
+											"});\r",
+											"pm.test(\"Unauthorized 0\", function () {\r",
+											"    pm.expect(jsonData.message).to.eql('Unauthorized 0');\r",
+											"});\r",
+											"    pm.test(\"Status code name has string\", function () {\r",
+											"        pm.response.to.have.status(\"Unauthorized\");\r",
+											"    });\r",
+											"\r",
+											"} catch (errors) {\r",
+											"    console.error(errors)\r",
+											"}\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "a94c2292-823f-4aa3-8b43-195f2a803c56",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": "{{baseURL}}/collections"
+							},
+							"response": []
+						},
+						{
+							"name": "Collections-Invalid Token",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "99a41918-8a8d-4262-b200-a39acf0967eb",
+										"exec": [
+											"try {\r",
+											"const jsonData = pm.response.json();\r",
+											"pm.test(\"Response body property\", function () {\r",
+											"    pm.expect(jsonData).to.be.an('object');\r",
+											"    pm.expect(jsonData.message).to.be.a('string');\r",
+											"});\r",
+											"pm.test(\"Status code is 401\", function () {\r",
+											"    pm.response.to.have.status(401);\r",
+											"});\r",
+											"pm.test(\"Invalid Token\", function () {\r",
+											"    pm.expect(jsonData.message).to.eql('Invalid Token');\r",
+											"});\r",
+											"    pm.test(\"Status code name has string\", function () {\r",
+											"        pm.response.to.have.status(\"Unauthorized\");\r",
+											"    });\r",
+											"\r",
+											"} catch (errors) {\r",
+											"    console.error(errors)\r",
+											"}\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "8ed0e578-9832-4ff2-b3be-117d534b3ff8",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{accessToken}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"url": "{{baseURL}}/collections"
+							},
+							"response": []
+						}
+					],
+					"id": "a05cdf61-f2fc-4a07-ab27-ff0b564e0e98",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "80c52f9e-6a52-4f23-a480-94730dd1c711",
+								"type": "text/javascript",
+								"packages": {},
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "325d155c-0587-406c-9900-70e429fbfbc8",
+								"type": "text/javascript",
+								"packages": {},
+								"exec": [
+									""
+								]
+							}
+						}
+					]
 				},
 				{
 					"name": "Categories",
@@ -928,7 +1424,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/categories"
+								"url": "{{baseURL}}/categories"
 							},
 							"response": []
 						},
@@ -984,7 +1480,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/categories"
+								"url": "{{baseURL}}/categories"
 							},
 							"response": []
 						},
@@ -1050,7 +1546,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/categories"
+								"url": "{{baseURL}}/categories"
 							},
 							"response": []
 						},
@@ -1098,7 +1594,7 @@
 							"request": {
 								"method": "GET",
 								"header": [],
-								"url": "{{baseUrl}}/categories"
+								"url": "{{baseURL}}/categories"
 							},
 							"response": []
 						},
@@ -1145,7 +1641,7 @@
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{baseUrl}}/categories"
+								"url": "{{baseURL}}/categories"
 							},
 							"response": []
 						},
@@ -1166,9 +1662,7 @@
 											"pm.test(\"Status code is 401\", function () {\r",
 											"    pm.response.to.have.status(401);\r",
 											"});\r",
-											"pm.test(\"Unauthorized 0\", function () {\r",
-											"    pm.expect(jsonData.message).to.eql('Unauthorized 0');\r",
-											"});\r",
+											"\r",
 											"    pm.test(\"Status code name has string\", function () {\r",
 											"        pm.response.to.have.status(\"Unauthorized\");\r",
 											"    });\r",
@@ -1195,7 +1689,7 @@
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{baseUrl}}/categories"
+								"url": "{{baseURL}}/categories"
 							},
 							"response": []
 						}
@@ -1217,497 +1711,6 @@
 							"listen": "test",
 							"script": {
 								"id": "a512efb4-11c6-4913-a446-0fa12f8030be",
-								"type": "text/javascript",
-								"packages": {},
-								"exec": [
-									""
-								]
-							}
-						}
-					]
-				},
-				{
-					"name": "Collections",
-					"item": [
-						{
-							"name": "Collections",
-							"event": [
-								{
-									"listen": "prerequest",
-									"script": {
-										"id": "9d6612fe-a85b-46b3-a9d2-2ea948237a28",
-										"exec": [
-											"const inspiredBy = [\"David Osimen\", \"Eniola Adelowo\", \"Atiku Mohammed\"]",
-											"",
-											"const random = Math.floor(Math.random() * 3)",
-											"const randomInspiredBy = inspiredBy[random]",
-											"pm.environment.set('randomInspiredBy', randomInspiredBy)"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								},
-								{
-									"listen": "test",
-									"script": {
-										"id": "14566ef1-a581-472c-a9a3-caba28f6c832",
-										"exec": [
-											"try {\r",
-											"const jsonData = pm.response.json();\r",
-											"\r",
-											"pm.test(\"Response body property\", function () {\r",
-											"    pm.expect(jsonData).to.be.an('object');\r",
-											"    pm.expect(jsonData.message).to.be.a('string');\r",
-											"    pm.expect(jsonData.data).to.be.an('object');\r",
-											"});\r",
-											"pm.test(\"Status code is 201\", function () {\r",
-											"    pm.response.to.have.status(201);\r",
-											"});\r",
-											"pm.test(\"Collection created successfully\", function () {\r",
-											"    pm.expect(jsonData.message).to.eql('Collection created successfully');\r",
-											"});\r",
-											"    pm.test(\"Status code name has string\", function () {\r",
-											"        pm.response.to.have.status(\"Created\");\r",
-											"    });\r",
-											"\r",
-											"} catch (errors) {\r",
-											"    console.error(errors)\r",
-											"}\r",
-											"\r",
-											""
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "a19c6767-f91a-4705-8d8a-b0ca537dd042",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-request-source",
-										"value": "admin",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"name\": \"{{$randomJobType}} - {{randomInspiredBy}}\",\n    \"description\": \"{{$randomLoremSentences}}\",\n    \"inspiredBy\": \"{{randomInspiredBy}}\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseUrl}}/collections"
-							},
-							"response": []
-						},
-						{
-							"name": "Collections-Empty fields",
-							"event": [
-								{
-									"listen": "prerequest",
-									"script": {
-										"id": "9d6612fe-a85b-46b3-a9d2-2ea948237a28",
-										"exec": [
-											"const inspiredBy = [\"David Osimen\", \"Eniola Adelowo\", \"Atiku Mohammed\"]",
-											"",
-											"const random = Math.floor(Math.random() * 3)",
-											"const randomInspiredBy = inspiredBy[random]",
-											"pm.environment.set('randomInspiredBy', randomInspiredBy)"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								},
-								{
-									"listen": "test",
-									"script": {
-										"id": "14566ef1-a581-472c-a9a3-caba28f6c832",
-										"exec": [
-											"try {\r",
-											"    const jsonData = pm.response.json();\r",
-											"\r",
-											"    pm.test(\"Response body property\", function () {\r",
-											"        pm.expect(jsonData).to.be.an('object');\r",
-											"        pm.expect(jsonData.message).to.be.a('string');\r",
-											"    });\r",
-											"pm.test(\"Status code is 400\", function () {\r",
-											"    pm.response.to.have.status(400);\r",
-											"    });\r",
-											"\r",
-											"pm.test(\"Status code name has string\", function () {\r",
-											"    pm.response.to.have.status(\"Bad request\");\r",
-											"});\r",
-											"} catch (errors) {\r",
-											"    console.error(errors)\r",
-											"}\r",
-											""
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "135f9747-2ddc-47a8-abd6-5460bf3b3554",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-request-source",
-										"value": "admin",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"name\": \"\",\n    \"description\": \"\",\n    \"inspiredBy\": \"\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseUrl}}/collections"
-							},
-							"response": []
-						},
-						{
-							"name": "Collections-No Auth",
-							"event": [
-								{
-									"listen": "prerequest",
-									"script": {
-										"id": "9d6612fe-a85b-46b3-a9d2-2ea948237a28",
-										"exec": [
-											"const inspiredBy = [\"David Osimen\", \"Eniola Adelowo\", \"Atiku Mohammed\"]",
-											"",
-											"const random = Math.floor(Math.random() * 3)",
-											"const randomInspiredBy = inspiredBy[random]",
-											"pm.environment.set('randomInspiredBy', randomInspiredBy)"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								},
-								{
-									"listen": "test",
-									"script": {
-										"id": "14566ef1-a581-472c-a9a3-caba28f6c832",
-										"exec": [
-											"try {\r",
-											"const jsonData = pm.response.json();\r",
-											"pm.test(\"Response body property\", function () {\r",
-											"    pm.expect(jsonData).to.be.an('object');\r",
-											"    pm.expect(jsonData.message).to.be.a('string');\r",
-											"});\r",
-											"pm.test(\"Status code is 401\", function () {\r",
-											"    pm.response.to.have.status(401);\r",
-											"});\r",
-											"pm.test(\"No Auth\", function () {\r",
-											"    pm.expect(jsonData.message).to.eql('Unauthorized 0');\r",
-											"});\r",
-											"    pm.test(\"Status code name has string\", function () {\r",
-											"        pm.response.to.have.status(\"Unauthorized\");\r",
-											"    });\r",
-											"\r",
-											"} catch (errors) {\r",
-											"    console.error(errors)\r",
-											"}\r",
-											"\r",
-											""
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "e436d010-e82f-4982-a549-31d08cf975f2",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "noauth"
-								},
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-request-source",
-										"value": "admin",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"name\": \"{{$randomJobType}} - {{randomInspiredBy}}\",\n    \"description\": \"{{$randomLoremSentences}}\",\n    \"inspiredBy\": \"{{randomInspiredBy}}\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseUrl}}/collections"
-							},
-							"response": []
-						},
-						{
-							"name": "Collections-Invalid Token",
-							"event": [
-								{
-									"listen": "prerequest",
-									"script": {
-										"id": "9d6612fe-a85b-46b3-a9d2-2ea948237a28",
-										"exec": [
-											"const inspiredBy = [\"David Osimen\", \"Eniola Adelowo\", \"Atiku Mohammed\"]",
-											"",
-											"const random = Math.floor(Math.random() * 3)",
-											"const randomInspiredBy = inspiredBy[random]",
-											"pm.environment.set('randomInspiredBy', randomInspiredBy)"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								},
-								{
-									"listen": "test",
-									"script": {
-										"id": "14566ef1-a581-472c-a9a3-caba28f6c832",
-										"exec": [
-											"try {\r",
-											"const jsonData = pm.response.json();\r",
-											"pm.test(\"Response body property\", function () {\r",
-											"    pm.expect(jsonData).to.be.an('object');\r",
-											"    pm.expect(jsonData.message).to.be.a('string');\r",
-											"});\r",
-											"pm.test(\"Status code is 401\", function () {\r",
-											"    pm.response.to.have.status(401);\r",
-											"});\r",
-											"pm.test(\"Invalid Token\", function () {\r",
-											"    pm.expect(jsonData.message).to.eql('Invalid Token');\r",
-											"});\r",
-											"    pm.test(\"Status code name has string\", function () {\r",
-											"        pm.response.to.have.status(\"Unauthorized\");\r",
-											"    });\r",
-											"\r",
-											"} catch (errors) {\r",
-											"    console.error(errors)\r",
-											"}\r",
-											"\r",
-											""
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "91cb0151-140e-4188-b58d-72e8f297a541",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{accessToken}}"
-									}
-								},
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-request-source",
-										"value": "admin",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"name\": \"{{$randomJobType}} - {{randomInspiredBy}}\",\n    \"description\": \"{{$randomLoremSentences}}\",\n    \"inspiredBy\": \"{{randomInspiredBy}}\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseUrl}}/collections"
-							},
-							"response": []
-						},
-						{
-							"name": "Collections",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "99a41918-8a8d-4262-b200-a39acf0967eb",
-										"exec": [
-											"try {\r",
-											"const jsonData = pm.response.json();\r",
-											"pm.test(\"Response body property\", function () {\r",
-											"    pm.expect(jsonData).to.be.an('object');\r",
-											"    pm.expect(jsonData.message).to.be.a('string');\r",
-											"    pm.expect(jsonData.data).to.be.an('array');\r",
-											"});\r",
-											"pm.test(\"Status code is 200\", function () {\r",
-											"    pm.response.to.have.status(200);\r",
-											"});\r",
-											"pm.test(\"Categories fetched successfully\", function () {\r",
-											"    pm.expect(jsonData.message).to.eql('Categories fetched successfully');\r",
-											"});\r",
-											"    pm.test(\"Status code name has string\", function () {\r",
-											"        pm.response.to.have.status(\"OK\");\r",
-											"    });\r",
-											"\r",
-											"    pm.test(\"Body matches string\", function () {\r",
-											"        pm.expect(pm.response.text()).to.include(\"_id\");\r",
-											"    });\r",
-											"} catch (errors) {\r",
-											"    console.error(errors)\r",
-											"}"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "50919b0a-c04d-453f-8052-ecd0baa6f858",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": [],
-								"url": "{{baseUrl}}/collections"
-							},
-							"response": []
-						},
-						{
-							"name": "Collections-No Auth",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "99a41918-8a8d-4262-b200-a39acf0967eb",
-										"exec": [
-											"try {\r",
-											"const jsonData = pm.response.json();\r",
-											"pm.test(\"Response body property\", function () {\r",
-											"    pm.expect(jsonData).to.be.an('object');\r",
-											"    pm.expect(jsonData.message).to.be.a('string');\r",
-											"});\r",
-											"pm.test(\"Status code is 401\", function () {\r",
-											"    pm.response.to.have.status(401);\r",
-											"});\r",
-											"pm.test(\"Unauthorized 0\", function () {\r",
-											"    pm.expect(jsonData.message).to.eql('Unauthorized 0');\r",
-											"});\r",
-											"    pm.test(\"Status code name has string\", function () {\r",
-											"        pm.response.to.have.status(\"Unauthorized\");\r",
-											"    });\r",
-											"\r",
-											"} catch (errors) {\r",
-											"    console.error(errors)\r",
-											"}\r",
-											"\r",
-											""
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "a94c2292-823f-4aa3-8b43-195f2a803c56",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "noauth"
-								},
-								"method": "GET",
-								"header": [],
-								"url": "{{baseUrl}}/collections"
-							},
-							"response": []
-						},
-						{
-							"name": "Collections-Invalid Token",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "99a41918-8a8d-4262-b200-a39acf0967eb",
-										"exec": [
-											"try {\r",
-											"const jsonData = pm.response.json();\r",
-											"pm.test(\"Response body property\", function () {\r",
-											"    pm.expect(jsonData).to.be.an('object');\r",
-											"    pm.expect(jsonData.message).to.be.a('string');\r",
-											"});\r",
-											"pm.test(\"Status code is 401\", function () {\r",
-											"    pm.response.to.have.status(401);\r",
-											"});\r",
-											"pm.test(\"Invalid Token\", function () {\r",
-											"    pm.expect(jsonData.message).to.eql('Invalid Token');\r",
-											"});\r",
-											"    pm.test(\"Status code name has string\", function () {\r",
-											"        pm.response.to.have.status(\"Unauthorized\");\r",
-											"    });\r",
-											"\r",
-											"} catch (errors) {\r",
-											"    console.error(errors)\r",
-											"}\r",
-											"\r",
-											""
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "8ed0e578-9832-4ff2-b3be-117d534b3ff8",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{accessToken}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": "{{baseUrl}}/collections"
-							},
-							"response": []
-						}
-					],
-					"id": "a05cdf61-f2fc-4a07-ab27-ff0b564e0e98",
-					"event": [
-						{
-							"listen": "prerequest",
-							"script": {
-								"id": "80c52f9e-6a52-4f23-a480-94730dd1c711",
-								"type": "text/javascript",
-								"packages": {},
-								"exec": [
-									""
-								]
-							}
-						},
-						{
-							"listen": "test",
-							"script": {
-								"id": "325d155c-0587-406c-9900-70e429fbfbc8",
 								"type": "text/javascript",
 								"packages": {},
 								"exec": [
@@ -1768,9 +1771,9 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/locations/lgas?state=lagos",
+									"raw": "{{baseURL}}/locations/lgas?state=lagos",
 									"host": [
-										"{{baseUrl}}"
+										"{{baseURL}}"
 									],
 									"path": [
 										"locations",
@@ -1841,9 +1844,9 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/locations/lgas?state=lagos",
+									"raw": "{{baseURL}}/locations/lgas?state=lagos",
 									"host": [
-										"{{baseUrl}}"
+										"{{baseURL}}"
 									],
 									"path": [
 										"locations",
@@ -1909,9 +1912,9 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/locations/lgas?state=lagos",
+									"raw": "{{baseURL}}/locations/lgas?state=lagos",
 									"host": [
-										"{{baseUrl}}"
+										"{{baseURL}}"
 									],
 									"path": [
 										"locations",
@@ -1982,9 +1985,9 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/locations/lgas?state=lagos",
+									"raw": "{{baseURL}}/locations/lgas?state=lagos",
 									"host": [
-										"{{baseUrl}}"
+										"{{baseURL}}"
 									],
 									"path": [
 										"locations",
@@ -2047,7 +2050,7 @@
 										"type": "text"
 									}
 								],
-								"url": "{{baseUrl}}/locations/delivery"
+								"url": "{{baseURL}}/locations/delivery"
 							},
 							"response": []
 						},
@@ -2105,7 +2108,7 @@
 										"type": "text"
 									}
 								],
-								"url": "{{baseUrl}}/locations/delivery"
+								"url": "{{baseURL}}/locations/delivery"
 							},
 							"response": []
 						},
@@ -2163,7 +2166,7 @@
 										"type": "text"
 									}
 								],
-								"url": "{{baseUrl}}/locations/delivery"
+								"url": "{{baseURL}}/locations/delivery"
 							},
 							"response": []
 						},
@@ -2218,7 +2221,7 @@
 										"type": "text"
 									}
 								],
-								"url": "{{baseUrl}}/locations/delivery"
+								"url": "{{baseURL}}/locations/delivery"
 							},
 							"response": []
 						},
@@ -2281,7 +2284,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/locations/delivery"
+								"url": "{{baseURL}}/locations/delivery"
 							},
 							"response": []
 						},
@@ -2348,7 +2351,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/locations/delivery"
+								"url": "{{baseURL}}/locations/delivery"
 							},
 							"response": []
 						},
@@ -2415,7 +2418,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/locations/delivery"
+								"url": "{{baseURL}}/locations/delivery"
 							},
 							"response": []
 						},
@@ -2479,7 +2482,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/locations/delivery"
+								"url": "{{baseURL}}/locations/delivery"
 							},
 							"response": []
 						}
@@ -2491,14 +2494,14 @@
 			"auth": {
 				"type": "bearer",
 				"bearer": {
-					"token": "{{adminToken}}"
+					"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmIyM2ZlYTZhY2EwNzhkOWFhNWNlZDAiLCJlbWFpbEFkZHJlc3MiOiJhYmlzb2xhQG1haWxpbmF0b3IuY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkR0dwWFEzTmRsTk9sWFlWcVE5c3U0ZXB6ZUVYbktXMDlQZnNYMnhHNS95cVUwTVpyTHpLSWkiLCJpYXQiOjE3MjMyODE1MTcsImV4cCI6MTcyMzI4NTExN30.UfiWZhxRKidUFr8H5CiHhx_wFJiWFe1BibL16tlKtRU"
 				}
 			},
 			"event": [
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "45f15f30-d5a7-4481-95e8-dac93dac69b0",
+						"id": "4c816cbb-35a7-47bf-adc3-3b82a38b461f",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -2509,7 +2512,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "509fefc9-ae52-43ef-9409-c76a0d9bf723",
+						"id": "9b5fa358-c294-46ce-a197-e15eded22eb5",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -2582,7 +2585,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/signup"
+								"url": "{{baseURL}}/auth/signup"
 							},
 							"response": []
 						},
@@ -2643,7 +2646,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/signup"
+								"url": "{{baseURL}}/auth/signup"
 							},
 							"response": []
 						},
@@ -2704,7 +2707,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/signup"
+								"url": "{{baseURL}}/auth/signup"
 							},
 							"response": []
 						},
@@ -2752,14 +2755,14 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomEmail}}\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"AB089\"\n}",
+									"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomEmail}}\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"AB899\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/signup"
+								"url": "{{baseURL}}/auth/signup"
 							},
 							"response": []
 						},
@@ -2813,14 +2816,14 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"fullName\": \"1-2_4\",\n    \"emailAddress\": 24,\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"ABCDE\"\n}",
+									"raw": "{\n    \"fullName\": \"1-2_4\",\n    \"emailAddress\": 90,\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"ABC9\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/signup"
+								"url": "{{baseURL}}/auth/signup"
 							},
 							"response": []
 						},
@@ -2880,7 +2883,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/signup"
+								"url": "{{baseURL}}/auth/signup"
 							},
 							"response": []
 						},
@@ -2935,12 +2938,12 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/signup"
+								"url": "{{baseURL}}/auth/signup"
 							},
 							"response": []
 						},
 						{
-							"name": "SignUp-Existing Phone",
+							"name": "SignUp-Existing Phone no",
 							"event": [
 								{
 									"listen": "test",
@@ -2991,7 +2994,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/signup"
+								"url": "{{baseURL}}/auth/signup"
 							},
 							"response": []
 						},
@@ -3050,14 +3053,14 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"emailAddress\": \"{{userEmailAddress}}\",\n    \"password\": \"Password12@@\"\n}",
+									"raw": "{\n    \"emailAddress\": \"Nelda_Jacobs40@hotmail.com\",\n    \"password\": \"Password12@@\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/login"
+								"url": "{{baseURL}}/auth/login"
 							},
 							"response": []
 						},
@@ -3109,7 +3112,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/login"
+								"url": "{{baseURL}}/auth/login"
 							},
 							"response": []
 						},
@@ -3161,7 +3164,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/login"
+								"url": "{{baseURL}}/auth/login"
 							},
 							"response": []
 						},
@@ -3211,7 +3214,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/login"
+								"url": "{{baseURL}}/auth/login"
 							},
 							"response": []
 						},
@@ -3224,23 +3227,27 @@
 										"id": "27956a20-d014-4ccb-8a8d-dc1700c5025f",
 										"exec": [
 											"try {",
-											"const jsonData = pm.response.json();",
+											"  const jsonData = pm.response.json();",
 											"",
-											"pm.test(\"Response body property\", function () {",
-											"    pm.expect(jsonData).to.be.an('object');",
-											"});",
-											"pm.test(\"Empty password field\", function () {",
-											"    pm.expect(jsonData.message).to.eql('password can not be empty');",
-											"});",
-											"pm.test(\"Status code is 400\", function () {",
-											"    pm.response.to.have.status(400);",
-											"});",
-											"pm.test(\"Status code name has string\", function () {",
-											"    pm.response.to.have.status(\"Bad Request\");",
-											"});",
+											"  pm.test(\"Response body property\", function () {",
+											"      pm.expect(jsonData).to.be.an('object');",
+											"  });",
+											"  pm.test(\"Empty password field\", function () {",
+											"      pm.expect(jsonData.message).to.eql('password can not be empty');",
+											"  });",
+											"  pm.test(\"Status code is 400\", function () {",
+											"      pm.response.to.have.status(400);",
+											"  });",
+											"  pm.test(\"Status code name has string\", function () {",
+											"      pm.response.to.have.status(400); // Fixed status code check",
+											"  });",
+											"  pm.test(\"Response time is within acceptable range\", function () {",
+											"      pm.expect(pm.response.responseTime).to.be.below(1000);",
+											"  });",
 											"} catch (errors) {",
 											"    console.error(errors)",
-											"}"
+											"}",
+											""
 										],
 										"type": "text/javascript",
 										"packages": {}
@@ -3256,14 +3263,14 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"emailAddress\": \"{{userEmailAddress}}\",\n    \"password\": \"\"\n}",
+									"raw": "{\n    \"emailAddress\":\"Nelda_Jacobs40@hotmail.com\",\n    \"password\": \"\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/login"
+								"url": "{{baseURL}}/auth/login"
 							},
 							"response": []
 						},
@@ -3315,7 +3322,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/auth/login"
+								"url": "{{baseURL}}/auth/login"
 							},
 							"response": []
 						}
@@ -3371,7 +3378,7 @@
 							"request": {
 								"method": "GET",
 								"header": [],
-								"url": "{{baseUrl}}/profile"
+								"url": "{{baseURL}}/profile"
 							},
 							"response": []
 						},
@@ -3420,7 +3427,7 @@
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{baseUrl}}/profile"
+								"url": "{{baseURL}}/profile"
 							},
 							"response": []
 						},
@@ -3472,7 +3479,7 @@
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{baseUrl}}/profile"
+								"url": "{{baseURL}}/profile"
 							},
 							"response": []
 						},
@@ -3519,12 +3526,12 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{userAccessToken}}"
+										"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmI0Yzg3Mjk2MzI2ZmQ3ZjNmOWViOTIiLCJlbWFpbEFkZHJlc3MiOiJKdWxpYW4uU2hhbmFoYW5AeWFob28uY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkWFA1SUtiNlRadEsuT3FCMlRIVmlkLlBFVi9GVVJ4UUZVckFpTzhxeDBpWFNOdS91VnpHRWEiLCJpYXQiOjE3MjMyMjE0OTMsImV4cCI6MTcyMzIyNTA5M30.ooL5QQBEC_efiQmdLEoD96egu3bT-DgAmlCEzAC4NDU"
 									}
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{baseUrl}}/profile"
+								"url": "{{baseURL}}/profile"
 							},
 							"response": []
 						}
@@ -3587,7 +3594,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/cart"
+								"url": "{{baseURL}}/cart"
 							},
 							"response": []
 						},
@@ -3634,7 +3641,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{userAccessToken}}"
+										"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmI0Yzg3Mjk2MzI2ZmQ3ZjNmOWViOTIiLCJlbWFpbEFkZHJlc3MiOiJKdWxpYW4uU2hhbmFoYW5AeWFob28uY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkWFA1SUtiNlRadEsuT3FCMlRIVmlkLlBFVi9GVVJ4UUZVckFpTzhxeDBpWFNOdS91VnpHRWEiLCJpYXQiOjE3MjMyMjE0OTMsImV4cCI6MTcyMzIyNTA5M30.ooL5QQBEC_efiQmdLEoD96egu3bT-DgAmlCEzAC4NDU"
 									}
 								},
 								"method": "POST",
@@ -3648,7 +3655,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/cart"
+								"url": "{{baseURL}}/cart"
 							},
 							"response": []
 						},
@@ -3669,8 +3676,8 @@
 											"pm.test(\"Status code is 401\", function () {\r",
 											"    pm.response.to.have.status(401);\r",
 											"});\r",
-											"pm.test(\"Expired Token\", function () {\r",
-											"    pm.expect(jsonData.message).to.eql('Token expired');\r",
+											"pm.test(\"Invalid Token\", function () {\r",
+											"    pm.expect(jsonData.message).to.eql('Invalid Token');\r",
 											"});\r",
 											"    pm.test(\"Status code name has string\", function () {\r",
 											"        pm.response.to.have.status(\"Unauthorized\");\r",
@@ -3709,7 +3716,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/cart"
+								"url": "{{baseURL}}/cart"
 							},
 							"response": []
 						},
@@ -3765,7 +3772,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/cart"
+								"url": "{{baseURL}}/cart"
 							},
 							"response": []
 						},
@@ -3813,6 +3820,12 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmI0Yzg3Mjk2MzI2ZmQ3ZjNmOWViOTIiLCJlbWFpbEFkZHJlc3MiOiJKdWxpYW4uU2hhbmFoYW5AeWFob28uY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkWFA1SUtiNlRadEsuT3FCMlRIVmlkLlBFVi9GVVJ4UUZVckFpTzhxeDBpWFNOdS91VnpHRWEiLCJpYXQiOjE3MjMyMjE0OTMsImV4cCI6MTcyMzIyNTA5M30.ooL5QQBEC_efiQmdLEoD96egu3bT-DgAmlCEzAC4NDU"
+									}
+								},
 								"method": "POST",
 								"header": [],
 								"body": {
@@ -3824,7 +3837,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/cart"
+								"url": "{{baseURL}}/cart"
 							},
 							"response": []
 						},
@@ -3881,7 +3894,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/cart"
+								"url": "{{baseURL}}/cart"
 							},
 							"response": []
 						},
@@ -3894,7 +3907,7 @@
 							"request": {
 								"method": "GET",
 								"header": [],
-								"url": "{{baseUrl}}/user/cart"
+								"url": "{{baseURL}}/user/cart"
 							},
 							"response": []
 						},
@@ -3958,7 +3971,7 @@
 										}
 									}
 								},
-								"url": "{{baseUrl}}/orders/init"
+								"url": "{{baseURL}}/orders/init"
 							},
 							"response": []
 						},
@@ -3978,9 +3991,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/orders/verify?ref=nf96wdas7y",
+									"raw": "{{baseURL}}/orders/verify?ref=nf96wdas7y",
 									"host": [
-										"{{baseUrl}}"
+										"{{baseURL}}"
 									],
 									"path": [
 										"orders",
@@ -4030,7 +4043,7 @@
 							"request": {
 								"method": "GET",
 								"header": [],
-								"url": "{{baseUrl}}/orders"
+								"url": "{{baseURL}}/orders"
 							},
 							"response": []
 						},
@@ -4077,7 +4090,7 @@
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{baseUrl}}/orders"
+								"url": "{{baseURL}}/orders"
 							},
 							"response": []
 						},
@@ -4124,12 +4137,12 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{userAccessToken}}"
+										"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmI0Yzg3Mjk2MzI2ZmQ3ZjNmOWViOTIiLCJlbWFpbEFkZHJlc3MiOiJKdWxpYW4uU2hhbmFoYW5AeWFob28uY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkWFA1SUtiNlRadEsuT3FCMlRIVmlkLlBFVi9GVVJ4UUZVckFpTzhxeDBpWFNOdS91VnpHRWEiLCJpYXQiOjE3MjMyMjE0OTMsImV4cCI6MTcyMzIyNTA5M30.ooL5QQBEC_efiQmdLEoD96egu3bT-DgAmlCEzAC4NDU"
 									}
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{baseUrl}}/orders"
+								"url": "{{baseURL}}/orders"
 							},
 							"response": []
 						},
@@ -4181,7 +4194,7 @@
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{baseUrl}}/orders"
+								"url": "{{baseURL}}/orders"
 							},
 							"response": []
 						},
@@ -4226,9 +4239,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/orders/:id",
+									"raw": "{{baseURL}}/orders/:id",
 									"host": [
-										"{{baseUrl}}"
+										"{{baseURL}}"
 									],
 									"path": [
 										"orders",
@@ -4288,9 +4301,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/orders/:id",
+									"raw": "{{baseURL}}/orders/:id",
 									"host": [
-										"{{baseUrl}}"
+										"{{baseURL}}"
 									],
 									"path": [
 										"orders",
@@ -4349,15 +4362,15 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{userAccessToken}}"
+										"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmI0Yzg3Mjk2MzI2ZmQ3ZjNmOWViOTIiLCJlbWFpbEFkZHJlc3MiOiJKdWxpYW4uU2hhbmFoYW5AeWFob28uY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkWFA1SUtiNlRadEsuT3FCMlRIVmlkLlBFVi9GVVJ4UUZVckFpTzhxeDBpWFNOdS91VnpHRWEiLCJpYXQiOjE3MjMyMjE0OTMsImV4cCI6MTcyMzIyNTA5M30.ooL5QQBEC_efiQmdLEoD96egu3bT-DgAmlCEzAC4NDU"
 									}
 								},
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/orders/:id",
+									"raw": "{{baseURL}}/orders/:id",
 									"host": [
-										"{{baseUrl}}"
+										"{{baseURL}}"
 									],
 									"path": [
 										"orders",
@@ -4422,9 +4435,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/orders/:id",
+									"raw": "{{baseURL}}/orders/:id",
 									"host": [
-										"{{baseUrl}}"
+										"{{baseURL}}"
 									],
 									"path": [
 										"orders",
@@ -4432,7 +4445,6 @@
 									],
 									"variable": [
 										{
-											"id": "07a98830-b57b-43ff-86e2-24a49ed8c38d",
 											"key": "id",
 											"value": "66aefe0c664fba2b3e486229"
 										}
@@ -4449,14 +4461,14 @@
 			"auth": {
 				"type": "bearer",
 				"bearer": {
-					"token": "{{customerAccessToken}}"
+					"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmI3MjllNDU0MjMwZjZhOGJjZWRkZmMiLCJlbWFpbEFkZHJlc3MiOiJOZWxkYV9KYWNvYnM0MEBob3RtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJGU5eGJmMnZlNEVlTndkbjdNd1gxUC5KUVZ1QllSZFhhYXNSSHRnNTVMOFhZR0hBYW5xd0RDIiwiaWF0IjoxNzIzMjgxNjM3LCJleHAiOjE3MjMyODUyMzd9.QL8ZHqJXYgoLEOh2f9M-0228kPCvPlMPv9-pIRdDBUU"
 				}
 			},
 			"event": [
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "058b7106-0e09-429b-a3a3-3be7015d2de4",
+						"id": "5a47c8cc-f594-4a55-b39d-eca1178ddc50",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -4467,7 +4479,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "4ebcf09f-4193-4870-99dc-264e9edcf58b",
+						"id": "84aa685c-af96-4ebf-ab8d-87a2beb628f6",
 						"type": "text/javascript",
 						"packages": {},
 						"exec": [
@@ -4482,7 +4494,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "86019b11-7ef9-4667-a9fe-72f362f0f6f4",
+				"id": "bf082647-cf91-47e4-a46c-2415d099bcef",
 				"type": "text/javascript",
 				"exec": [
 					"function generateRandom8DigitNumber() {",
@@ -4502,12 +4514,19 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "ccd344c5-926e-430b-8ab9-7bdd776a5064",
+				"id": "a8053de7-e450-43ea-8832-80257150df6a",
 				"type": "text/javascript",
 				"exec": [
 					""
 				]
 			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "https://heatwave-backend.vercel.app/api",
+			"type": "string"
 		}
 	]
 }
