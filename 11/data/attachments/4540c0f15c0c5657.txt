@@ -1,0 +1,5 @@
+{
+    "name": "Representative - Eniola Adelowo",
+    "description": "Quos ea consequuntur nemo numquam ut. Fugit et perferendis aut asperiores iusto expedita veritatis tempore laboriosam. Vitae assumenda labore natus vitae quod corporis sint. Voluptatibus quia facere voluptatem est et et corporis. Dicta at voluptatem voluptatem voluptas tenetur vero. Voluptate molestias est nihil vel quas.",
+    "inspiredBy": "Eniola Adelowo"
+}

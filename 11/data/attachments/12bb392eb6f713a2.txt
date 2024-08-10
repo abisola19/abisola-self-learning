@@ -1,0 +1,4 @@
+{
+    "name": "Facilitator",
+    "description": "Et tempora laboriosam quaerat corporis. Distinctio soluta saepe voluptate sapiente perspiciatis."
+}

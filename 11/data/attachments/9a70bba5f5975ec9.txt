@@ -1,0 +1,6 @@
+{
+    "fullName": "Carla Morar Jr.",
+    "emailAddress": "Alva71@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09082257873"
+}

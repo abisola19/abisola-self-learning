@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Nadine Lubowitz","emailAddress":"EldoraUruguay@mailinator.com","status":"active","phoneNumber":"09015554359","role":"admin","orders":[],"_id":"66b7c52bf9cd67bfdefd0a74","cart":[],"createdAt":"2024-08-10T19:53:15.816Z","updatedAt":"2024-08-10T19:53:15.816Z"}}

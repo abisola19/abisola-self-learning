@@ -1,0 +1,6 @@
+{
+    "fullName": "Alvin Bosco",
+    "emailAddress": "WestleySynergized@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09075497635"
+}

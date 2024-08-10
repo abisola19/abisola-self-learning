@@ -1,0 +1,6 @@
+{
+    "fullName": "Nadine Lubowitz",
+    "emailAddress": "EldoraUruguay@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09015554359"
+}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Angelo Barrows",
+    "emailAddress": "Jaydon.Muller73@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09096289749"
+}

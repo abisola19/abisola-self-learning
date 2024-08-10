@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Van Franecki","emailAddress":"Rita17@yahoo.com","status":"active","phoneNumber":"09083991796","role":"customer","orders":[],"_id":"66b7c52ff9cd67bfdefd0a88","cart":[],"createdAt":"2024-08-10T19:53:19.716Z","updatedAt":"2024-08-10T19:53:19.716Z"}}

@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Rogelio Wilkinson","emailAddress":"ShannaGardens@mailinator.c","status":"active","phoneNumber":"09034828025","role":"admin","orders":[],"_id":"66b7c52cf9cd67bfdefd0a78","cart":[],"createdAt":"2024-08-10T19:53:16.143Z","updatedAt":"2024-08-10T19:53:16.143Z"}}
