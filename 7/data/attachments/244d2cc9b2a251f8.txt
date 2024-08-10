@@ -1,0 +1,6 @@
+{
+    "fullName": "Gilberto Dibbert II",
+    "emailAddress": "Llewellynniches@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

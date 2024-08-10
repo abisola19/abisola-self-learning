@@ -1,0 +1,5 @@
+{
+    "name": "Associate - Eniola Adelowo",
+    "description": "Illo et deleniti et reiciendis in. Illum ea illum aspernatur dolore molestiae qui ut. Impedit fuga ea vitae veritatis fuga accusantium. Rerum quasi rerum quae totam et ipsum.",
+    "inspiredBy": "Eniola Adelowo"
+}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Brendan Mayert",
+    "emailAddress": "StacyVirtual@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09034214647"
+}

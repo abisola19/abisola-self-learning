@@ -1,0 +1,4 @@
+{
+    "name": "Specialist",
+    "description": "Qui sunt maxime nam ut aut nihil culpa. Quis praesentium occaecati ad labore itaque eos. Autem sit maxime."
+}

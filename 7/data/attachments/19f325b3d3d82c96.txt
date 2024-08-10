@@ -1,0 +1,6 @@
+{
+    "fullName": "Penny Terry",
+    "emailAddress": "FordFranc@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Kyle Bogisich",
+    "emailAddress": "Arnulfo60@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "A900"
+}
