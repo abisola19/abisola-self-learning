@@ -1,0 +1,5 @@
+{
+    "name": "Specialist - David Osimen",
+    "description": "Omnis suscipit repudiandae. Consequuntur adipisci veritatis sunt suscipit est aut minus a.",
+    "inspiredBy": "David Osimen"
+}

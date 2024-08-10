@@ -1,0 +1,4 @@
+{
+    "name": "Planner",
+    "description": "Odio illum recusandae. Odit sint neque distinctio et voluptas aut assumenda. Non quia quasi dignissimos. Et ut necessitatibus impedit totam. Tempore quos blanditiis inventore aut. Ut dolor tenetur."
+}

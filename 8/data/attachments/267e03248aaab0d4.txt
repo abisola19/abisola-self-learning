@@ -1,0 +1,1 @@
+{"message":"Invalid password complexity","data":[{"message":"\"value\" should contain at least 1 symbol","path":[],"type":"passwordComplexity.symbol","context":{"value":"Password12","label":"value"}}]}

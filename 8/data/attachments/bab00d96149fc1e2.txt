@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Rosemarie Schneider","emailAddress":"Ines_Reinger@gmail.com","status":"active","phoneNumber":"09067463805","role":"customer","orders":[],"_id":"66b7aee10f5503c0c80a5ffd","cart":[],"createdAt":"2024-08-10T18:18:09.518Z","updatedAt":"2024-08-10T18:18:09.518Z"}}

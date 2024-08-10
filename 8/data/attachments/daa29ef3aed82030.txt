@@ -1,0 +1,6 @@
+{
+    "fullName": "Donna Nikolaus",
+    "emailAddress": "Cole_Hudson@gmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09069295048"
+}

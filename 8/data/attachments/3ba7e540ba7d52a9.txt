@@ -1,0 +1,6 @@
+{
+    "fullName": "Rosemarie Schneider",
+    "emailAddress": "Ines_Reinger@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09067463805"
+}

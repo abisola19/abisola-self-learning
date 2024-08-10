@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Miss Wayne Konopelski","emailAddress":"Gina21@gmail.com","status":"active","phoneNumber":"09035266740","role":"customer","orders":[],"_id":"66b7aee10f5503c0c80a5ff5","cart":[],"createdAt":"2024-08-10T18:18:09.026Z","updatedAt":"2024-08-10T18:18:09.026Z"}}

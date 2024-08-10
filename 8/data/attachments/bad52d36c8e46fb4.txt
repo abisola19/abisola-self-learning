@@ -1,0 +1,6 @@
+{
+    "fullName": "Lula Hodkiewicz",
+    "emailAddress": "ZakaryCorporate@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09033340063"
+}

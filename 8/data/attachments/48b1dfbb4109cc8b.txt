@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Alexander Anderson","emailAddress":"Heberincremental@mailinator.com","status":"active","phoneNumber":"09040353443","role":"admin","orders":[],"_id":"66b7aedc0f5503c0c80a5fe5","cart":[],"createdAt":"2024-08-10T18:18:04.100Z","updatedAt":"2024-08-10T18:18:04.100Z"}}

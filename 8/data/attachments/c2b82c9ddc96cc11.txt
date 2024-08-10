@@ -1,0 +1,5 @@
+{
+    "name": "Coordinator - David Osimen",
+    "description": "Delectus atque iusto earum autem non vitae excepturi ut et. Facere voluptas cupiditate sed. Quibusdam ut quam. Atque saepe et quos quidem harum maxime sunt cum eligendi. Cumque voluptatibus ratione facere. Laborum possimus occaecati et asperiores quis.",
+    "inspiredBy": "David Osimen"
+}

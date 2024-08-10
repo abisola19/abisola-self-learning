@@ -1,0 +1,5 @@
+{
+    "name": "Strategist - Atiku Mohammed",
+    "description": "Consequatur dolor sit vitae. Facere consequatur quia perferendis non et similique.",
+    "inspiredBy": "Atiku Mohammed"
+}
