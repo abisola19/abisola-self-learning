@@ -1,0 +1,6 @@
+{
+    "fullName": "Grant Bartell",
+    "emailAddress": "Oceane.Johns4@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09083352533"
+}

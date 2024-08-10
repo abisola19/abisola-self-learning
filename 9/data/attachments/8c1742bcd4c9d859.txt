@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Joseph Herzog","emailAddress":"TheronCambridgeshire@mailinator.c","status":"active","phoneNumber":"09070532160","role":"admin","orders":[],"_id":"66b7b229a197ea82d66bf767","cart":[],"createdAt":"2024-08-10T18:32:09.037Z","updatedAt":"2024-08-10T18:32:09.037Z"}}

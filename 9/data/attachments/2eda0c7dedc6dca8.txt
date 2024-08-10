@@ -1,0 +1,6 @@
+{
+    "fullName": "Joseph Herzog",
+    "emailAddress": "TheronCambridgeshire@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09070532160"
+}

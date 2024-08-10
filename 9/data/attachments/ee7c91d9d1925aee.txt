@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Melissa Rippin","emailAddress":"Paxton.Johnson@yahoo.com","status":"active","phoneNumber":"09052546322","role":"customer","orders":[],"_id":"66b7b22ca197ea82d66bf77b","cart":[],"createdAt":"2024-08-10T18:32:12.067Z","updatedAt":"2024-08-10T18:32:12.067Z"}}

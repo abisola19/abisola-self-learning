@@ -1,0 +1,5 @@
+{
+    "name": "Director - Eniola Adelowo",
+    "description": "Culpa tempore rerum fugit esse velit. Consequatur voluptas sit. Tempora occaecati consectetur quia velit ea quod et nihil.",
+    "inspiredBy": "Eniola Adelowo"
+}

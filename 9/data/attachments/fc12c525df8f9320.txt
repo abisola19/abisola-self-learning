@@ -1,0 +1,6 @@
+{
+    "fullName": "Evan Hickle",
+    "emailAddress": "NakiaBike@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

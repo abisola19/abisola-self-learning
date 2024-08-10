@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Neil Wuckert","emailAddress":"Aniyah26@hotmail.com","status":"active","phoneNumber":"09084486684","role":"customer","orders":[],"_id":"66b7b22ba197ea82d66bf773","cart":[],"createdAt":"2024-08-10T18:32:11.680Z","updatedAt":"2024-08-10T18:32:11.680Z"}}
