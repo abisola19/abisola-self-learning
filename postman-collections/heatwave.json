@@ -1353,14 +1353,14 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"name\": \"{{$randomJobType}}\",\n    \"description\": \"{{$randomLoremSentences}}\"\n}",
+									"raw": "{\n    \"name\": \"mason\",\n    \"description\": \"{{$randomLoremSentences}}\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{baseUrl}}/categories"
+								"url": "{{baseURL}}/categories"
 							},
 							"response": []
 						},
@@ -2755,7 +2755,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomEmail}}\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"AB899\"\n}",
+									"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomEmail}}\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"A900\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -3918,18 +3918,12 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{userAccessToken}}"
-									}
-								},
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/user/cart/:id",
+									"raw": "{{baseURL}}/user/cart/:id",
 									"host": [
-										"{{baseUrl}}"
+										"{{baseURL}}"
 									],
 									"path": [
 										"user",
@@ -3938,7 +3932,6 @@
 									],
 									"variable": [
 										{
-											"id": "2b6234f3-aa7e-4b33-9567-f8a0cacd7e8f",
 											"key": "id",
 											"value": "65e920b081afd6969121f983"
 										}
