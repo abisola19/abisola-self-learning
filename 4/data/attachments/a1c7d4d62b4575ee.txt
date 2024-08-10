@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Leslie Rogahn","emailAddress":"Mara80@gmail.com","status":"active","phoneNumber":"09055110402","role":"customer","orders":[],"_id":"66b7ab700f5503c0c80a5f4d","cart":[],"createdAt":"2024-08-10T18:03:28.482Z","updatedAt":"2024-08-10T18:03:28.482Z"}}

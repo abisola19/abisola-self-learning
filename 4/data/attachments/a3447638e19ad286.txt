@@ -1,0 +1,6 @@
+{
+    "fullName": "Zachary Ullrich",
+    "emailAddress": "Brad5@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "A900"
+}

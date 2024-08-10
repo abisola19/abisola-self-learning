@@ -1,0 +1,6 @@
+{
+    "fullName": "Loretta Kuvalis",
+    "emailAddress": "Dell_Lebsack@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09071152735"
+}
