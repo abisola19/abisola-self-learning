@@ -1,0 +1,6 @@
+{
+    "fullName": "Roberto Abbott",
+    "emailAddress": "Dovie_Barton@yahoo.com",
+    "password": "password12@@",
+    "phoneNumber": "09046944057"
+}

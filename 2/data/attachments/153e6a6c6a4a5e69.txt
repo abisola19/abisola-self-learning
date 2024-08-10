@@ -1,0 +1,5 @@
+{
+    "name": "Designer - Eniola Adelowo",
+    "description": "Qui nulla impedit harum iusto. Dolorem repudiandae repellat. Minima magni est id cupiditate.",
+    "inspiredBy": "Eniola Adelowo"
+}

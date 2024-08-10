@@ -1,0 +1,1 @@
+{"message":"Invalid password complexity","data":[{"message":"\"value\" should contain at least 1 upper-cased letter","path":[],"type":"passwordComplexity.uppercase","context":{"value":"password12@@","label":"value"}}]}

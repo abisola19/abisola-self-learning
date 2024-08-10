@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Delores Watsica","emailAddress":"Aiyana48@yahoo.com","status":"active","phoneNumber":"09046684573","role":"customer","orders":[],"_id":"66b735e4c27a48e73801ca9d","cart":[],"createdAt":"2024-08-10T09:41:56.942Z","updatedAt":"2024-08-10T09:41:56.942Z"}}

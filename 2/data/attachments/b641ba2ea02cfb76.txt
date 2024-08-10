@@ -1,0 +1,6 @@
+{
+    "fullName": "Lula Waelchi PhD",
+    "emailAddress": "DomingoManors@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09037610160"
+}

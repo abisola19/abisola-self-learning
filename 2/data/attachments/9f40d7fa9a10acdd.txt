@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Kate Lang Sr.","emailAddress":"Janae.Shields@gmail.com","status":"active","phoneNumber":"09031962295","role":"customer","orders":[],"_id":"66b735e5c27a48e73801caa1","cart":[],"createdAt":"2024-08-10T09:41:57.165Z","updatedAt":"2024-08-10T09:41:57.165Z"}}

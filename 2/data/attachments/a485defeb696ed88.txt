@@ -1,0 +1,4 @@
+{
+    "name": "Administrator",
+    "description": "Eos inventore a velit et quidem asperiores eveniet quidem. Perspiciatis quia vitae laudantium consequatur omnis accusamus. Quibusdam ad mollitia dicta velit blanditiis impedit adipisci. Rerum sit quia at assumenda temporibus sed minus voluptatibus. Consequuntur veniam quo facilis dignissimos sint minus omnis possimus."
+}
