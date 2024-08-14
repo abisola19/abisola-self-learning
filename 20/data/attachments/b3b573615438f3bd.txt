@@ -1,0 +1,6 @@
+{
+    "fullName": "Dean Sauer DVM",
+    "emailAddress": "Dina.Jacobi96@gmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09063401673"
+}

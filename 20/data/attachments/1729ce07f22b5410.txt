@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Sergio Adams","emailAddress":"Adriannacomposite@mailinator.c","status":"active","phoneNumber":"09051171819","role":"admin","orders":[],"_id":"66bcff6fe26c1336316be3e3","cart":[],"createdAt":"2024-08-14T19:03:11.978Z","updatedAt":"2024-08-14T19:03:11.978Z"}}

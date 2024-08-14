@@ -1,0 +1,6 @@
+{
+    "fullName": "Freda Feeney",
+    "emailAddress": "Rodolfoschemas@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

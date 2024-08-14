@@ -1,0 +1,5 @@
+{
+    "name": "Technician - Eniola Adelowo",
+    "description": "Voluptas suscipit pariatur quisquam molestias. Quam necessitatibus eaque pariatur laboriosam. Sed rerum maxime nulla rerum nihil aut qui excepturi est. Hic et quam rem autem quaerat. Eos nihil quibusdam et voluptatum et nihil.",
+    "inspiredBy": "Eniola Adelowo"
+}

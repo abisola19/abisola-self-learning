@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Leonard Howell","emailAddress":"AlaynaSavings@mailinator.com","status":"active","phoneNumber":"09090253638","role":"admin","orders":[],"_id":"66bcff6fe26c1336316be3df","cart":[],"createdAt":"2024-08-14T19:03:11.572Z","updatedAt":"2024-08-14T19:03:11.572Z"}}

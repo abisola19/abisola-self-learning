@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Holly O'Keefe","emailAddress":"Jay.Haley@hotmail.com","status":"active","phoneNumber":"09060887520","role":"customer","orders":[],"_id":"66bcff73e26c1336316be3f7","cart":[],"createdAt":"2024-08-14T19:03:15.495Z","updatedAt":"2024-08-14T19:03:15.495Z"}}
