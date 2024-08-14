@@ -1,0 +1,5 @@
+{
+    "name": "Technician - Atiku Mohammed",
+    "description": "Et inventore eveniet illum assumenda inventore commodi aliquam. Et voluptatem error consequatur reiciendis sequi. Et voluptate temporibus enim sint. Laudantium qui sit explicabo consequatur hic rerum omnis atque.",
+    "inspiredBy": "Atiku Mohammed"
+}

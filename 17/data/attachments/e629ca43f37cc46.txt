@@ -1,0 +1,6 @@
+{
+    "fullName": "James Herzog",
+    "emailAddress": "Jordi_Brown@hotmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09099596745"
+}

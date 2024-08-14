@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Kellie Bechtelar","emailAddress":"Vidal69@gmail.com","status":"active","phoneNumber":"09065961515","role":"customer","orders":[],"_id":"66bcf095e459c25954b45cd2","cart":[],"createdAt":"2024-08-14T17:59:49.977Z","updatedAt":"2024-08-14T17:59:49.977Z"}}

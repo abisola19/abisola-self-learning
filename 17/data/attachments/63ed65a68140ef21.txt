@@ -1,0 +1,6 @@
+{
+    "fullName": "Calvin Bruen",
+    "emailAddress": "Zionextensible@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09080224003"
+}

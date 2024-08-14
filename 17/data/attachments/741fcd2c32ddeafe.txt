@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Calvin Bruen","emailAddress":"Zionextensible@mailinator.c","status":"active","phoneNumber":"09080224003","role":"admin","orders":[],"_id":"66bcf093e459c25954b45cc6","cart":[],"createdAt":"2024-08-14T17:59:47.287Z","updatedAt":"2024-08-14T17:59:47.287Z"}}

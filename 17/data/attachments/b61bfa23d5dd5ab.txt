@@ -1,0 +1,6 @@
+{
+    "fullName": "Kellie Bechtelar",
+    "emailAddress": "Vidal69@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09065961515"
+}

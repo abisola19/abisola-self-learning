@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Ashley Yost","emailAddress":"FaustinoPersonal@mailinator.com","status":"active","phoneNumber":"09058141941","role":"admin","orders":[],"_id":"66bcf092e459c25954b45cc2","cart":[],"createdAt":"2024-08-14T17:59:46.967Z","updatedAt":"2024-08-14T17:59:46.967Z"}}

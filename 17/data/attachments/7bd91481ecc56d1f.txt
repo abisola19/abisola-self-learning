@@ -1,0 +1,6 @@
+{
+    "fullName": "Frankie Murazik",
+    "emailAddress": "DariusPorts@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09030684135"
+}

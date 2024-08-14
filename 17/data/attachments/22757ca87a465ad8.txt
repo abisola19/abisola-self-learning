@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Malcolm Marvin","emailAddress":"Rudy.Yundt@hotmail.com","status":"active","phoneNumber":"09073593908","role":"customer","orders":[],"_id":"66bcf096e459c25954b45cda","cart":[],"createdAt":"2024-08-14T17:59:50.348Z","updatedAt":"2024-08-14T17:59:50.348Z"}}

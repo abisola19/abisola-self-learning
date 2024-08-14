@@ -1,0 +1,6 @@
+{
+    "fullName": "Ashley Yost",
+    "emailAddress": "FaustinoPersonal@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09058141941"
+}
