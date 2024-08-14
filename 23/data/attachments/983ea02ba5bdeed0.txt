@@ -1,0 +1,5 @@
+{
+    "name": "Planner - Atiku Mohammed",
+    "description": "Magni qui voluptatem distinctio a. Delectus quia autem sed. Dicta sed nihil nostrum qui labore voluptatem earum ut maiores.",
+    "inspiredBy": "Atiku Mohammed"
+}

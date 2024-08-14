@@ -1,0 +1,6 @@
+{
+    "fullName": "Maggie Dietrich",
+    "emailAddress": "Stan.Bode@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09085356280"
+}

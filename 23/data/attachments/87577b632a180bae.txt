@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Gerardo Mraz","emailAddress":"RosamondSteel@mailinator.c","status":"active","phoneNumber":"09049426311","role":"admin","orders":[],"_id":"66bd0269e26c1336316be479","cart":[],"createdAt":"2024-08-14T19:15:53.914Z","updatedAt":"2024-08-14T19:15:53.914Z"}}

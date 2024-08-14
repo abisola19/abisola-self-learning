@@ -1,0 +1,6 @@
+{
+    "fullName": "Gerardo Mraz",
+    "emailAddress": "RosamondSteel@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09049426311"
+}

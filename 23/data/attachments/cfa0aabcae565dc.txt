@@ -1,0 +1,6 @@
+{
+    "fullName": "Bernice Schneider",
+    "emailAddress": "Sabrina.Breitenberg@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09073819963"
+}

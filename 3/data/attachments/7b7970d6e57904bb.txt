@@ -1,6 +1,0 @@
-{
-    "fullName": "Maureen Heathcote",
-    "emailAddress": "Hesterindex@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09084838981"
-}

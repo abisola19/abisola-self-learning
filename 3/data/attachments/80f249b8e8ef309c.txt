@@ -1,6 +1,0 @@
-{
-    "fullName": "Frank Hodkiewicz",
-    "emailAddress": "VilmaBerkshire@mailinator.com",
-    "password": "Password12",
-    "phoneNumber": "09048994050"
-}

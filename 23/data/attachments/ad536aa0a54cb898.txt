@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Meghan Stark","emailAddress":"Zachary_Feil@yahoo.com","status":"active","phoneNumber":"09082156977","role":"customer","orders":[],"_id":"66bd026de26c1336316be485","cart":[],"createdAt":"2024-08-14T19:15:57.337Z","updatedAt":"2024-08-14T19:15:57.337Z"}}

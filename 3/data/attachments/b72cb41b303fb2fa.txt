@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Maureen Heathcote","emailAddress":"Hesterindex@mailinator.com","status":"active","phoneNumber":"09084838981","role":"admin","orders":[],"_id":"66b7aa9a0f5503c0c80a5f13","cart":[],"createdAt":"2024-08-10T17:59:54.738Z","updatedAt":"2024-08-10T17:59:54.738Z"}}

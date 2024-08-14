@@ -1,0 +1,6 @@
+{
+    "fullName": "Madeline Gottlieb",
+    "emailAddress": "Norval37@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "A900"
+}

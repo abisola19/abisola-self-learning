@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Kerry King","emailAddress":"MargaritaLoan@mailinator.com","status":"active","phoneNumber":"09074185688","role":"admin","orders":[],"_id":"66bd0269e26c1336316be475","cart":[],"createdAt":"2024-08-14T19:15:53.561Z","updatedAt":"2024-08-14T19:15:53.561Z"}}

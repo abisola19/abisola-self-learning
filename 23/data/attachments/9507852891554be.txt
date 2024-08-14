@@ -1,0 +1,6 @@
+{
+    "fullName": "Melinda Jacobson",
+    "emailAddress": "Ludwig.Farrell@yahoo.com",
+    "password": "password12@@",
+    "phoneNumber": "09042820505"
+}

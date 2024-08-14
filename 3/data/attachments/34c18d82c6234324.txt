@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Floyd Blanda","emailAddress":"Nathanial.Osinski@yahoo.com","status":"active","phoneNumber":"09023128593","role":"customer","orders":[],"_id":"66b7aa9d0f5503c0c80a5f27","cart":[],"createdAt":"2024-08-10T17:59:57.993Z","updatedAt":"2024-08-10T17:59:57.993Z"}}

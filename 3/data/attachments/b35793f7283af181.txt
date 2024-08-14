@@ -1,6 +1,0 @@
-{
-    "fullName": "Roland Schaefer",
-    "emailAddress": "Mollysensor@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

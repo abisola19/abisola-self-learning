@@ -1,0 +1,6 @@
+{
+    "fullName": "Kerry King",
+    "emailAddress": "MargaritaLoan@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09074185688"
+}

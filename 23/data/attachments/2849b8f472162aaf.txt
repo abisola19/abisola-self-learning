@@ -1,0 +1,6 @@
+{
+    "fullName": "Kristine Stracke",
+    "emailAddress": "abisola@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09059597863"
+}

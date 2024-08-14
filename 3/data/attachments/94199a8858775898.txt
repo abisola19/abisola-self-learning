@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Terence Wisozk","emailAddress":"Nash21@yahoo.com","status":"active","phoneNumber":"09028684966","role":"customer","orders":[],"_id":"66b7aa9d0f5503c0c80a5f23","cart":[],"createdAt":"2024-08-10T17:59:57.813Z","updatedAt":"2024-08-10T17:59:57.813Z"}}

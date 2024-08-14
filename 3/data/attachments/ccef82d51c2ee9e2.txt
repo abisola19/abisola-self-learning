@@ -1,6 +1,0 @@
-{
-    "fullName": "Floyd Blanda",
-    "emailAddress": "Nathanial.Osinski@yahoo.com",
-    "password": "Password12@@",
-    "phoneNumber": "09023128593"
-}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Johnnie Mayer",
+    "emailAddress": "TomLodge@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}
