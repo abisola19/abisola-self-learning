@@ -2571,802 +2571,814 @@
 					"name": "Auth",
 					"item": [
 						{
-							"name": "SignUp",
-							"event": [
+							"name": "Sign Up",
+							"item": [
 								{
-									"listen": "test",
-									"script": {
-										"id": "8f327262-4a76-41b7-8c18-d505576e1f59",
-										"exec": [
-											"try {",
-											"const jsonData = pm.response.json();",
-											"pm.test(\"Response body property\", function () {",
-											"    pm.expect(jsonData).to.be.an('object');",
-											"    pm.expect(jsonData.message).to.be.a('string');",
-											"    pm.expect(jsonData.data).to.be.an('object');",
-											"    pm.expect(jsonData.data.cart).to.be.an('array');",
-											"     pm.expect(jsonData.data.orders).to.be.an('array');",
-											"});",
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});",
-											"pm.test(\"User successfully signed up\", function () {",
-											"    pm.expect(jsonData.message).to.eql('User successfully signed up');",
-											"});",
-											"pm.test(\"Status is active\", function () {",
-											"    pm.expect(jsonData.data.status).to.eql('active');",
-											"});",
-											"} catch (errors) {",
-											"    console.error(errors)",
-											"}"
+									"name": "SignUp",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "8f327262-4a76-41b7-8c18-d505576e1f59",
+												"exec": [
+													"try {",
+													"const jsonData = pm.response.json();",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"    pm.expect(jsonData.message).to.be.a('string');",
+													"    pm.expect(jsonData.data).to.be.an('object');",
+													"    pm.expect(jsonData.data.cart).to.be.an('array');",
+													"     pm.expect(jsonData.data.orders).to.be.an('array');",
+													"});",
+													"pm.test(\"Status code is 200\", function () {",
+													"    pm.response.to.have.status(200);",
+													"});",
+													"pm.test(\"User successfully signed up\", function () {",
+													"    pm.expect(jsonData.message).to.eql('User successfully signed up');",
+													"});",
+													"pm.test(\"Status is active\", function () {",
+													"    pm.expect(jsonData.data.status).to.eql('active');",
+													"});",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "21131db2-a809-4c1c-8842-5f9de9103ca1",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "customer",
+												"type": "text"
+											}
 										],
-										"type": "text/javascript",
-										"packages": {}
-									}
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomEmail}}\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/signup"
+									},
+									"response": []
+								},
+								{
+									"name": "SignUp-EmptyFields",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "8f327262-4a76-41b7-8c18-d505576e1f59",
+												"exec": [
+													"try {",
+													"const jsonData = pm.response.json();",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"    pm.expect(jsonData.message).to.be.a('string');",
+													"    pm.expect(jsonData.data).to.be.an('object');",
+													"    pm.expect(jsonData.data.cart).to.be.an('array');",
+													"     pm.expect(jsonData.data.orders).to.be.an('array');",
+													"});",
+													"pm.test(\"Status code is 200\", function () {",
+													"    pm.response.to.have.status(200);",
+													"});",
+													"pm.test(\"User successfully signed up\", function () {",
+													"    pm.expect(jsonData.message).to.eql('User successfully signed up');",
+													"});",
+													"pm.test(\"Status is active\", function () {",
+													"    pm.expect(jsonData.data.status).to.eql('active');",
+													"});",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "b57cb936-9392-4194-829b-8c6fd4ee1e63",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "customer",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomEmail}}\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/signup"
+									},
+									"response": []
+								},
+								{
+									"name": "SignUp-Invalid Email",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "8f327262-4a76-41b7-8c18-d505576e1f59",
+												"exec": [
+													"try {",
+													"const jsonData = pm.response.json();",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"    pm.expect(jsonData.message).to.be.a('string');",
+													"    pm.expect(jsonData.data).to.be.an('object');",
+													"    pm.expect(jsonData.data.cart).to.be.an('array');",
+													"     pm.expect(jsonData.data.orders).to.be.an('array');",
+													"});",
+													"pm.test(\"Status code is 200\", function () {",
+													"    pm.response.to.have.status(200);",
+													"});",
+													"pm.test(\"User successfully signed up\", function () {",
+													"    pm.expect(jsonData.message).to.eql('User successfully signed up');",
+													"});",
+													"pm.test(\"Status is active\", function () {",
+													"    pm.expect(jsonData.data.status).to.eql('active');",
+													"});",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "d82f14ca-4d0c-43c7-bc33-387c3548b664",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "customer",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomEmail}}\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/signup"
+									},
+									"response": []
+								},
+								{
+									"name": "SignUp-Invalid phone no",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "8f327262-4a76-41b7-8c18-d505576e1f59",
+												"exec": [
+													"try {",
+													"const jsonData = pm.response.json();",
+													"",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"});",
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													"pm.test(\"Status code name has string\", function () {",
+													"    pm.response.to.have.status(\"Bad Request\");",
+													"});",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "a8e7cc70-631e-45df-abd4-42f335642f20",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "customer",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomEmail}}\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"A900\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/signup"
+									},
+									"response": []
+								},
+								{
+									"name": "SignUp-Invalid inputs",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "8f327262-4a76-41b7-8c18-d505576e1f59",
+												"exec": [
+													"try {",
+													"const jsonData = pm.response.json();",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"    pm.expect(jsonData.message).to.be.a('string');",
+													"    pm.expect(jsonData.data).to.be.an('object');",
+													"    pm.expect(jsonData.data.cart).to.be.an('array');",
+													"     pm.expect(jsonData.data.orders).to.be.an('array');",
+													"});",
+													"pm.test(\"Status code is 200\", function () {",
+													"    pm.response.to.have.status(200);",
+													"});",
+													"pm.test(\"User successfully signed up\", function () {",
+													"    pm.expect(jsonData.message).to.eql('User successfully signed up');",
+													"});",
+													"pm.test(\"Status is active\", function () {",
+													"    pm.expect(jsonData.data.status).to.eql('active');",
+													"});",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "66c0536e-2292-4f90-b827-395136ce0374",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "customer",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"1-2_4\",\n    \"emailAddress\": 90,\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"ABC9\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/signup"
+									},
+									"response": []
+								},
+								{
+									"name": "SignUp-Weak Password",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "8f327262-4a76-41b7-8c18-d505576e1f59",
+												"exec": [
+													"try {",
+													"const jsonData = pm.response.json();",
+													"",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"    pm.expect(jsonData.data).to.be.an('array');",
+													"});",
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													"pm.test(\"Status code name has string\", function () {",
+													"    pm.response.to.have.status(\"Bad Request\");",
+													"});",
+													"",
+													"pm.test(\"Message is Invalid password complexity\", function () {",
+													"    pm.expect(jsonData.message).to.eql('Invalid password complexity');",
+													"});",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "87a7b972-f1a1-404f-af41-2b021478b3e2",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "customer",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomEmail}}\",\n    \"password\": \"password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/signup"
+									},
+									"response": []
+								},
+								{
+									"name": "SignUp-Existing email",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "8f327262-4a76-41b7-8c18-d505576e1f59",
+												"exec": [
+													"try {",
+													"    const jsonData = pm.response.json();",
+													"    pm.test(\"Response body property\", function () {",
+													"        pm.expect(jsonData).to.be.an('object');",
+													"        pm.expect(jsonData.message).to.be.a('string');",
+													"    });",
+													"    pm.test(\"Status code is 400\", function () {",
+													"        pm.response.to.have.status(400);",
+													"    });",
+													"    pm.test(\"A User with email 'Golda.Langworth@hotmail.com' already exists\", function () {",
+													"        pm.expect(jsonData.message).to.eql(\"A User with email 'Golda.Langworth@hotmail.com' already exists\");",
+													"    });",
+													"    } catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "c16d3c91-b559-4278-8e19-6a00dc33ed15",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "customer",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"Golda.Langworth@hotmail.com\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/signup"
+									},
+									"response": []
+								},
+								{
+									"name": "SignUp-Existing Phone no",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
+												"exec": [
+													"// Fixed syntax error",
+													"const jsonData = pm.response.json();",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"    pm.expect(jsonData.message).to.be.a('string');",
+													"    pm.test(\"Status code name has string\", function () {",
+													"        pm.response.to.have.status(400);",
+													"    });",
+													"});",
+													"pm.test(\"Existing phone no\", function () {",
+													"    pm.expect(jsonData.message).to.eql('A User with phone \\'0783\\' already exists');",
+													"});",
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "3ac5f851-2341-47de-a65f-f26727fbda7f",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "admin",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomFirstName}}{{$randomWord}}@mailinator.com\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"AB089\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/signup"
+									},
+									"response": []
 								}
 							],
-							"id": "21131db2-a809-4c1c-8842-5f9de9103ca1",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-request-source",
-										"value": "customer",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomEmail}}\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseURL}}/auth/signup"
-							},
-							"response": []
+							"id": "a1332829-7ab7-403a-996b-eace6e87de42"
 						},
 						{
-							"name": "SignUp-EmptyFields",
-							"event": [
+							"name": "Log in",
+							"item": [
 								{
-									"listen": "test",
-									"script": {
-										"id": "8f327262-4a76-41b7-8c18-d505576e1f59",
-										"exec": [
-											"try {",
-											"const jsonData = pm.response.json();",
-											"pm.test(\"Response body property\", function () {",
-											"    pm.expect(jsonData).to.be.an('object');",
-											"    pm.expect(jsonData.message).to.be.a('string');",
-											"    pm.expect(jsonData.data).to.be.an('object');",
-											"    pm.expect(jsonData.data.cart).to.be.an('array');",
-											"     pm.expect(jsonData.data.orders).to.be.an('array');",
-											"});",
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});",
-											"pm.test(\"User successfully signed up\", function () {",
-											"    pm.expect(jsonData.message).to.eql('User successfully signed up');",
-											"});",
-											"pm.test(\"Status is active\", function () {",
-											"    pm.expect(jsonData.data.status).to.eql('active');",
-											"});",
-											"} catch (errors) {",
-											"    console.error(errors)",
-											"}"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
+									"name": "Login",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "27956a20-d014-4ccb-8a8d-dc1700c5025f",
+												"exec": [
+													"try {",
+													"const jsonData = pm.response.json();",
+													"const accesstoken = jsonData.data.accessToken;",
+													"pm.environment.set(\"adminAccessToken\", accesstoken);",
+													"",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"    pm.expect(jsonData.message).to.be.a('string');",
+													"     pm.expect(jsonData.token).to.be.a('string');",
+													"    pm.expect(jsonData.data).to.be.an('object');",
+													"    pm.expect(jsonData.data.cart).to.be.an('array');",
+													"     pm.expect(jsonData.data.orders).to.be.an('array');",
+													"});",
+													"pm.test(\"Status code is 200\", function () {",
+													"    pm.response.to.have.status(200);",
+													"});",
+													"pm.test(\"User logged in successfully\", function () {",
+													"    pm.expect(jsonData.message).to.eql('User logged in successfully');",
+													"});",
+													"pm.test(\"Status is active\", function () {",
+													"    pm.expect(jsonData.data.status).to.eql('active');",
+													"});",
+													"    pm.test(\"Status code name has string\", function () {",
+													"        pm.response.to.have.status(\"OK\");",
+													"    });",
+													"",
+													"    pm.test(\"Body matches string\", function () {",
+													"        pm.expect(pm.response.text()).to.include(\"token\");",
+													"    });",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "b50ea518-a23c-4975-bcc8-c033d3743f64",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"emailAddress\": \"Nelda_Jacobs40@hotmail.com\",\n    \"password\": \"Password12@@\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/login"
+									},
+									"response": []
+								},
+								{
+									"name": "Login-Incorrect password",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "27956a20-d014-4ccb-8a8d-dc1700c5025f",
+												"exec": [
+													"try {",
+													"const jsonData = pm.response.json();",
+													"",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"});",
+													"pm.test(\"Invalid login credentials\", function () {",
+													"    pm.expect(jsonData.message).to.eql('Invalid login credentials');",
+													"});",
+													"pm.test(\"Status code is 401\", function () {",
+													"    pm.response.to.have.status(401);",
+													"});",
+													"pm.test(\"Status code name has string\", function () {",
+													"    pm.response.to.have.status(\"Unauthorized\");",
+													"});",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "f0676d6e-45fb-4974-a770-c5d45068c0a2",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"emailAddress\": \"Golda.Langworth@hotmail.com\",\n    \"password\": \"Password12@\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/login"
+									},
+									"response": []
+								},
+								{
+									"name": "Login-Invalid Email",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "27956a20-d014-4ccb-8a8d-dc1700c5025f",
+												"exec": [
+													"try {",
+													"const jsonData = pm.response.json();",
+													"",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"});",
+													"pm.test(\"Invalid login credentials\", function () {",
+													"    pm.expect(jsonData.message).to.eql('Invalid login credentials');",
+													"});",
+													"pm.test(\"Status code is 401\", function () {",
+													"    pm.response.to.have.status(401);",
+													"});",
+													"pm.test(\"Status code name has string\", function () {",
+													"    pm.response.to.have.status(\"Unauthorized\");",
+													"});",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "a6635535-ded9-47a2-b17b-c21182321893",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"emailAddress\": \"Golda.Langworth@hotmail.com\",\n    \"password\": \"Password12@\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/login"
+									},
+									"response": []
+								},
+								{
+									"name": "Login-Empty fields",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "27956a20-d014-4ccb-8a8d-dc1700c5025f",
+												"exec": [
+													"try {",
+													"const jsonData = pm.response.json();",
+													"",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"});",
+													"",
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													"pm.test(\"Status code name has string\", function () {",
+													"    pm.response.to.have.status(\"Bad Request\");",
+													"});",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "f8b4fcbd-9118-4061-9ae6-62cf24377592",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"emailAddress\": \"\",\n    \"password\": \"\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/login"
+									},
+									"response": []
+								},
+								{
+									"name": "Login-Empty Password field",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "27956a20-d014-4ccb-8a8d-dc1700c5025f",
+												"exec": [
+													"try {",
+													"  const jsonData = pm.response.json();",
+													"",
+													"  pm.test(\"Response body property\", function () {",
+													"      pm.expect(jsonData).to.be.an('object');",
+													"  });",
+													"  pm.test(\"Empty password field\", function () {",
+													"      pm.expect(jsonData.message).to.eql('password can not be empty');",
+													"  });",
+													"  pm.test(\"Status code is 400\", function () {",
+													"      pm.response.to.have.status(400);",
+													"  });",
+													"  pm.test(\"Status code name has string\", function () {",
+													"      pm.response.to.have.status(400); // Fixed status code check",
+													"  });",
+													"  pm.test(\"Response time is within acceptable range\", function () {",
+													"      pm.expect(pm.response.responseTime).to.be.below(1000);",
+													"  });",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "65ab3541-6e01-4903-82a8-816f984cb6f3",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"emailAddress\":\"Nelda_Jacobs40@hotmail.com\",\n    \"password\": \"\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/login"
+									},
+									"response": []
+								},
+								{
+									"name": "Login-Empty Email field",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "27956a20-d014-4ccb-8a8d-dc1700c5025f",
+												"exec": [
+													"try {",
+													"const jsonData = pm.response.json();",
+													"",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"});",
+													"pm.test(\"Empty email field\", function () {",
+													"    pm.expect(jsonData.message).to.eql('emailAddress can not be empty');",
+													"});",
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													"pm.test(\"Status code name has string\", function () {",
+													"    pm.response.to.have.status(\"Bad Request\");",
+													"});",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "361cadf8-5c8c-40ee-bb7d-c2c1b4a7ee8c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"emailAddress\": \"\",\n    \"password\": \"Password12@@\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/login"
+									},
+									"response": []
 								}
 							],
-							"id": "b57cb936-9392-4194-829b-8c6fd4ee1e63",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-request-source",
-										"value": "customer",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomEmail}}\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseURL}}/auth/signup"
-							},
-							"response": []
-						},
-						{
-							"name": "SignUp-Invalid Email",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "8f327262-4a76-41b7-8c18-d505576e1f59",
-										"exec": [
-											"try {",
-											"const jsonData = pm.response.json();",
-											"pm.test(\"Response body property\", function () {",
-											"    pm.expect(jsonData).to.be.an('object');",
-											"    pm.expect(jsonData.message).to.be.a('string');",
-											"    pm.expect(jsonData.data).to.be.an('object');",
-											"    pm.expect(jsonData.data.cart).to.be.an('array');",
-											"     pm.expect(jsonData.data.orders).to.be.an('array');",
-											"});",
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});",
-											"pm.test(\"User successfully signed up\", function () {",
-											"    pm.expect(jsonData.message).to.eql('User successfully signed up');",
-											"});",
-											"pm.test(\"Status is active\", function () {",
-											"    pm.expect(jsonData.data.status).to.eql('active');",
-											"});",
-											"} catch (errors) {",
-											"    console.error(errors)",
-											"}"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "d82f14ca-4d0c-43c7-bc33-387c3548b664",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-request-source",
-										"value": "customer",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomEmail}}\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseURL}}/auth/signup"
-							},
-							"response": []
-						},
-						{
-							"name": "SignUp-Invalid phone no",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "8f327262-4a76-41b7-8c18-d505576e1f59",
-										"exec": [
-											"try {",
-											"const jsonData = pm.response.json();",
-											"",
-											"pm.test(\"Response body property\", function () {",
-											"    pm.expect(jsonData).to.be.an('object');",
-											"});",
-											"pm.test(\"Status code is 400\", function () {",
-											"    pm.response.to.have.status(400);",
-											"});",
-											"pm.test(\"Status code name has string\", function () {",
-											"    pm.response.to.have.status(\"Bad Request\");",
-											"});",
-											"} catch (errors) {",
-											"    console.error(errors)",
-											"}"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "a8e7cc70-631e-45df-abd4-42f335642f20",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-request-source",
-										"value": "customer",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomEmail}}\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"A900\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseURL}}/auth/signup"
-							},
-							"response": []
-						},
-						{
-							"name": "SignUp-Invalid inputs",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "8f327262-4a76-41b7-8c18-d505576e1f59",
-										"exec": [
-											"try {",
-											"const jsonData = pm.response.json();",
-											"pm.test(\"Response body property\", function () {",
-											"    pm.expect(jsonData).to.be.an('object');",
-											"    pm.expect(jsonData.message).to.be.a('string');",
-											"    pm.expect(jsonData.data).to.be.an('object');",
-											"    pm.expect(jsonData.data.cart).to.be.an('array');",
-											"     pm.expect(jsonData.data.orders).to.be.an('array');",
-											"});",
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});",
-											"pm.test(\"User successfully signed up\", function () {",
-											"    pm.expect(jsonData.message).to.eql('User successfully signed up');",
-											"});",
-											"pm.test(\"Status is active\", function () {",
-											"    pm.expect(jsonData.data.status).to.eql('active');",
-											"});",
-											"} catch (errors) {",
-											"    console.error(errors)",
-											"}"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "66c0536e-2292-4f90-b827-395136ce0374",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-request-source",
-										"value": "customer",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"fullName\": \"1-2_4\",\n    \"emailAddress\": 90,\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"ABC9\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseURL}}/auth/signup"
-							},
-							"response": []
-						},
-						{
-							"name": "SignUp-Weak Password",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "8f327262-4a76-41b7-8c18-d505576e1f59",
-										"exec": [
-											"try {",
-											"const jsonData = pm.response.json();",
-											"",
-											"pm.test(\"Response body property\", function () {",
-											"    pm.expect(jsonData).to.be.an('object');",
-											"    pm.expect(jsonData.data).to.be.an('array');",
-											"});",
-											"pm.test(\"Status code is 400\", function () {",
-											"    pm.response.to.have.status(400);",
-											"});",
-											"pm.test(\"Status code name has string\", function () {",
-											"    pm.response.to.have.status(\"Bad Request\");",
-											"});",
-											"",
-											"pm.test(\"Message is Invalid password complexity\", function () {",
-											"    pm.expect(jsonData.message).to.eql('Invalid password complexity');",
-											"});",
-											"} catch (errors) {",
-											"    console.error(errors)",
-											"}"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "87a7b972-f1a1-404f-af41-2b021478b3e2",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-request-source",
-										"value": "customer",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomEmail}}\",\n    \"password\": \"password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseURL}}/auth/signup"
-							},
-							"response": []
-						},
-						{
-							"name": "SignUp-Existing email",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "8f327262-4a76-41b7-8c18-d505576e1f59",
-										"exec": [
-											"try {",
-											"    const jsonData = pm.response.json();",
-											"    pm.test(\"Response body property\", function () {",
-											"        pm.expect(jsonData).to.be.an('object');",
-											"        pm.expect(jsonData.message).to.be.a('string');",
-											"    });",
-											"    pm.test(\"Status code is 400\", function () {",
-											"        pm.response.to.have.status(400);",
-											"    });",
-											"    pm.test(\"A User with email 'Golda.Langworth@hotmail.com' already exists\", function () {",
-											"        pm.expect(jsonData.message).to.eql(\"A User with email 'Golda.Langworth@hotmail.com' already exists\");",
-											"    });",
-											"    } catch (errors) {",
-											"    console.error(errors)",
-											"}"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "c16d3c91-b559-4278-8e19-6a00dc33ed15",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-request-source",
-										"value": "customer",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"Golda.Langworth@hotmail.com\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseURL}}/auth/signup"
-							},
-							"response": []
-						},
-						{
-							"name": "SignUp-Existing Phone no",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
-										"exec": [
-											"// Fixed syntax error",
-											"const jsonData = pm.response.json();",
-											"pm.test(\"Response body property\", function () {",
-											"    pm.expect(jsonData).to.be.an('object');",
-											"    pm.expect(jsonData.message).to.be.a('string');",
-											"    pm.test(\"Status code name has string\", function () {",
-											"        pm.response.to.have.status(400);",
-											"    });",
-											"});",
-											"pm.test(\"Existing phone no\", function () {",
-											"    pm.expect(jsonData.message).to.eql('A User with phone \\'0783\\' already exists');",
-											"});",
-											"pm.test(\"Status code is 400\", function () {",
-											"    pm.response.to.have.status(400);",
-											"});",
-											""
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "3ac5f851-2341-47de-a65f-f26727fbda7f",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "x-request-source",
-										"value": "admin",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomFirstName}}{{$randomWord}}@mailinator.com\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"AB089\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseURL}}/auth/signup"
-							},
-							"response": []
-						},
-						{
-							"name": "Login",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "27956a20-d014-4ccb-8a8d-dc1700c5025f",
-										"exec": [
-											"try {",
-											"const jsonData = pm.response.json();",
-											"const accesstoken = jsonData.data.accessToken;",
-											"pm.environment.set(\"adminAccessToken\", accesstoken);",
-											"",
-											"pm.test(\"Response body property\", function () {",
-											"    pm.expect(jsonData).to.be.an('object');",
-											"    pm.expect(jsonData.message).to.be.a('string');",
-											"     pm.expect(jsonData.token).to.be.a('string');",
-											"    pm.expect(jsonData.data).to.be.an('object');",
-											"    pm.expect(jsonData.data.cart).to.be.an('array');",
-											"     pm.expect(jsonData.data.orders).to.be.an('array');",
-											"});",
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});",
-											"pm.test(\"User logged in successfully\", function () {",
-											"    pm.expect(jsonData.message).to.eql('User logged in successfully');",
-											"});",
-											"pm.test(\"Status is active\", function () {",
-											"    pm.expect(jsonData.data.status).to.eql('active');",
-											"});",
-											"    pm.test(\"Status code name has string\", function () {",
-											"        pm.response.to.have.status(\"OK\");",
-											"    });",
-											"",
-											"    pm.test(\"Body matches string\", function () {",
-											"        pm.expect(pm.response.text()).to.include(\"token\");",
-											"    });",
-											"} catch (errors) {",
-											"    console.error(errors)",
-											"}"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "b50ea518-a23c-4975-bcc8-c033d3743f64",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"emailAddress\": \"Nelda_Jacobs40@hotmail.com\",\n    \"password\": \"Password12@@\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseURL}}/auth/login"
-							},
-							"response": []
-						},
-						{
-							"name": "Login-Incorrect password",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "27956a20-d014-4ccb-8a8d-dc1700c5025f",
-										"exec": [
-											"try {",
-											"const jsonData = pm.response.json();",
-											"",
-											"pm.test(\"Response body property\", function () {",
-											"    pm.expect(jsonData).to.be.an('object');",
-											"});",
-											"pm.test(\"Invalid login credentials\", function () {",
-											"    pm.expect(jsonData.message).to.eql('Invalid login credentials');",
-											"});",
-											"pm.test(\"Status code is 401\", function () {",
-											"    pm.response.to.have.status(401);",
-											"});",
-											"pm.test(\"Status code name has string\", function () {",
-											"    pm.response.to.have.status(\"Unauthorized\");",
-											"});",
-											"} catch (errors) {",
-											"    console.error(errors)",
-											"}"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "f0676d6e-45fb-4974-a770-c5d45068c0a2",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"emailAddress\": \"Golda.Langworth@hotmail.com\",\n    \"password\": \"Password12@\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseURL}}/auth/login"
-							},
-							"response": []
-						},
-						{
-							"name": "Login-Invalid Email",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "27956a20-d014-4ccb-8a8d-dc1700c5025f",
-										"exec": [
-											"try {",
-											"const jsonData = pm.response.json();",
-											"",
-											"pm.test(\"Response body property\", function () {",
-											"    pm.expect(jsonData).to.be.an('object');",
-											"});",
-											"pm.test(\"Invalid login credentials\", function () {",
-											"    pm.expect(jsonData.message).to.eql('Invalid login credentials');",
-											"});",
-											"pm.test(\"Status code is 401\", function () {",
-											"    pm.response.to.have.status(401);",
-											"});",
-											"pm.test(\"Status code name has string\", function () {",
-											"    pm.response.to.have.status(\"Unauthorized\");",
-											"});",
-											"} catch (errors) {",
-											"    console.error(errors)",
-											"}"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "a6635535-ded9-47a2-b17b-c21182321893",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"emailAddress\": \"Golda.Langworth@hotmail.com\",\n    \"password\": \"Password12@\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseURL}}/auth/login"
-							},
-							"response": []
-						},
-						{
-							"name": "Login-Empty fields",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "27956a20-d014-4ccb-8a8d-dc1700c5025f",
-										"exec": [
-											"try {",
-											"const jsonData = pm.response.json();",
-											"",
-											"pm.test(\"Response body property\", function () {",
-											"    pm.expect(jsonData).to.be.an('object');",
-											"});",
-											"",
-											"pm.test(\"Status code is 400\", function () {",
-											"    pm.response.to.have.status(400);",
-											"});",
-											"pm.test(\"Status code name has string\", function () {",
-											"    pm.response.to.have.status(\"Bad Request\");",
-											"});",
-											"} catch (errors) {",
-											"    console.error(errors)",
-											"}"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "f8b4fcbd-9118-4061-9ae6-62cf24377592",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"emailAddress\": \"\",\n    \"password\": \"\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseURL}}/auth/login"
-							},
-							"response": []
-						},
-						{
-							"name": "Login-Empty Password field",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "27956a20-d014-4ccb-8a8d-dc1700c5025f",
-										"exec": [
-											"try {",
-											"  const jsonData = pm.response.json();",
-											"",
-											"  pm.test(\"Response body property\", function () {",
-											"      pm.expect(jsonData).to.be.an('object');",
-											"  });",
-											"  pm.test(\"Empty password field\", function () {",
-											"      pm.expect(jsonData.message).to.eql('password can not be empty');",
-											"  });",
-											"  pm.test(\"Status code is 400\", function () {",
-											"      pm.response.to.have.status(400);",
-											"  });",
-											"  pm.test(\"Status code name has string\", function () {",
-											"      pm.response.to.have.status(400); // Fixed status code check",
-											"  });",
-											"  pm.test(\"Response time is within acceptable range\", function () {",
-											"      pm.expect(pm.response.responseTime).to.be.below(1000);",
-											"  });",
-											"} catch (errors) {",
-											"    console.error(errors)",
-											"}",
-											""
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "65ab3541-6e01-4903-82a8-816f984cb6f3",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"emailAddress\":\"Nelda_Jacobs40@hotmail.com\",\n    \"password\": \"\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseURL}}/auth/login"
-							},
-							"response": []
-						},
-						{
-							"name": "Login-Empty Email field",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "27956a20-d014-4ccb-8a8d-dc1700c5025f",
-										"exec": [
-											"try {",
-											"const jsonData = pm.response.json();",
-											"",
-											"pm.test(\"Response body property\", function () {",
-											"    pm.expect(jsonData).to.be.an('object');",
-											"});",
-											"pm.test(\"Empty email field\", function () {",
-											"    pm.expect(jsonData.message).to.eql('emailAddress can not be empty');",
-											"});",
-											"pm.test(\"Status code is 400\", function () {",
-											"    pm.response.to.have.status(400);",
-											"});",
-											"pm.test(\"Status code name has string\", function () {",
-											"    pm.response.to.have.status(\"Bad Request\");",
-											"});",
-											"} catch (errors) {",
-											"    console.error(errors)",
-											"}"
-										],
-										"type": "text/javascript",
-										"packages": {}
-									}
-								}
-							],
-							"id": "361cadf8-5c8c-40ee-bb7d-c2c1b4a7ee8c",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "POST",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"emailAddress\": \"\",\n    \"password\": \"Password12@@\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{baseURL}}/auth/login"
-							},
-							"response": []
+							"id": "51436608-de45-4381-aa15-700b7c795452"
 						}
 					],
 					"id": "b5336eef-339f-48be-bf2c-e614684a3430"
