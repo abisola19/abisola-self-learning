@@ -1,0 +1,6 @@
+{
+    "fullName": "Brendan Sanford",
+    "emailAddress": "Derek_Heathcote85@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09095985609"
+}

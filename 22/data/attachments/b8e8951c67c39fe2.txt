@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Cora Yost","emailAddress":"Helene_Herzog@yahoo.com","status":"active","phoneNumber":"09075578056","role":"customer","orders":[],"_id":"66bd01ace26c1336316be45e","cart":[],"createdAt":"2024-08-14T19:12:44.635Z","updatedAt":"2024-08-14T19:12:44.635Z"}}

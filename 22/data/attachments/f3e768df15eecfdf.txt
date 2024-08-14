@@ -1,0 +1,5 @@
+{
+    "name": "Consultant - David Osimen",
+    "description": "Consequuntur et aut neque magnam. Et qui est quos. Dolor ipsa aperiam reprehenderit nihil molestias. Consequatur ut nobis sapiente dicta laborum alias eaque adipisci.",
+    "inspiredBy": "David Osimen"
+}

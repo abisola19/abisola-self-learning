@@ -1,4 +1,0 @@
-{
-    "emailAddress": "",
-    "password": "Password12@@"
-}

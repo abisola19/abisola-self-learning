@@ -1,6 +1,0 @@
-{
-    "fullName": "Rickey Kilback",
-    "emailAddress": "Agustina62@yahoo.com",
-    "password": "password12@@",
-    "phoneNumber": "09050773680"
-}

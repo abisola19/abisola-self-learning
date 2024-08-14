@@ -1,6 +1,0 @@
-{
-    "fullName": "Merle Pfeffer",
-    "emailAddress": "Chasityinitiatives@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

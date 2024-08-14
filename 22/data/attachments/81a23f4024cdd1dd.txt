@@ -1,0 +1,6 @@
+{
+    "fullName": "Miss Elsie Schamberger",
+    "emailAddress": "Fannieusers@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09055882437"
+}

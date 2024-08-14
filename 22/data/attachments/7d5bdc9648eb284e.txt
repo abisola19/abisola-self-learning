@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Megan Kirlin","emailAddress":"Brett37@gmail.com","status":"active","phoneNumber":"09053844669","role":"customer","orders":[],"_id":"66bd01ace26c1336316be45a","cart":[],"createdAt":"2024-08-14T19:12:44.416Z","updatedAt":"2024-08-14T19:12:44.416Z"}}

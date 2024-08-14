@@ -1,9 +1,0 @@
-{
-    "User-Agent": "PostmanRuntime/7.39.0",
-    "Accept": "*/*",
-    "Cache-Control": "no-cache",
-    "Postman-Token": "7037f1ca-4066-4f1e-8da5-9784490dd1fc",
-    "Host": "heatwave-backend.vercel.app",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Connection": "keep-alive"
-}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Abel Herzog Sr.",
+    "emailAddress": "TryciaKiribati@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

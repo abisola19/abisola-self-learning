@@ -1,6 +1,0 @@
-{
-    "fullName": "Delores Watsica",
-    "emailAddress": "Aiyana48@yahoo.com",
-    "password": "Password12@@",
-    "phoneNumber": "09046684573"
-}

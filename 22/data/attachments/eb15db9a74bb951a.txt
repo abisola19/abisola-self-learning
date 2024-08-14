@@ -1,0 +1,6 @@
+{
+    "fullName": "Cora Yost",
+    "emailAddress": "Helene_Herzog@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09075578056"
+}

@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Anthony Fay","emailAddress":"Leo_Witting88@gmail.com","status":"active","phoneNumber":"09023414978","role":"customer","orders":[],"_id":"66b73350c27a48e73801ca43","cart":[],"createdAt":"2024-08-10T09:30:56.332Z","updatedAt":"2024-08-10T09:30:56.332Z"}}

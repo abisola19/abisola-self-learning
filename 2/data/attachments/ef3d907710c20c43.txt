@@ -1,6 +1,0 @@
-{
-    "fullName": "Carol Bashirian DDS",
-    "emailAddress": "Saraiivory@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09079109719"
-}

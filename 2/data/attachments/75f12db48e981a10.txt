@@ -1,6 +1,0 @@
-{
-    "fullName": "Lana Davis",
-    "emailAddress": "Anika_Jerde@gmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09023737341"
-}

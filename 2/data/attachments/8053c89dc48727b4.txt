@@ -1,6 +1,0 @@
-{
-    "fullName": "Mandy Parker",
-    "emailAddress": "MortimerBuckinghamshire@mailinator.com",
-    "password": "Password12",
-    "phoneNumber": "09025204899"
-}

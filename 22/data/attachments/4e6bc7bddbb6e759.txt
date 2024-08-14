@@ -1,0 +1,6 @@
+{
+    "fullName": "Jodi Torphy III",
+    "emailAddress": "CamdenReduced@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

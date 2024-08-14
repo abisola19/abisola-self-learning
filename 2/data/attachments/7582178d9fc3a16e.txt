@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Carol Bashirian DDS","emailAddress":"Saraiivory@mailinator.com","status":"active","phoneNumber":"09079109719","role":"admin","orders":[],"_id":"66b7334bc27a48e73801ca21","cart":[],"createdAt":"2024-08-10T09:30:51.194Z","updatedAt":"2024-08-10T09:30:51.194Z"}}

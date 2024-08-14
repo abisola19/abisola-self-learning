@@ -1,6 +1,0 @@
-{
-    "fullName": "Kate Lang Sr.",
-    "emailAddress": "Janae.Shields@gmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09031962295"
-}

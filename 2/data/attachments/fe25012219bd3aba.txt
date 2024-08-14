@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Lana Davis","emailAddress":"Anika_Jerde@gmail.com","status":"active","phoneNumber":"09023737341","role":"customer","orders":[],"_id":"66b73350c27a48e73801ca47","cart":[],"createdAt":"2024-08-10T09:30:56.577Z","updatedAt":"2024-08-10T09:30:56.577Z"}}

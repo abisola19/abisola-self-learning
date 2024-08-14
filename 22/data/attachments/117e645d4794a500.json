@@ -1,0 +1,10 @@
+{
+    "x-request-source": "admin",
+    "User-Agent": "PostmanRuntime/7.39.0",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "28334ed1-a37f-4f58-b9ef-df7d76d86def",
+    "Host": "heatwave-backend.vercel.app",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive"
+}

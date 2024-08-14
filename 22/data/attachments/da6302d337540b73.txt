@@ -1,0 +1,6 @@
+{
+    "fullName": "Edgar Cole",
+    "emailAddress": "Easter6@gmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09036795216"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Administrator - Atiku Mohammed",
+    "description": "Explicabo magni neque rerum nostrum ratione. Voluptatum magnam aut officiis. Perspiciatis occaecati voluptate cum ratione est.",
+    "inspiredBy": "Atiku Mohammed"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Planner - Eniola Adelowo",
+    "description": "Dolores omnis quo nostrum neque provident ducimus ad quasi. Quo molestiae neque. Impedit molestias maxime quam eos ea qui. Dolore officiis a ipsam non ab tenetur.",
+    "inspiredBy": "Eniola Adelowo"
+}

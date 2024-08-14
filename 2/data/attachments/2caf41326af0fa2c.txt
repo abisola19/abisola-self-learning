@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Shelly Miller","emailAddress":"Leoniepanel@mailinator.c","status":"active","phoneNumber":"09023702992","role":"admin","orders":[],"_id":"66b735e0c27a48e73801ca7b","cart":[],"createdAt":"2024-08-10T09:41:52.277Z","updatedAt":"2024-08-10T09:41:52.277Z"}}

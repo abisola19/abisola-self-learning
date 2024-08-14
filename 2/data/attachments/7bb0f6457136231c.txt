@@ -1,6 +1,0 @@
-{
-    "fullName": "Roberto Predovic",
-    "emailAddress": "JohnnyRupee@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

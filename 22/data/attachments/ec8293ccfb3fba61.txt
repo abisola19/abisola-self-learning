@@ -1,0 +1,6 @@
+{
+    "fullName": "Evelyn Jerde",
+    "emailAddress": "Danedeposit@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09063584004"
+}

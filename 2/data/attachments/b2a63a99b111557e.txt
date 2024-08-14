@@ -1,6 +1,0 @@
-{
-    "fullName": "1-2_4",
-    "emailAddress": 90,
-    "password": "Password12@@",
-    "phoneNumber": "ABC9"
-}

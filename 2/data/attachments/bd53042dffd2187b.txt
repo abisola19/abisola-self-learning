@@ -1,6 +1,0 @@
-{
-    "fullName": "Shelly Miller",
-    "emailAddress": "Leoniepanel@mailinator.c",
-    "password": "Password12@@",
-    "phoneNumber": "09023702992"
-}

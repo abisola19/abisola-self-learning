@@ -1,5 +1,0 @@
-{
-    "name": "Executive - David Osimen",
-    "description": "Voluptatem quis quam commodi nemo iure quia neque. Aperiam modi est iure. Debitis consequatur qui alias officia. In perferendis et nesciunt et suscipit. Corporis nemo earum.",
-    "inspiredBy": "David Osimen"
-}

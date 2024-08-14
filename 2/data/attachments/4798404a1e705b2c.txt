@@ -1,5 +1,0 @@
-{
-    "name": "Administrator - David Osimen",
-    "description": "Qui amet omnis non et sunt laborum voluptatem explicabo. Ipsa enim amet est nobis ipsum quo doloremque quia voluptatem.",
-    "inspiredBy": "David Osimen"
-}

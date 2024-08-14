@@ -1,1 +1,0 @@
-{"message":"fullName can not be empty"}

@@ -1,6 +1,0 @@
-{
-    "fullName": "Emmett Murphy",
-    "emailAddress": "Golda.Langworth@hotmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09063924949"
-}

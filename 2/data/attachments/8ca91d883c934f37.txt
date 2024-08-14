@@ -1,4 +1,0 @@
-{
-    "emailAddress": "{{userEmailAddress}}",
-    "password": "Password12@@"
-}
