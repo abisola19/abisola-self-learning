@@ -3060,7 +3060,7 @@
 												"exec": [
 													"try {",
 													"const jsonData = pm.response.json();",
-													"const accesstoken = jsonData.data.accessToken;",
+													"const accesstoken = jsonData.token;",
 													"pm.environment.set(\"adminAccessToken\", accesstoken);",
 													"",
 													"pm.test(\"Response body property\", function () {",
@@ -3105,7 +3105,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"emailAddress\": \"Nelda_Jacobs40@hotmail.com\",\n    \"password\": \"Password12@@\"\n}",
+											"raw": "{\n    \"emailAddress\": \"{{customerEmailAddress}}\",\n    \"password\": \"Password12@@\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
