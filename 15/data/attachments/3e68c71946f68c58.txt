@@ -1,0 +1,6 @@
+{
+    "fullName": "Lois Ryan",
+    "emailAddress": "Jeanne_Bechtelar71@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09075556429"
+}

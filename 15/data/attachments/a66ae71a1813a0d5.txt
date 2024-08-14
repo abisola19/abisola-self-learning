@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Leslie Johnson","emailAddress":"Thelma_OReilly@yahoo.com","status":"active","phoneNumber":"09040785826","role":"customer","orders":[],"_id":"66bcec988bfe92e9ea2b2612","cart":[],"createdAt":"2024-08-14T17:42:48.916Z","updatedAt":"2024-08-14T17:42:48.916Z"}}

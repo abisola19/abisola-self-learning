@@ -1,0 +1,5 @@
+{
+    "name": "Representative - Eniola Adelowo",
+    "description": "Minus qui est aliquid aliquam et neque soluta. Quia porro voluptas nobis. Sed aut est voluptatem.",
+    "inspiredBy": "Eniola Adelowo"
+}

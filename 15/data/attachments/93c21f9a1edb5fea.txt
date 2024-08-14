@@ -1,0 +1,6 @@
+{
+    "fullName": "Bennie Koepp",
+    "emailAddress": "Antoinettesupply-chains@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}
