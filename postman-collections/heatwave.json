@@ -49,6 +49,18 @@
 												"type": "text/javascript",
 												"packages": {}
 											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"id": "c591a86b-86d0-4d0d-aee4-a57a1be4ce3e",
+												"exec": [
+													"pm.environment.set('baseURL', 'https://heatwave-backend.vercel.app/api')",
+													"// pm.environment.set('baseURL', 'https://prod.heatwave-backend.vercel.app/api')"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
 										}
 									],
 									"id": "98cc2e23-097f-46b4-9574-026a46840673",
