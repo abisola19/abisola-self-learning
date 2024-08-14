@@ -1364,6 +1364,12 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{adminAccessToken}}"
+									}
+								},
 								"method": "POST",
 								"header": [
 									{
@@ -1374,7 +1380,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"name\": \"mason\",\n    \"description\": \"{{$randomLoremSentences}}\"\n}",
+									"raw": "{\n    \"name\": \"{{$randomFullName}}\",\n    \"description\": \"{{$randomLoremSentences}}\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
