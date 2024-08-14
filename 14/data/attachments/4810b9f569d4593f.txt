@@ -1,0 +1,6 @@
+{
+    "fullName": "Naomi Padberg",
+    "emailAddress": "Domenico.Goldner57@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09010731105"
+}

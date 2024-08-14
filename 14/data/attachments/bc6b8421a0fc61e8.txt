@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Kenny Reynolds","emailAddress":"Jennifer_Satterfield69@gmail.com","status":"active","phoneNumber":"09035598769","role":"customer","orders":[],"_id":"66bcebde8bfe92e9ea2b25e0","cart":[],"createdAt":"2024-08-14T17:39:42.872Z","updatedAt":"2024-08-14T17:39:42.872Z"}}

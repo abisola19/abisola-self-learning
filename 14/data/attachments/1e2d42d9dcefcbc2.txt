@@ -1,0 +1,6 @@
+{
+    "fullName": "Sam Gulgowski",
+    "emailAddress": "Phoebesoftware@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

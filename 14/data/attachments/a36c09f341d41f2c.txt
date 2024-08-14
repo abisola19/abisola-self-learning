@@ -1,0 +1,5 @@
+{
+    "name": "Agent - David Osimen",
+    "description": "Modi laborum error id saepe. Non sint nostrum quia iusto reiciendis doloremque dolorem voluptatibus. Id qui asperiores quibusdam assumenda. Eligendi voluptatem omnis. Facere recusandae numquam.",
+    "inspiredBy": "David Osimen"
+}

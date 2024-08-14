@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Byron Hammes","emailAddress":"BradfordQuality-focused@mailinator.com","status":"active","phoneNumber":"09089175431","role":"admin","orders":[],"_id":"66bcebd98bfe92e9ea2b25d0","cart":[],"createdAt":"2024-08-14T17:39:37.587Z","updatedAt":"2024-08-14T17:39:37.587Z"}}

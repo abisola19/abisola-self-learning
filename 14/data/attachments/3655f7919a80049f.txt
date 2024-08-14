@@ -1,0 +1,4 @@
+{
+    "name": "Coordinator",
+    "description": "Est ea cum harum et porro omnis atque odit. Reiciendis assumenda qui fugit praesentium rem perferendis dolores nisi. Adipisci et excepturi vero a qui nobis. Voluptatem non est."
+}

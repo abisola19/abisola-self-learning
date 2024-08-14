@@ -1,0 +1,6 @@
+{
+    "fullName": "Carroll Maggio",
+    "emailAddress": "Thora.Volkman44@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09021245814"
+}

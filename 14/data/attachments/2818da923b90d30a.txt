@@ -1,0 +1,6 @@
+{
+    "fullName": "Maurice Reinger",
+    "emailAddress": "Janiya_Padberg@yahoo.com",
+    "password": "password12@@",
+    "phoneNumber": "09073475970"
+}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Clifford Romaguera",
+    "emailAddress": "abisola@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09071765661"
+}
