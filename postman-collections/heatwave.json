@@ -78,7 +78,7 @@
 									"response": []
 								},
 								{
-									"name": "SignUp-Empty fields",
+									"name": "SignUp-Empty FirstName Field",
 									"event": [
 										{
 											"listen": "test",
