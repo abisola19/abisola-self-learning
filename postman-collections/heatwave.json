@@ -12,6 +12,425 @@
 					"name": "Auth",
 					"item": [
 						{
+							"name": "Signup",
+							"item": [
+								{
+									"name": "SignUp",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
+												"exec": [
+													"try {",
+													"    const jsonData = pm.response.json();",
+													"    pm.environment.set(\"userEmailAddress\", jsonData.data.emailAddress)",
+													"",
+													"    pm.test(\"Response body property\", function () {",
+													"        pm.expect(jsonData).to.be.an('object');",
+													"        pm.expect(jsonData.message).to.be.a('string');",
+													"        pm.expect(jsonData.data).to.be.an('object');",
+													"        pm.expect(jsonData.data.cart).to.be.an('array');",
+													"        pm.expect(jsonData.data.orders).to.be.an('array');",
+													"    });",
+													"    pm.test(\"Status code is 200\", function () {",
+													"        pm.response.to.have.status(200);",
+													"    });",
+													"    pm.test(\"User successfully signed up\", function () {",
+													"        pm.expect(jsonData.message).to.eql('User successfully signed up');",
+													"    });",
+													"    pm.test(\"Status is active\", function () {",
+													"        pm.expect(jsonData.data.status).to.eql('active');",
+													"    });",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "98cc2e23-097f-46b4-9574-026a46840673",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "admin",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomFirstName}}{{$randomWord}}@mailinator.com\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/signup"
+									},
+									"response": []
+								},
+								{
+									"name": "SignUp-Empty fields",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
+												"exec": [
+													"try {",
+													"    const jsonData = pm.response.json();",
+													"",
+													"    pm.test(\"Response body property\", function () {",
+													"        pm.expect(jsonData).to.be.an('object');",
+													"    });",
+													"    pm.test(\"Status code is 400\", function () {",
+													"        pm.response.to.have.status(400);",
+													"    });",
+													"",
+													"    pm.test(\"Test for valid response messahe\", () => {",
+													"        pm.expect(jsonData.message).to.eql(\"fullName can not be empty\")",
+													"    })",
+													"",
+													"    pm.test(\"Status code name has string\", function () {",
+													"        pm.response.to.have.status(\"Bad Request\");",
+													"    });",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "10a180f1-dace-45f7-9602-62100ccc27a4",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "admin",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"\",\n    \"emailAddress\": \"\",\n    \"password\": \"\",\n    \"phoneNumber\": \"\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/signup"
+									},
+									"response": []
+								},
+								{
+									"name": "SignUp-Invalid Email",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
+												"exec": [
+													"try {",
+													"const jsonData = pm.response.json();",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"    pm.expect(jsonData.message).to.be.a('string');",
+													"    pm.test(\"Status code name has string\", function () {",
+													"        pm.response.to.have.status(\"Bad request\");",
+													"    });",
+													"});",
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													"",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "0a9c8f7a-2932-4ab7-9a8a-2576b7e0a9b4",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "admin",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomFirstName}}{{$randomWord}}@mailinator.c\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/signup"
+									},
+									"response": []
+								},
+								{
+									"name": "SignUp-Invalid Phone no",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
+												"exec": [
+													"try {",
+													"const jsonData = pm.response.json();",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"    pm.expect(jsonData.message).to.be.a('string');",
+													"    pm.test(\"Status code name has string\", function () {",
+													"        pm.response.to.have.status(\"Bad Request\");",
+													"    });",
+													"});",
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													"",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "add5ad9e-2a93-4023-8db8-4d46f73baf3b",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "admin",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomFirstName}}{{$randomWord}}@mailinator.com\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"0783\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseUrl}}/auth/signup"
+									},
+									"response": []
+								},
+								{
+									"name": "SignUp-weak password",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
+												"exec": [
+													"try {",
+													"const jsonData = pm.response.json();",
+													"",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"    pm.expect(jsonData.data).to.be.an('array');",
+													"});",
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													"pm.test(\"Status code name has string\", function () {",
+													"    pm.response.to.have.status(\"Bad Request\");",
+													"});",
+													"",
+													"pm.test(\"Message is Invalid password complexity\", function () {",
+													"    pm.expect(jsonData.message).to.eql('Invalid password complexity');",
+													"});",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "54b9d4e6-8dd2-4fe1-b5ab-0cd15c60f4d2",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "admin",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomFirstName}}{{$randomWord}}@mailinator.com\",\n    \"password\": \"Password12\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/signup"
+									},
+									"response": []
+								},
+								{
+									"name": "SignUp-Existing email",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
+												"exec": [
+													"try {",
+													"",
+													"const jsonData = pm.response.json();",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"    pm.expect(jsonData.message).to.be.a('string');",
+													"});",
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													"pm.test(\"A User with email 'abisola@mailinator.com' already exists\", function () {",
+													"    pm.expect(jsonData.message).to.eql(\"A User with email 'abisola@mailinator.com' already exists\");",
+													"});",
+													"pm.test(\"Response status code is 404\", function () {",
+													"    pm.expect(pm.response.code).to.equal(404);",
+													"});",
+													"",
+													"} catch (errors) {",
+													"    console.error(errors)",
+													"}",
+													"",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "838bba23-aa0d-4428-a736-2e1d67290e02",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "admin",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"abisola@mailinator.com\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}}/auth/signup"
+									},
+									"response": []
+								},
+								{
+									"name": "SignUp-Existing Phone no",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
+												"exec": [
+													"// Fixed syntax error",
+													"const jsonData = pm.response.json();",
+													"pm.test(\"Response body property\", function () {",
+													"    pm.expect(jsonData).to.be.an('object');",
+													"    pm.expect(jsonData.message).to.be.a('string');",
+													"    pm.test(\"Status code name has string\", function () {",
+													"        pm.response.to.have.status(400);",
+													"    });",
+													"});",
+													"pm.test(\"Existing phone no\", function () {",
+													"    pm.expect(jsonData.message).to.eql('A User with phone \\'0783\\' already exists');",
+													"});",
+													"pm.test(\"Status code is 400\", function () {",
+													"    pm.response.to.have.status(400);",
+													"});",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "0464c31e-efac-44ac-9aae-904798b27d91",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "x-request-source",
+												"value": "admin",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomFirstName}}{{$randomWord}}@mailinator.com\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"0783\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{baseURL}}/auth/signup"
+									},
+									"response": []
+								}
+							],
+							"id": "a94e399d-c601-41fd-9379-8a6a9ea4b2a0"
+						},
+						{
 							"name": "Login",
 							"item": [
 								{
@@ -405,422 +824,6 @@
 								}
 							],
 							"id": "9c895f38-567d-45f8-8ff3-42538dd1eee6"
-						},
-						{
-							"name": "Signup",
-							"item": [
-								{
-									"name": "SignUp",
-									"event": [
-										{
-											"listen": "test",
-											"script": {
-												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
-												"exec": [
-													"try {",
-													"const jsonData = pm.response.json();",
-													"const accesstoken = jsonData.data.accessToken;",
-													"pm.environment.set(\"adminAccessToken\", accesstoken);",
-													"",
-													"pm.test(\"Response body property\", function () {",
-													"    pm.expect(jsonData).to.be.an('object');",
-													"    pm.expect(jsonData.message).to.be.a('string');",
-													"    pm.expect(jsonData.data).to.be.an('object');",
-													"    pm.expect(jsonData.data.cart).to.be.an('array');",
-													"     pm.expect(jsonData.data.orders).to.be.an('array');",
-													"});",
-													"pm.test(\"Status code is 200\", function () {",
-													"    pm.response.to.have.status(200);",
-													"});",
-													"pm.test(\"User successfully signed up\", function () {",
-													"    pm.expect(jsonData.message).to.eql('User successfully signed up');",
-													"});",
-													"pm.test(\"Status is active\", function () {",
-													"    pm.expect(jsonData.data.status).to.eql('active');",
-													"});",
-													"} catch (errors) {",
-													"    console.error(errors)",
-													"}"
-												],
-												"type": "text/javascript",
-												"packages": {}
-											}
-										}
-									],
-									"id": "98cc2e23-097f-46b4-9574-026a46840673",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-request-source",
-												"value": "admin",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomFirstName}}{{$randomWord}}@mailinator.com\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{baseURL}}/auth/signup"
-									},
-									"response": []
-								},
-								{
-									"name": "SignUp-Empty fields",
-									"event": [
-										{
-											"listen": "test",
-											"script": {
-												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
-												"exec": [
-													"try {",
-													"const jsonData = pm.response.json();",
-													"",
-													"pm.test(\"Response body property\", function () {",
-													"    pm.expect(jsonData).to.be.an('object');",
-													"});",
-													"pm.test(\"Status code is 400\", function () {",
-													"    pm.response.to.have.status(400);",
-													"});",
-													"",
-													"pm.test(\"Status code name has string\", function () {",
-													"    pm.response.to.have.status(\"Bad Request\");",
-													"});",
-													"} catch (errors) {",
-													"    console.error(errors)",
-													"}"
-												],
-												"type": "text/javascript",
-												"packages": {}
-											}
-										}
-									],
-									"id": "10a180f1-dace-45f7-9602-62100ccc27a4",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-request-source",
-												"value": "admin",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"fullName\": \"\",\n    \"emailAddress\": \"\",\n    \"password\": \"\",\n    \"phoneNumber\": \"\"\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{baseURL}}/auth/signup"
-									},
-									"response": []
-								},
-								{
-									"name": "SignUp-Invalid Email",
-									"event": [
-										{
-											"listen": "test",
-											"script": {
-												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
-												"exec": [
-													"try {",
-													"const jsonData = pm.response.json();",
-													"pm.test(\"Response body property\", function () {",
-													"    pm.expect(jsonData).to.be.an('object');",
-													"    pm.expect(jsonData.message).to.be.a('string');",
-													"    pm.test(\"Status code name has string\", function () {",
-													"        pm.response.to.have.status(\"Bad request\");",
-													"    });",
-													"});",
-													"pm.test(\"Status code is 400\", function () {",
-													"    pm.response.to.have.status(400);",
-													"});",
-													"",
-													"} catch (errors) {",
-													"    console.error(errors)",
-													"}"
-												],
-												"type": "text/javascript",
-												"packages": {}
-											}
-										}
-									],
-									"id": "0a9c8f7a-2932-4ab7-9a8a-2576b7e0a9b4",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-request-source",
-												"value": "admin",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomFirstName}}{{$randomWord}}@mailinator.c\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{baseURL}}/auth/signup"
-									},
-									"response": []
-								},
-								{
-									"name": "SignUp-Invalid Phone no",
-									"event": [
-										{
-											"listen": "test",
-											"script": {
-												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
-												"exec": [
-													"try {",
-													"const jsonData = pm.response.json();",
-													"pm.test(\"Response body property\", function () {",
-													"    pm.expect(jsonData).to.be.an('object');",
-													"    pm.expect(jsonData.message).to.be.a('string');",
-													"    pm.test(\"Status code name has string\", function () {",
-													"        pm.response.to.have.status(\"Bad Request\");",
-													"    });",
-													"});",
-													"pm.test(\"Status code is 400\", function () {",
-													"    pm.response.to.have.status(400);",
-													"});",
-													"",
-													"} catch (errors) {",
-													"    console.error(errors)",
-													"}"
-												],
-												"type": "text/javascript",
-												"packages": {}
-											}
-										}
-									],
-									"id": "add5ad9e-2a93-4023-8db8-4d46f73baf3b",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-request-source",
-												"value": "admin",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomFirstName}}{{$randomWord}}@mailinator.com\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"0783\"\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{baseUrl}}/auth/signup"
-									},
-									"response": []
-								},
-								{
-									"name": "SignUp-weak password",
-									"event": [
-										{
-											"listen": "test",
-											"script": {
-												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
-												"exec": [
-													"try {",
-													"const jsonData = pm.response.json();",
-													"",
-													"pm.test(\"Response body property\", function () {",
-													"    pm.expect(jsonData).to.be.an('object');",
-													"    pm.expect(jsonData.data).to.be.an('array');",
-													"});",
-													"pm.test(\"Status code is 400\", function () {",
-													"    pm.response.to.have.status(400);",
-													"});",
-													"pm.test(\"Status code name has string\", function () {",
-													"    pm.response.to.have.status(\"Bad Request\");",
-													"});",
-													"",
-													"pm.test(\"Message is Invalid password complexity\", function () {",
-													"    pm.expect(jsonData.message).to.eql('Invalid password complexity');",
-													"});",
-													"} catch (errors) {",
-													"    console.error(errors)",
-													"}"
-												],
-												"type": "text/javascript",
-												"packages": {}
-											}
-										}
-									],
-									"id": "54b9d4e6-8dd2-4fe1-b5ab-0cd15c60f4d2",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-request-source",
-												"value": "admin",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomFirstName}}{{$randomWord}}@mailinator.com\",\n    \"password\": \"Password12\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{baseURL}}/auth/signup"
-									},
-									"response": []
-								},
-								{
-									"name": "SignUp-Existing email",
-									"event": [
-										{
-											"listen": "test",
-											"script": {
-												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
-												"exec": [
-													"try {",
-													"",
-													"const jsonData = pm.response.json();",
-													"pm.test(\"Response body property\", function () {",
-													"    pm.expect(jsonData).to.be.an('object');",
-													"    pm.expect(jsonData.message).to.be.a('string');",
-													"});",
-													"pm.test(\"Status code is 400\", function () {",
-													"    pm.response.to.have.status(400);",
-													"});",
-													"pm.test(\"A User with email 'abisola@mailinator.com' already exists\", function () {",
-													"    pm.expect(jsonData.message).to.eql(\"A User with email 'abisola@mailinator.com' already exists\");",
-													"});",
-													"pm.test(\"Response status code is 404\", function () {",
-													"    pm.expect(pm.response.code).to.equal(404);",
-													"});",
-													"",
-													"} catch (errors) {",
-													"    console.error(errors)",
-													"}",
-													"",
-													""
-												],
-												"type": "text/javascript",
-												"packages": {}
-											}
-										}
-									],
-									"id": "838bba23-aa0d-4428-a736-2e1d67290e02",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-request-source",
-												"value": "admin",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"abisola@mailinator.com\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"{{phoneNumber}}\"\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{baseURL}}}/auth/signup"
-									},
-									"response": []
-								},
-								{
-									"name": "SignUp-Existing Phone no",
-									"event": [
-										{
-											"listen": "test",
-											"script": {
-												"id": "9564d4a3-466d-4dad-ae25-ebfe14a8a7d8",
-												"exec": [
-													"// Fixed syntax error",
-													"const jsonData = pm.response.json();",
-													"pm.test(\"Response body property\", function () {",
-													"    pm.expect(jsonData).to.be.an('object');",
-													"    pm.expect(jsonData.message).to.be.a('string');",
-													"    pm.test(\"Status code name has string\", function () {",
-													"        pm.response.to.have.status(400);",
-													"    });",
-													"});",
-													"pm.test(\"Existing phone no\", function () {",
-													"    pm.expect(jsonData.message).to.eql('A User with phone \\'0783\\' already exists');",
-													"});",
-													"pm.test(\"Status code is 400\", function () {",
-													"    pm.response.to.have.status(400);",
-													"});",
-													""
-												],
-												"type": "text/javascript",
-												"packages": {}
-											}
-										}
-									],
-									"id": "0464c31e-efac-44ac-9aae-904798b27d91",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "x-request-source",
-												"value": "admin",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"fullName\": \"{{$randomFullName}}\",\n    \"emailAddress\": \"{{$randomFirstName}}{{$randomWord}}@mailinator.com\",\n    \"password\": \"Password12@@\",\n    \"phoneNumber\": \"0783\"\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": "{{baseURL}}/auth/signup"
-									},
-									"response": []
-								}
-							],
-							"id": "a94e399d-c601-41fd-9379-8a6a9ea4b2a0"
 						}
 					],
 					"id": "2f3fae8d-cf64-4816-a3a1-0b23911bb059"
