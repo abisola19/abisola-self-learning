@@ -3061,7 +3061,7 @@
 													"try {",
 													"const jsonData = pm.response.json();",
 													"const accesstoken = jsonData.token;",
-													"pm.environment.set(\"adminAccessToken\", accesstoken);",
+													"pm.environment.set(\"customerAccessToken\", accesstoken);",
 													"",
 													"pm.test(\"Response body property\", function () {",
 													"    pm.expect(jsonData).to.be.an('object');",
