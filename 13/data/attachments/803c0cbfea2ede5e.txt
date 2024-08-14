@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Elsa Ruecker","emailAddress":"Dayanaviolet@mailinator.c","status":"active","phoneNumber":"09061419627","role":"admin","orders":[],"_id":"66bce5ce631ca6a1f6f12ac5","cart":[],"createdAt":"2024-08-14T17:13:50.932Z","updatedAt":"2024-08-14T17:13:50.932Z"}}

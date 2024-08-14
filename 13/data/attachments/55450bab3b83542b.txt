@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Ernesto Lebsack","emailAddress":"Daphneyoptical@mailinator.com","status":"active","phoneNumber":"09038764166","role":"admin","orders":[],"_id":"66bce5ce631ca6a1f6f12ac1","cart":[],"createdAt":"2024-08-14T17:13:50.592Z","updatedAt":"2024-08-14T17:13:50.592Z"}}

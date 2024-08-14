@@ -1,0 +1,6 @@
+{
+    "fullName": "Nicolas Hammes",
+    "emailAddress": "Tianaprogramming@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09064199201"
+}

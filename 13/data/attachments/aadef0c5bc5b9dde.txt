@@ -1,0 +1,6 @@
+{
+    "fullName": "Trevor Schmidt",
+    "emailAddress": "Vicenta56@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09037201438"
+}

@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Trevor Schmidt","emailAddress":"Vicenta56@gmail.com","status":"active","phoneNumber":"09037201438","role":"customer","orders":[],"_id":"66bce5d1631ca6a1f6f12ad5","cart":[],"createdAt":"2024-08-14T17:13:53.939Z","updatedAt":"2024-08-14T17:13:53.939Z"}}

@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Mr. Bobby Wiegand","emailAddress":"Dedrick.Feil@gmail.com","status":"active","phoneNumber":"09017763268","role":"customer","orders":[],"_id":"66bce5d1631ca6a1f6f12acd","cart":[],"createdAt":"2024-08-14T17:13:53.553Z","updatedAt":"2024-08-14T17:13:53.553Z"}}
