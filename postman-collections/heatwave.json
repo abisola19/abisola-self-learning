@@ -1337,7 +1337,10 @@
 										"id": "a20793ee-d66a-4410-b293-91951bbab137",
 										"exec": [
 											"try {\r",
-											"const jsonData = pm.response.json();\r",
+											"    const jsonData = pm.response.json();\r",
+											"    const categoryId = jsonData.data._id\r",
+											"    pm.environment.set(\"categoryId\", categoryId)\r",
+											"\r",
 											"\r",
 											"    pm.test(\"Status code is 201\", function () {\r",
 											"        pm.response.to.have.status(201);\r",
