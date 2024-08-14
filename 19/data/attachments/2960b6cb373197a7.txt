@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Trevor Haag","emailAddress":"Johannadeposit@mailinator.com","status":"active","phoneNumber":"09045182516","role":"admin","orders":[],"_id":"66bcf88811ebfaf6ff24d055","cart":[],"createdAt":"2024-08-14T18:33:44.582Z","updatedAt":"2024-08-14T18:33:44.582Z"}}

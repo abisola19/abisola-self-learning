@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Rachael Johnston MD","emailAddress":"Jeanne_Kertzmann69@hotmail.com","status":"active","phoneNumber":"09020044321","role":"customer","orders":[],"_id":"66bcf88c11ebfaf6ff24d06d","cart":[],"createdAt":"2024-08-14T18:33:48.184Z","updatedAt":"2024-08-14T18:33:48.184Z"}}

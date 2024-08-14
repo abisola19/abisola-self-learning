@@ -1,0 +1,5 @@
+{
+    "name": "Assistant - David Osimen",
+    "description": "Maxime itaque fugiat. Dolorem culpa neque numquam tempore. Esse et debitis sed deserunt et. Vitae amet ab totam amet consequatur atque sunt.",
+    "inspiredBy": "David Osimen"
+}

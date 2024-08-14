@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Mrs. Simon Swift","emailAddress":"FletaXSS@mailinator.c","status":"active","phoneNumber":"09051998151","role":"admin","orders":[],"_id":"66bcf88811ebfaf6ff24d059","cart":[],"createdAt":"2024-08-14T18:33:44.874Z","updatedAt":"2024-08-14T18:33:44.874Z"}}

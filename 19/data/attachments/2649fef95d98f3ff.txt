@@ -1,0 +1,6 @@
+{
+    "fullName": "Mrs. Simon Swift",
+    "emailAddress": "FletaXSS@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09051998151"
+}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Rachael Johnston MD",
+    "emailAddress": "Jeanne_Kertzmann69@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09020044321"
+}

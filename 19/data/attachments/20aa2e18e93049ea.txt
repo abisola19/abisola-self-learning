@@ -1,0 +1,6 @@
+{
+    "fullName": "Clayton Rutherford",
+    "emailAddress": "Jake_Hermann@yahoo.com",
+    "password": "password12@@",
+    "phoneNumber": "09017339482"
+}

@@ -1,0 +1,4 @@
+{
+    "name": "Agege",
+    "amount": 1500
+}
