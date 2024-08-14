@@ -1,6 +1,0 @@
-{
-    "fullName": "Drew Schowalter",
-    "emailAddress": "Vita0@gmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09097490670"
-}

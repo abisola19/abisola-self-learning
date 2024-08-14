@@ -1,6 +1,0 @@
-{
-    "fullName": "Javier Kihn",
-    "emailAddress": "Nelson.Reynolds@gmail.com",
-    "password": "password12@@",
-    "phoneNumber": "09069307732"
-}

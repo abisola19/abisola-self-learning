@@ -1,6 +1,0 @@
-{
-    "fullName": "Chris Altenwerth",
-    "emailAddress": "CaleighAccount@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09013205009"
-}

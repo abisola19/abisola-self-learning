@@ -1,0 +1,5 @@
+{
+    "name": "Planner - Eniola Adelowo",
+    "description": "A praesentium et. Dolorum libero id.",
+    "inspiredBy": "Eniola Adelowo"
+}

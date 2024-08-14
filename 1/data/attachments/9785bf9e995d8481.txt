@@ -1,6 +1,0 @@
-{
-    "fullName": "Jeremy Cummings",
-    "emailAddress": "Elva_Dooley@hotmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09067899456"
-}

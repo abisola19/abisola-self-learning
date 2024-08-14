@@ -1,0 +1,6 @@
+{
+    "fullName": "Mr. Chris Howell",
+    "emailAddress": "abisola@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09052740582"
+}

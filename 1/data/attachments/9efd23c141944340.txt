@@ -1,6 +1,0 @@
-{
-    "fullName": "Alberto Bernier",
-    "emailAddress": "Nicholascalculating@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "AB089"
-}

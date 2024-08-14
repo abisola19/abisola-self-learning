@@ -1,0 +1,6 @@
+{
+    "fullName": "Alfred Langosh",
+    "emailAddress": "Jovannynavigate@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

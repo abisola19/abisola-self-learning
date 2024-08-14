@@ -1,6 +1,0 @@
-{
-    "fullName": "Brett Kutch",
-    "emailAddress": "Terrance_Murphy64@yahoo.com",
-    "password": "Password12@@",
-    "phoneNumber": "09028646717"
-}

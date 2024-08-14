@@ -1,6 +1,0 @@
-{
-    "fullName": "Rochelle Harris",
-    "emailAddress": "Golda.Langworth@hotmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09015183434"
-}

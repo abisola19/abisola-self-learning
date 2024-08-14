@@ -1,6 +1,0 @@
-{
-    "fullName": "Marilyn Mosciski",
-    "emailAddress": "NehaSavings@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09066463458"
-}

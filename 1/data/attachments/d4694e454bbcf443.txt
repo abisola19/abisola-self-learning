@@ -1,4 +1,0 @@
-{
-    "name": "Liaison",
-    "description": "Repudiandae rerum est consequatur nesciunt eaque. Hic alias voluptates laudantium explicabo et. Voluptas occaecati neque similique pariatur sint. Quod temporibus est neque officia sint consequatur consequatur consequatur ad. Enim aut possimus ratione eveniet quibusdam sed minima voluptas exercitationem. Beatae minus sit ratione facere id voluptas dicta et fuga."
-}

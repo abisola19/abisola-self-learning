@@ -1,6 +1,0 @@
-{
-    "fullName": "Ramona Bartell",
-    "emailAddress": "Jaylanpixel@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "AB089"
-}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Marlon Jacobi MD",
+    "emailAddress": "Eltoncultivate@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

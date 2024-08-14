@@ -1,6 +1,0 @@
-{
-    "fullName": "Ms. Stuart Wiegand",
-    "emailAddress": "GersonMouse@mailinator.com",
-    "password": "Password12",
-    "phoneNumber": "09065645680"
-}

@@ -1,6 +1,0 @@
-{
-    "fullName": "Joanna Klein",
-    "emailAddress": "abisola@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09057867948"
-}

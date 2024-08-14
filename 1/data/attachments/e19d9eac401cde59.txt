@@ -1,6 +1,0 @@
-{
-    "fullName": "Minnie Mosciski",
-    "emailAddress": "EarnestineIowa@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

@@ -1,6 +1,0 @@
-{
-    "fullName": "Edwin Leffler",
-    "emailAddress": "Kaia42@gmail.com",
-    "password": "password12@@",
-    "phoneNumber": "09088772367"
-}

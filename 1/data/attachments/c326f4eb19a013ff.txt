@@ -1,6 +1,0 @@
-{
-    "fullName": "Olivia Smith",
-    "emailAddress": "OthaRubber@mailinator.com",
-    "password": "Password12",
-    "phoneNumber": "09069834251"
-}

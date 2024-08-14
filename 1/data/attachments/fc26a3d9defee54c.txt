@@ -1,4 +1,0 @@
-{
-    "name": "Associate",
-    "description": "Quidem quos asperiores. Et animi qui."
-}

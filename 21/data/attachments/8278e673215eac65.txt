@@ -1,0 +1,6 @@
+{
+    "fullName": "Rick Brakus Jr.",
+    "emailAddress": "Adrianna_Nitzsche13@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09098323149"
+}

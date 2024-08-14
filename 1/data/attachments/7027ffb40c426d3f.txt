@@ -1,6 +1,0 @@
-{
-    "fullName": "Tommie Dach",
-    "emailAddress": "BrainGreenland@mailinator.c",
-    "password": "Password12@@",
-    "phoneNumber": "09084171301"
-}

@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Emilio Baumbach","emailAddress":"Jakob.Stoltenberg93@yahoo.com","status":"active","phoneNumber":"09049270391","role":"customer","orders":[],"_id":"66bd0037e26c1336316be433","cart":[],"createdAt":"2024-08-14T19:06:31.732Z","updatedAt":"2024-08-14T19:06:31.732Z"}}

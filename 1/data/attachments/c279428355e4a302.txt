@@ -1,2 +1,0 @@
-level: log, messages: 09056256278
-level: error, messages: [object Object]

@@ -1,0 +1,6 @@
+{
+    "fullName": "Wilson Kling",
+    "emailAddress": "Hadleyprimary@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

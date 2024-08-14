@@ -1,5 +1,0 @@
-{
-    "name": "Manager - David Osimen",
-    "description": "Est nesciunt deserunt est eos sit. Voluptas dolore tenetur totam id voluptatem. Ad soluta nihil omnis voluptatem maiores ipsum voluptate culpa rerum. Debitis sit nihil soluta expedita quis. Odit ducimus laudantium vel unde et totam. Amet beatae qui voluptas id sint dignissimos et.",
-    "inspiredBy": "David Osimen"
-}

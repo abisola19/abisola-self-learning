@@ -1,5 +1,0 @@
-{
-    "name": "Developer - Atiku Mohammed",
-    "description": "Alias dolores architecto sed. Quasi qui occaecati. Numquam ratione assumenda ut eum voluptatum aut voluptate id eaque. Mollitia temporibus aut. Dolorum aperiam eum consectetur aut odio odio sit. Ut cum expedita aliquid voluptas mollitia aliquam placeat.",
-    "inspiredBy": "Atiku Mohammed"
-}

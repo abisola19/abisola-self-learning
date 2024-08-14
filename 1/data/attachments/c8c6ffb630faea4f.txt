@@ -1,4 +1,0 @@
-{
-    "name": "Designer",
-    "description": "Eligendi explicabo quia odit cupiditate aut doloremque molestias alias. Quo voluptas dolorum placeat hic fugiat explicabo. Voluptatem placeat dignissimos officia sit natus voluptatem quidem odit dolore."
-}

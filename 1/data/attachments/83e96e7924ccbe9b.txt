@@ -1,5 +1,0 @@
-{
-    "name": "Developer - Eniola Adelowo",
-    "description": "Doloremque velit soluta sunt asperiores iure voluptatum illo. Nostrum sit expedita qui saepe voluptas eum. Consequatur qui veniam.",
-    "inspiredBy": "Eniola Adelowo"
-}

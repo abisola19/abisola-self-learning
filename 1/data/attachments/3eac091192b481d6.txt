@@ -1,4 +1,0 @@
-{
-    "name": "Engineer",
-    "description": "Libero totam vitae libero esse dignissimos. Quia est inventore consequuntur. Laborum quae id maxime omnis sit perferendis voluptates commodi."
-}

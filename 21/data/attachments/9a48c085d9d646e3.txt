@@ -1,0 +1,5 @@
+{
+    "name": "Analyst - David Osimen",
+    "description": "Similique et repudiandae beatae pariatur at ea harum. Corrupti repellendus esse fuga eos tempora optio hic non aut. Animi et magni et amet velit. Velit non ut unde placeat. Est iusto voluptatibus corporis incidunt ipsum qui vel doloremque autem. Numquam quae itaque veritatis illum tempore.",
+    "inspiredBy": "David Osimen"
+}
