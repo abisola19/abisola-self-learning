@@ -1,0 +1,6 @@
+{
+    "fullName": "Douglas Gleason",
+    "emailAddress": "JanChecking@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09025426638"
+}

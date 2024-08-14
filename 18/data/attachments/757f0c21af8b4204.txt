@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Janet Connelly","emailAddress":"Abdullah70@yahoo.com","status":"active","phoneNumber":"09084319678","role":"customer","orders":[],"_id":"66bcf152e459c25954b45d04","cart":[],"createdAt":"2024-08-14T18:02:58.928Z","updatedAt":"2024-08-14T18:02:58.928Z"}}

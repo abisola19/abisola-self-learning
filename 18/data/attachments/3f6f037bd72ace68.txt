@@ -1,0 +1,6 @@
+{
+    "fullName": "Christian Johns",
+    "emailAddress": "Denakiller@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

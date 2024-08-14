@@ -1,0 +1,6 @@
+{
+    "fullName": "Kerry Harvey",
+    "emailAddress": "Polly_Stroman11@yahoo.com",
+    "password": "password12@@",
+    "phoneNumber": "09070404992"
+}

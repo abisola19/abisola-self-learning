@@ -1,0 +1,6 @@
+{
+    "fullName": "Shawna Rosenbaum",
+    "emailAddress": "Brain_Schaden@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09073391992"
+}

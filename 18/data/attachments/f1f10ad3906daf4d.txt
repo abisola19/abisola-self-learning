@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Deborah Terry","emailAddress":"Loriexperiences@mailinator.com","status":"active","phoneNumber":"09052330617","role":"admin","orders":[],"_id":"66bcf14fe459c25954b45cf4","cart":[],"createdAt":"2024-08-14T18:02:55.707Z","updatedAt":"2024-08-14T18:02:55.707Z"}}

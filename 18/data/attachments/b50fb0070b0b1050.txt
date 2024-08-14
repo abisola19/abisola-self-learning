@@ -1,0 +1,4 @@
+{
+    "name": "Coordinator",
+    "description": "Occaecati vel libero vel nihil nulla. Eos voluptatem provident et. Velit aut quas. Velit beatae repellendus expedita distinctio magni dolor ut error dolores."
+}
