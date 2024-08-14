@@ -1,0 +1,6 @@
+{
+    "fullName": "Pat Shields",
+    "emailAddress": "ArnulfoSummit@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Violet Kuphal","emailAddress":"Brandyn.Morissette@hotmail.com","status":"active","phoneNumber":"09086600081","role":"customer","orders":[],"_id":"66bcefaee459c25954b45ca1","cart":[],"createdAt":"2024-08-14T17:55:58.286Z","updatedAt":"2024-08-14T17:55:58.286Z"}}

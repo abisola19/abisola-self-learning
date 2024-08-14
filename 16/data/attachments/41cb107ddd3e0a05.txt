@@ -1,0 +1,6 @@
+{
+    "fullName": "Joshua Konopelski",
+    "emailAddress": "ReynoldRubber@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09087026419"
+}

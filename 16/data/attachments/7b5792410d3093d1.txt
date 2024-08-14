@@ -1,0 +1,5 @@
+{
+    "name": "Agent - Atiku Mohammed",
+    "description": "Nesciunt quia explicabo natus ut vel saepe blanditiis. Ducimus voluptatum distinctio magnam quo. Consectetur ut perferendis. Odio quas officia facilis eum et doloremque.",
+    "inspiredBy": "Atiku Mohammed"
+}

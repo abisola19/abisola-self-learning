@@ -1,0 +1,6 @@
+{
+    "fullName": "Genevieve Nitzsche",
+    "emailAddress": "Lestereven-keeled@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

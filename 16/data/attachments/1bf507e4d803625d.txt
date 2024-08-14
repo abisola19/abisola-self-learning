@@ -1,0 +1,6 @@
+{
+    "fullName": "Marvin Jaskolski",
+    "emailAddress": "abisola@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09055638154"
+}

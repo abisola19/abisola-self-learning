@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Luther Swaniawski","emailAddress":"Jarrell_Johns@yahoo.com","status":"active","phoneNumber":"09028254057","role":"customer","orders":[],"_id":"66bcefaee459c25954b45c9d","cart":[],"createdAt":"2024-08-14T17:55:58.025Z","updatedAt":"2024-08-14T17:55:58.025Z"}}
