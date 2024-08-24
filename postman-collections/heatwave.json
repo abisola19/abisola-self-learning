@@ -867,7 +867,8 @@
 										"exec": [
 											"try {\r",
 											"const jsonData = pm.response.json();\r",
-											"\r",
+											"const collectionId = jsonData._id;\r",
+											"    pm.environment.set(\"collectionId\",collectionId);\r",
 											"pm.test(\"Response body property\", function () {\r",
 											"    pm.expect(jsonData).to.be.an('object');\r",
 											"    pm.expect(jsonData.message).to.be.a('string');\r",
@@ -902,7 +903,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{adminAccessToken}}"
+										"token": "{{adminToken}}"
 									}
 								},
 								"method": "POST",
