@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Essie Stiedemann","emailAddress":"Marisol30@yahoo.com","status":"active","phoneNumber":"09040370724","role":"customer","orders":[],"_id":"66c98252af64348993d981c3","cart":[],"createdAt":"2024-08-24T06:48:50.861Z","updatedAt":"2024-08-24T06:48:50.861Z"}}

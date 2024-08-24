@@ -1,4 +1,0 @@
-{
-    "name": "Executive",
-    "description": "Rem atque iure rerum natus quia qui voluptatem. Accusamus eligendi est asperiores provident suscipit amet odio fugit. Ut eius quas aperiam doloribus excepturi eos temporibus optio molestias. Architecto distinctio temporibus magni dolor enim voluptatem ab nobis provident."
-}

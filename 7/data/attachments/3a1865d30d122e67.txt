@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Michele Bailey","emailAddress":"Herminia31@gmail.com","status":"active","phoneNumber":"09054112007","role":"customer","orders":[],"_id":"66b7ae070f5503c0c80a5fcb","cart":[],"createdAt":"2024-08-10T18:14:31.448Z","updatedAt":"2024-08-10T18:14:31.448Z"}}

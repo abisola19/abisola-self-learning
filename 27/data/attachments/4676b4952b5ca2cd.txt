@@ -1,0 +1,6 @@
+{
+    "fullName": "Ricardo Torp",
+    "emailAddress": "StefanBuckinghamshire@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09064575170"
+}

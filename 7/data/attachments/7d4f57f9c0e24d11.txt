@@ -1,6 +1,0 @@
-{
-    "fullName": "Desiree Pfannerstill",
-    "emailAddress": "Jarvisrelationships@mailinator.c",
-    "password": "Password12@@",
-    "phoneNumber": "09040856064"
-}

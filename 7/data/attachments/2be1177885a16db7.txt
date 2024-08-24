@@ -1,6 +1,0 @@
-{
-    "fullName": "Chris Rempel",
-    "emailAddress": "Chadd.Gutmann@hotmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09057545901"
-}

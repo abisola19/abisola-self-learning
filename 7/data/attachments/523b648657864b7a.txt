@@ -1,6 +1,0 @@
-{
-    "fullName": "Roderick Gleichner",
-    "emailAddress": "Mireillewithdrawal@mailinator.com",
-    "password": "Password12",
-    "phoneNumber": "09051612062"
-}

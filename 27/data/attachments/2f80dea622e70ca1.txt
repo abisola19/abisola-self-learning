@@ -1,0 +1,6 @@
+{
+    "fullName": "Elbert Quigley",
+    "emailAddress": "Jabari78@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "A900"
+}

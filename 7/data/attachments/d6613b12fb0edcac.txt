@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Chris Rempel","emailAddress":"Chadd.Gutmann@hotmail.com","status":"active","phoneNumber":"09057545901","role":"customer","orders":[],"_id":"66b7ae070f5503c0c80a5fcf","cart":[],"createdAt":"2024-08-10T18:14:31.659Z","updatedAt":"2024-08-10T18:14:31.659Z"}}

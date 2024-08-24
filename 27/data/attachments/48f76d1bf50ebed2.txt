@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Ricardo Torp","emailAddress":"StefanBuckinghamshire@mailinator.c","status":"active","phoneNumber":"09064575170","role":"admin","orders":[],"_id":"66c9824faf64348993d981ac","cart":[],"createdAt":"2024-08-24T06:48:47.925Z","updatedAt":"2024-08-24T06:48:47.925Z"}}

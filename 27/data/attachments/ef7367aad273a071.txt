@@ -1,0 +1,6 @@
+{
+    "fullName": "Essie Stiedemann",
+    "emailAddress": "Marisol30@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09040370724"
+}

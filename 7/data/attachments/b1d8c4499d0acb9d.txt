@@ -1,5 +1,0 @@
-{
-    "name": "Engineer - David Osimen",
-    "description": "Quia distinctio qui et sint nesciunt dicta at. Ut possimus distinctio qui repellendus commodi temporibus ipsam. Rerum illo nostrum animi iure repudiandae. Qui aut minima minima voluptas omnis. Est blanditiis iure dolorem numquam sint qui facilis aut. Possimus dolor rerum et doloribus id magnam.",
-    "inspiredBy": "David Osimen"
-}

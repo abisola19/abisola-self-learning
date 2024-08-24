@@ -1,6 +1,0 @@
-{
-    "fullName": "Caleb Jacobi",
-    "emailAddress": "Lianaoverriding@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

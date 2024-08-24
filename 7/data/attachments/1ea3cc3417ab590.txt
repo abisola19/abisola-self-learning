@@ -1,6 +1,0 @@
-{
-    "fullName": "Gayle Abshire",
-    "emailAddress": "Jon4@hotmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09038634475"
-}

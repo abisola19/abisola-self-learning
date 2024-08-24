@@ -1,4 +1,0 @@
-{
-    "name": "mason",
-    "description": "Aperiam commodi error minima. Soluta voluptatem at cupiditate. Cum quisquam assumenda vel eum et qui."
-}

@@ -1,0 +1,5 @@
+{
+    "name": "Engineer - David Osimen",
+    "description": "Adipisci dolorum magni numquam. Et est qui iste et quod quos ducimus nisi corporis. Eos nostrum excepturi molestias odit tenetur est dignissimos et.",
+    "inspiredBy": "David Osimen"
+}

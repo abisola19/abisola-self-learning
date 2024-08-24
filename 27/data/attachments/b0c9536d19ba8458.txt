@@ -1,0 +1,6 @@
+{
+    "fullName": "Ramon Zulauf",
+    "emailAddress": "Evie.Schinner21@gmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09014152926"
+}

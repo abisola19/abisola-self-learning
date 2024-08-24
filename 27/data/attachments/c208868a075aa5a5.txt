@@ -1,0 +1,6 @@
+{
+    "fullName": "Justin West",
+    "emailAddress": "Asaniches@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09015638689"
+}

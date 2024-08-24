@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Gayle Abshire","emailAddress":"Jon4@hotmail.com","status":"active","phoneNumber":"09038634475","role":"customer","orders":[],"_id":"66b7ae070f5503c0c80a5fd3","cart":[],"createdAt":"2024-08-10T18:14:31.845Z","updatedAt":"2024-08-10T18:14:31.845Z"}}

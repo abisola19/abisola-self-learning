@@ -1,0 +1,5 @@
+{
+    "name": "Strategist - Eniola Adelowo",
+    "description": "Sed consequatur nesciunt qui nihil aut fuga omnis dolor. Dolores est impedit. Fugit illum corrupti ea rerum ab aspernatur.",
+    "inspiredBy": "Eniola Adelowo"
+}

@@ -1,5 +1,0 @@
-{
-    "name": "Facilitator - David Osimen",
-    "description": "Facilis minus culpa ullam. Sed vel laborum quia voluptatem dicta placeat quis.",
-    "inspiredBy": "David Osimen"
-}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Billie Gleason",
+    "emailAddress": "Salmaconglomeration@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09091862222"
+}

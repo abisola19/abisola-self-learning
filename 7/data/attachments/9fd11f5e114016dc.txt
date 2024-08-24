@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Brendan Mayert","emailAddress":"StacyVirtual@mailinator.com","status":"active","phoneNumber":"09034214647","role":"admin","orders":[],"_id":"66b7ae040f5503c0c80a5fbb","cart":[],"createdAt":"2024-08-10T18:14:28.128Z","updatedAt":"2024-08-10T18:14:28.128Z"}}

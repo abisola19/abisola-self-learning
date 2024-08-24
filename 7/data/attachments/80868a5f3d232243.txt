@@ -1,6 +1,0 @@
-{
-    "fullName": "Michele Bailey",
-    "emailAddress": "Herminia31@gmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09054112007"
-}
