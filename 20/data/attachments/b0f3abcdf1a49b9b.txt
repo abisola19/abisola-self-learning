@@ -1,6 +1,0 @@
-{
-    "fullName": "Harry Considine",
-    "emailAddress": "Brooks.Leuschke65@yahoo.com",
-    "password": "Password12@@",
-    "phoneNumber": "09092310309"
-}

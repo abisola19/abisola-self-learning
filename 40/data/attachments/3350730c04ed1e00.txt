@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Olga Reichert","emailAddress":"DangeloAccount@mailinator.c","status":"active","phoneNumber":"09024589806","role":"admin","orders":[],"_id":"66c98ff81e94f7648b4c5a3e","cart":[],"createdAt":"2024-08-24T07:47:04.779Z","updatedAt":"2024-08-24T07:47:04.779Z"}}

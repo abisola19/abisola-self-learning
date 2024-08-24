@@ -1,0 +1,6 @@
+{
+    "fullName": "Patrick Prohaska",
+    "emailAddress": "Jamie.Rippin47@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09023262736"
+}

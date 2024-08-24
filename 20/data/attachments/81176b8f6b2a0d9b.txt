@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Harry Considine","emailAddress":"Brooks.Leuschke65@yahoo.com","status":"active","phoneNumber":"09092310309","role":"customer","orders":[],"_id":"66bcff73e26c1336316be3f3","cart":[],"createdAt":"2024-08-14T19:03:15.303Z","updatedAt":"2024-08-14T19:03:15.303Z"}}

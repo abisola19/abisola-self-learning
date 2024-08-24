@@ -1,6 +1,0 @@
-{
-    "fullName": "Leonard Howell",
-    "emailAddress": "AlaynaSavings@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09090253638"
-}

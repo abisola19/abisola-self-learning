@@ -1,0 +1,1 @@
+{"message":"Delivery location created successfully","data":{"name":"Zora Island","slug":"zora-island","currency":"NGN","amount":1500,"_id":"66c98ffb1e94f7648b4c5a63","createdAt":"2024-08-24T07:47:07.513Z","updatedAt":"2024-08-24T07:47:07.513Z"}}

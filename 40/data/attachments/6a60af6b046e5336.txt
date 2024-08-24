@@ -1,0 +1,6 @@
+{
+    "fullName": "Derrick O'Kon Sr.",
+    "emailAddress": "Macey84@gmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09037210267"
+}

@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Tamara Fay V","emailAddress":"Issac.Jakubowski63@gmail.com","status":"active","phoneNumber":"09030867079","role":"customer","orders":[],"_id":"66bcff73e26c1336316be3ef","cart":[],"createdAt":"2024-08-14T19:03:15.113Z","updatedAt":"2024-08-14T19:03:15.113Z"}}

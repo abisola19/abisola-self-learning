@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Georgia Spinka","emailAddress":"Annamae.Lemke62@yahoo.com","status":"active","phoneNumber":"09037941205","role":"customer","orders":[],"_id":"66c98ffc1e94f7648b4c5a6f","cart":[],"createdAt":"2024-08-24T07:47:08.305Z","updatedAt":"2024-08-24T07:47:08.305Z"}}

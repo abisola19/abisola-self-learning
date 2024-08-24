@@ -1,0 +1,6 @@
+{
+    "fullName": "Olga Reichert",
+    "emailAddress": "DangeloAccount@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09024589806"
+}

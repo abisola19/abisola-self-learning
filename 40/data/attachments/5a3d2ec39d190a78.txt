@@ -1,0 +1,6 @@
+{
+    "fullName": "Mrs. Fred Zboncak",
+    "emailAddress": "GeovanniBacon@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

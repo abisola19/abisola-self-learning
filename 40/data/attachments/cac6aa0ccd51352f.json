@@ -1,0 +1,13 @@
+{
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Length": "832",
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Sat, 24 Aug 2024 07:47:06 GMT",
+    "Etag": "W/\"340-23140HZmbTEmQjR93tDkUpoLXBI\"",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+    "X-Powered-By": "Express",
+    "X-Vercel-Cache": "BYPASS",
+    "X-Vercel-Id": "iad1::iad1::269z7-1724485626952-c2bd7e721579"
+}

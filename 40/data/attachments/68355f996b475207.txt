@@ -1,0 +1,6 @@
+{
+    "fullName": "Lillian Farrell",
+    "emailAddress": "VincentMongolia@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

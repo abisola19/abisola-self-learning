@@ -1,5 +1,0 @@
-{
-    "name": "Planner - Atiku Mohammed",
-    "description": "Aut a voluptatum. Vel dolor impedit eligendi est doloremque quis neque. Sapiente sapiente unde magni beatae quis ipsum quam totam mollitia. Facere voluptatem atque quasi sunt ut. Molestiae facere molestiae qui praesentium quod aut officia.",
-    "inspiredBy": "Atiku Mohammed"
-}

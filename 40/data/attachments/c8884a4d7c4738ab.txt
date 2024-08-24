@@ -1,0 +1,6 @@
+{
+    "fullName": "Bobbie Sporer III",
+    "emailAddress": "Lindsayquantifying@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09054557120"
+}

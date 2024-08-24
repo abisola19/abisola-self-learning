@@ -1,0 +1,6 @@
+{
+    "fullName": "Georgia Spinka",
+    "emailAddress": "Annamae.Lemke62@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09037941205"
+}

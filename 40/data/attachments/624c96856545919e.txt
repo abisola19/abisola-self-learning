@@ -1,0 +1,18 @@
+{
+    "name": "Incredible Plastic Fish",
+    "status": "active",
+    "description": "Ipsum quos eos illo exercitationem corrupti consectetur et.",
+    "isLatestProduct": true,
+    "categoryId": "66c98477af64348993d98226",
+    "variants": [
+        {
+            "color": "string",
+            "size": "string",
+            "images": [
+                "https://img.freepik.com/free-vector/anime-chibi-boy-wearing-cap-character_18591-82515.jpg"
+            ],
+            "isAvailable": true,
+            "price": 200
+        }
+    ]
+}

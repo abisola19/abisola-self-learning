@@ -1,4 +1,0 @@
-{
-    "name": "Cora Pfeffer",
-    "description": "Aut quasi repudiandae corrupti. Sunt optio eos et vel velit eaque voluptate ex et. Excepturi laborum nam. Provident a temporibus adipisci illo sed corrupti dicta. Occaecati reprehenderit eligendi ea quia natus inventore ipsa perspiciatis."
-}

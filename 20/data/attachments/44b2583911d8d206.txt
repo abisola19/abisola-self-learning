@@ -1,5 +1,0 @@
-{
-    "name": "Designer - David Osimen",
-    "description": "Vel quos et rerum voluptates dignissimos et magni maxime repellendus. Facere eaque iure qui et autem. Molestiae voluptate itaque ex illum. Suscipit ab voluptatem veniam itaque asperiores. Consequatur pariatur ad vel doloribus exercitationem optio rerum.",
-    "inspiredBy": "David Osimen"
-}

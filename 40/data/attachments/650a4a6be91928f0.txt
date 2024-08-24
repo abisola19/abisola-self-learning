@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Patrick Prohaska","emailAddress":"Jamie.Rippin47@yahoo.com","status":"active","phoneNumber":"09023262736","role":"customer","orders":[],"_id":"66c98ffc1e94f7648b4c5a6b","cart":[],"createdAt":"2024-08-24T07:47:08.116Z","updatedAt":"2024-08-24T07:47:08.116Z"}}

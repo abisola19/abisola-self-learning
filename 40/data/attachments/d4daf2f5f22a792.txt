@@ -1,0 +1,6 @@
+{
+    "fullName": "Sidney Zulauf",
+    "emailAddress": "RubenMali@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09045122106"
+}

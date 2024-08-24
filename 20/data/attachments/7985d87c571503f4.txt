@@ -1,6 +1,0 @@
-{
-    "fullName": "Judith Sporer DDS",
-    "emailAddress": "Destineebest-of-breed@mailinator.com",
-    "password": "Password12",
-    "phoneNumber": "09021534448"
-}

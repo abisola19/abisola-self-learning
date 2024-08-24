@@ -1,0 +1,1 @@
+{"message":"Profile fetched successfully","data":{"_id":"66c98ffb1e94f7648b4c5a67","fullName":"Darrell Paucek","emailAddress":"Jacynthe_Legros@hotmail.com","status":"active","phoneNumber":"09052071832","role":"customer","orders":[],"cart":[],"createdAt":"2024-08-24T07:47:07.922Z","updatedAt":"2024-08-24T07:47:07.922Z"}}

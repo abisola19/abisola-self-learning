@@ -1,6 +1,0 @@
-{
-    "fullName": "Tamara Fay V",
-    "emailAddress": "Issac.Jakubowski63@gmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09030867079"
-}
