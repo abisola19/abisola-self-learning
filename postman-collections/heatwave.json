@@ -4063,11 +4063,17 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{customerAccessToken}}"
+									}
+								},
 								"method": "POST",
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "\n    {\n        \"_id\": \"669b1c07bb7e7d81bdaab07a\",\n        \"unit\": \"2\"\n    }\n\n",
+									"raw": "\n    {\n        \"_id\": \"\",\n        \"unit\": \"\"\n    }\n\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -4164,7 +4170,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{userAccessToken}}"
+										"token": "{{customerAccessToken}}"
 									}
 								},
 								"method": "GET",
@@ -4220,6 +4226,12 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{customerAccessToken}}"
+									}
+								},
 								"method": "GET",
 								"header": [],
 								"url": "{{baseURL}}/orders"
