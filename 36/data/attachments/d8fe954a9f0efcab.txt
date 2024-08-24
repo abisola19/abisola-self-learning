@@ -1,0 +1,1 @@
+{"message":"Category created successfully","data":{"name":"Marlene Fisher","slug":"marlene-fisher","description":"Cumque eum sequi. Enim et repellendus deserunt tenetur enim vel libero.","_id":"66c98d14af64348993d983e8","createdAt":"2024-08-24T07:34:44.287Z","updatedAt":"2024-08-24T07:34:44.287Z"}}

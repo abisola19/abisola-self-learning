@@ -1,0 +1,6 @@
+{
+    "fullName": "Marvin Windler PhD",
+    "emailAddress": "Ettietoolset@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09086061528"
+}

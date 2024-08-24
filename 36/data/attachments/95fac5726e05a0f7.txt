@@ -1,0 +1,6 @@
+{
+    "fullName": "Dr. Krystal Kulas",
+    "emailAddress": "Leathaleverage@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09033096392"
+}

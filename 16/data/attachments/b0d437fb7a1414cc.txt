@@ -1,6 +1,0 @@
-{
-    "fullName": "Howard Will",
-    "emailAddress": "Garrick58@yahoo.com",
-    "password": "Password12@@",
-    "phoneNumber": "A900"
-}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Yvette Heathcote",
+    "emailAddress": "abisola@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09045055307"
+}

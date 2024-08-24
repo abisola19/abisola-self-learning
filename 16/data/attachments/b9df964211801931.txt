@@ -1,6 +1,0 @@
-{
-    "fullName": "Carol Dare",
-    "emailAddress": "Bernhard.Nikolaus@yahoo.com",
-    "password": "password12@@",
-    "phoneNumber": "09059224221"
-}

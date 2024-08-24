@@ -1,5 +1,0 @@
-{
-    "name": "Technician - David Osimen",
-    "description": "Possimus laudantium cum vel illo et. Eum reprehenderit unde asperiores qui quis. Fugit aut quo. Eligendi ratione dolores. Nihil ut laborum veritatis.",
-    "inspiredBy": "David Osimen"
-}

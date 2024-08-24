@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Marvin Windler PhD","emailAddress":"Ettietoolset@mailinator.com","status":"active","phoneNumber":"09086061528","role":"admin","orders":[],"_id":"66c98d12af64348993d983d4","cart":[],"createdAt":"2024-08-24T07:34:42.495Z","updatedAt":"2024-08-24T07:34:42.495Z"}}

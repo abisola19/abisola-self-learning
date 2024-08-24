@@ -1,6 +1,0 @@
-{
-    "fullName": "Violet Kuphal",
-    "emailAddress": "Brandyn.Morissette@hotmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09086600081"
-}

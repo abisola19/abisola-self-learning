@@ -1,0 +1,6 @@
+{
+    "fullName": "Calvin Thiel IV",
+    "emailAddress": "Devinprotocol@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

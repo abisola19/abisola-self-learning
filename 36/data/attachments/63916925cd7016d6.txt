@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Mitchell Leffler","emailAddress":"Elta_Reinger79@hotmail.com","status":"active","phoneNumber":"09021066261","role":"customer","orders":[],"_id":"66c98d15af64348993d983f6","cart":[],"createdAt":"2024-08-24T07:34:45.564Z","updatedAt":"2024-08-24T07:34:45.564Z"}}

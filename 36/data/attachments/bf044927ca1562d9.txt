@@ -1,0 +1,4 @@
+{
+    "name": "Supervisor",
+    "description": "Ea sunt consectetur sint animi veniam non. Adipisci et quo id qui. Sunt perspiciatis sit quia et molestias repellendus vero et exercitationem. Ut animi omnis impedit praesentium aut sed sunt quaerat est."
+}

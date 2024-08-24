@@ -1,0 +1,5 @@
+{
+    "name": "Officer - David Osimen",
+    "description": "Assumenda laborum alias aliquam sapiente ipsa. Aspernatur magnam est et nemo iure dolore.",
+    "inspiredBy": "David Osimen"
+}

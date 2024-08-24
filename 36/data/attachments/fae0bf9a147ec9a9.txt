@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Ms. Audrey Gutmann","emailAddress":"Ettie.Kozey66@hotmail.com","status":"active","phoneNumber":"09068250450","role":"customer","orders":[],"_id":"66c98d15af64348993d983fa","cart":[],"createdAt":"2024-08-24T07:34:45.740Z","updatedAt":"2024-08-24T07:34:45.740Z"}}

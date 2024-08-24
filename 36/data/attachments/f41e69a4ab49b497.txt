@@ -1,0 +1,6 @@
+{
+    "fullName": "Eloise Boyle",
+    "emailAddress": "Christy_Daniel@yahoo.com",
+    "password": "password12@@",
+    "phoneNumber": "09036187023"
+}

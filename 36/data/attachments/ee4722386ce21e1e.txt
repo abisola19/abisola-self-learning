@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Dr. Krystal Kulas","emailAddress":"Leathaleverage@mailinator.c","status":"active","phoneNumber":"09033096392","role":"admin","orders":[],"_id":"66c98d12af64348993d983d8","cart":[],"createdAt":"2024-08-24T07:34:42.804Z","updatedAt":"2024-08-24T07:34:42.804Z"}}

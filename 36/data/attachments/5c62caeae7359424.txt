@@ -1,0 +1,5 @@
+{
+    "name": "Director - David Osimen",
+    "description": "Voluptate dolorem magnam et. Magni sit voluptatem porro velit blanditiis odio ipsum corrupti sit. Delectus qui ut iure dolorum sint.",
+    "inspiredBy": "David Osimen"
+}

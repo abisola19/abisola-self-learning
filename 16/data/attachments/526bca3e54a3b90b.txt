@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Jeffrey Haley","emailAddress":"LauraPlastic@mailinator.c","status":"active","phoneNumber":"09013960420","role":"admin","orders":[],"_id":"66bcefa8e459c25954b45c8d","cart":[],"createdAt":"2024-08-14T17:55:52.905Z","updatedAt":"2024-08-14T17:55:52.905Z"}}

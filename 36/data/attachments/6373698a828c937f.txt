@@ -1,0 +1,5 @@
+{
+    "name": "Producer - David Osimen",
+    "description": "Sit voluptatem commodi ea et et fugiat magnam. Dolorem omnis magni sapiente perferendis est vero. Explicabo magni et illo a ipsa rerum impedit. Aut non et quisquam doloribus. Qui enim iusto asperiores quidem.",
+    "inspiredBy": "David Osimen"
+}

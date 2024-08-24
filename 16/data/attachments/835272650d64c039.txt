@@ -1,4 +1,0 @@
-{
-    "name": "Strategist",
-    "description": "Consequatur et consequatur. Illo consequatur totam in."
-}

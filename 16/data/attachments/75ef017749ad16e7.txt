@@ -1,6 +1,0 @@
-{
-    "fullName": "Jeffrey Haley",
-    "emailAddress": "LauraPlastic@mailinator.c",
-    "password": "Password12@@",
-    "phoneNumber": "09013960420"
-}

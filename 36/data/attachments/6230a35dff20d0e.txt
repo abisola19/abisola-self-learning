@@ -1,0 +1,6 @@
+{
+    "fullName": "Kristin Homenick",
+    "emailAddress": "Dawsonquantifying@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09062183908"
+}

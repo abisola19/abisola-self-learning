@@ -1,0 +1,6 @@
+{
+    "fullName": "Ms. Audrey Gutmann",
+    "emailAddress": "Ettie.Kozey66@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09068250450"
+}
