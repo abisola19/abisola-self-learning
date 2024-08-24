@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Guy Bednar","emailAddress":"WilhelmineShilling@mailinator.c","status":"active","phoneNumber":"09036242429","role":"admin","orders":[],"_id":"66c98a36af64348993d982dd","cart":[],"createdAt":"2024-08-24T07:22:30.238Z","updatedAt":"2024-08-24T07:22:30.238Z"}}

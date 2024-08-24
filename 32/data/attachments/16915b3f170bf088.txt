@@ -1,0 +1,6 @@
+{
+    "fullName": "Jacqueline Medhurst",
+    "emailAddress": "EnaProduct@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09058422346"
+}

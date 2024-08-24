@@ -1,5 +1,0 @@
-{
-    "name": "Officer - Eniola Adelowo",
-    "description": "Quia veritatis cupiditate et qui. Non cum sed voluptas aliquam illo voluptatem. Similique quis ipsum eum aut minus aspernatur. Et est iure qui commodi velit magni veritatis. Quae est eum aut commodi impedit doloremque tempore.",
-    "inspiredBy": "Eniola Adelowo"
-}

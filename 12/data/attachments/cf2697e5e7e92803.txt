@@ -1,6 +1,0 @@
-{
-    "fullName": "Victor Schumm",
-    "emailAddress": "EldonAvon@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

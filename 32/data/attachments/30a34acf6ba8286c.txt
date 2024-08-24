@@ -1,0 +1,5 @@
+{
+    "name": "Engineer - David Osimen",
+    "description": "Blanditiis vitae esse aut neque quae ut veniam necessitatibus. Est et earum placeat. Nam enim nihil animi dolorum sit illum numquam quam repellat.",
+    "inspiredBy": "David Osimen"
+}

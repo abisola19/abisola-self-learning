@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Steven Walker","emailAddress":"Gloria25@yahoo.com","status":"active","phoneNumber":"09054886692","role":"customer","orders":[],"_id":"66c98a39af64348993d982f4","cart":[],"createdAt":"2024-08-24T07:22:33.081Z","updatedAt":"2024-08-24T07:22:33.081Z"}}

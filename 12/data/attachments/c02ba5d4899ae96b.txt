@@ -1,6 +1,0 @@
-{
-    "fullName": "Johnny Green DDS",
-    "emailAddress": "Agnes5@gmail.com",
-    "password": "password12@@",
-    "phoneNumber": "09013697389"
-}

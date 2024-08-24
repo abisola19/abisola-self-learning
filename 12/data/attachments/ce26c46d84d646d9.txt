@@ -1,6 +1,0 @@
-{
-    "fullName": "Mr. Francisco Fay",
-    "emailAddress": "Rowenastrategic@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09042160765"
-}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Damon Breitenberg",
+    "emailAddress": "CandaceBuckinghamshire@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09010611198"
+}

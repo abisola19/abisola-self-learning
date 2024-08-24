@@ -1,6 +1,0 @@
-{
-    "fullName": "Howard West",
-    "emailAddress": "Golda.Langworth@hotmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09037465289"
-}

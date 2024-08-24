@@ -1,0 +1,5 @@
+{
+    "name": "Associate - Eniola Adelowo",
+    "description": "Est cum omnis fugiat est incidunt animi similique ex. Ex voluptatem sed qui aliquid. Nam sint qui eligendi facilis necessitatibus quas harum rem et. Ut nemo qui officiis repudiandae quaerat necessitatibus voluptates voluptate vel. Porro suscipit aut sint perspiciatis minus molestias. Adipisci rerum exercitationem quod quaerat et et quo aut.",
+    "inspiredBy": "Eniola Adelowo"
+}

@@ -1,0 +1,14 @@
+{
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Encoding": "br",
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Sat, 24 Aug 2024 07:22:32 GMT",
+    "Etag": "W/\"36d7-3QkhcSJdNvB8rdS2axuQeNzr+iA\"",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+    "X-Powered-By": "Express",
+    "X-Vercel-Cache": "BYPASS",
+    "X-Vercel-Id": "iad1::iad1::w5pcg-1724484152067-8e1026dea7f7",
+    "Transfer-Encoding": "chunked"
+}

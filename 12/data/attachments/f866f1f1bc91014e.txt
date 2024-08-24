@@ -1,6 +1,0 @@
-{
-    "fullName": "Horace Hilpert",
-    "emailAddress": "AshleighFrozen@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

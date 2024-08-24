@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Evelyn Orn","emailAddress":"Dana83@gmail.com","status":"active","phoneNumber":"09057084143","role":"customer","orders":[],"_id":"66c98a39af64348993d982f8","cart":[],"createdAt":"2024-08-24T07:22:33.262Z","updatedAt":"2024-08-24T07:22:33.262Z"}}

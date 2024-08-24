@@ -1,0 +1,6 @@
+{
+    "fullName": "Erin Willms",
+    "emailAddress": "TerranceBedfordshire@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

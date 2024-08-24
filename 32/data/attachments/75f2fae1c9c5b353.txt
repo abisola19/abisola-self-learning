@@ -1,0 +1,4 @@
+{
+    "emailAddress": "EnaProduct@mailinator.com",
+    "password": "Password12@@"
+}

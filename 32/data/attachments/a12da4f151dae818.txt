@@ -1,0 +1,6 @@
+{
+    "fullName": "Emilio Towne",
+    "emailAddress": "Chris.Lubowitz@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "A900"
+}

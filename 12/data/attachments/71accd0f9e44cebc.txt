@@ -1,6 +1,0 @@
-{
-    "fullName": "Alan Morissette",
-    "emailAddress": "Woodrowasymmetric@mailinator.com",
-    "password": "Password12",
-    "phoneNumber": "09024907441"
-}

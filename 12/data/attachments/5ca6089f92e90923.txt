@@ -1,4 +1,0 @@
-{
-    "name": "mason",
-    "description": "Ea dolores ducimus iste veritatis ut cum. Vero enim quidem. Explicabo quo sequi sit quis sint deserunt magnam tenetur reiciendis."
-}

@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Ms. Brenda Johnston","emailAddress":"Carmen72@yahoo.com","status":"active","phoneNumber":"09099399738","role":"customer","orders":[],"_id":"66b7c5f8f9cd67bfdefd0aae","cart":[],"createdAt":"2024-08-10T19:56:40.321Z","updatedAt":"2024-08-10T19:56:40.321Z"}}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Clinton Borer",
+    "emailAddress": "Wilfredo.Moen@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09079647982"
+}

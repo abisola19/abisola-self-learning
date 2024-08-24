@@ -1,4 +1,0 @@
-{
-    "name": "Planner",
-    "description": "Quibusdam harum laboriosam dolores deserunt sequi tenetur qui incidunt. Qui perferendis voluptatem enim delectus perferendis. Ipsam sed ipsam labore aut nesciunt temporibus deserunt. Voluptatem qui tempora modi animi et iusto incidunt. Ex impedit ut rerum laborum alias. Voluptas soluta voluptas provident saepe."
-}

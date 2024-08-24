@@ -1,0 +1,1 @@
+{"message":"Profile fetched successfully","data":{"_id":"66c98a38af64348993d982f0","fullName":"Clinton Borer","emailAddress":"Wilfredo.Moen@yahoo.com","status":"active","phoneNumber":"09079647982","role":"customer","orders":[],"cart":[],"createdAt":"2024-08-24T07:22:32.902Z","updatedAt":"2024-08-24T07:22:32.902Z"}}

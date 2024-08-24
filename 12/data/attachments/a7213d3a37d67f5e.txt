@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Mr. Francisco Fay","emailAddress":"Rowenastrategic@mailinator.com","status":"active","phoneNumber":"09042160765","role":"admin","orders":[],"_id":"66b7c5f5f9cd67bfdefd0a9e","cart":[],"createdAt":"2024-08-10T19:56:37.440Z","updatedAt":"2024-08-10T19:56:37.440Z"}}

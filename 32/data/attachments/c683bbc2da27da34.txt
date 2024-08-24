@@ -1,0 +1,6 @@
+{
+    "fullName": "Grady Tillman",
+    "emailAddress": "Ward10@hotmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09020563689"
+}

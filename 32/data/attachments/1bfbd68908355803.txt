@@ -1,0 +1,5 @@
+{
+    "name": "Liaison - Eniola Adelowo",
+    "description": "Ab id minima occaecati blanditiis facilis quam. Quis quam doloribus debitis qui. Deserunt fuga porro delectus molestiae voluptatem. Possimus eos nulla est sed voluptate corrupti. Autem vitae dolor. Veritatis et est rerum tenetur.",
+    "inspiredBy": "Eniola Adelowo"
+}

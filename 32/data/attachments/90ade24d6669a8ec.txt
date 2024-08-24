@@ -1,0 +1,6 @@
+{
+    "fullName": "Regina Tromp",
+    "emailAddress": "abisola@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09085998218"
+}
