@@ -1,5 +1,0 @@
-{
-    "name": "Administrator - Atiku Mohammed",
-    "description": "Eligendi et magnam ea nulla sapiente velit. Quis ut quam est velit et neque. Qui nihil beatae perferendis sit maxime.",
-    "inspiredBy": "Atiku Mohammed"
-}

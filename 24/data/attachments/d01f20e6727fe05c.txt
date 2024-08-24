@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Lucy Bernier","emailAddress":"Justus.Hauck82@hotmail.com","status":"active","phoneNumber":"09018039682","role":"customer","orders":[],"_id":"66c97ec4af64348993d98117","cart":[],"createdAt":"2024-08-24T06:33:40.943Z","updatedAt":"2024-08-24T06:33:40.943Z"}}

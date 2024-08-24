@@ -1,6 +1,0 @@
-{
-    "fullName": "Gretchen Brekke",
-    "emailAddress": "abisola@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09092287299"
-}

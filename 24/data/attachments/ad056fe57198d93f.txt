@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Dr. Vickie Stracke","emailAddress":"Karli.Windler27@hotmail.com","status":"active","phoneNumber":"09076249489","role":"customer","orders":[],"_id":"66c97ec5af64348993d9811b","cart":[],"createdAt":"2024-08-24T06:33:41.179Z","updatedAt":"2024-08-24T06:33:41.179Z"}}

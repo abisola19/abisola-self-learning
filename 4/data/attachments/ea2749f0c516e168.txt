@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Holly McLaughlin","emailAddress":"Alexandrea53@hotmail.com","status":"active","phoneNumber":"09069758480","role":"customer","orders":[],"_id":"66b7ab700f5503c0c80a5f51","cart":[],"createdAt":"2024-08-10T18:03:28.681Z","updatedAt":"2024-08-10T18:03:28.681Z"}}

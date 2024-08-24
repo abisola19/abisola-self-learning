@@ -1,0 +1,6 @@
+{
+    "fullName": "Lucy Bernier",
+    "emailAddress": "Justus.Hauck82@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09018039682"
+}

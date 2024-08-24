@@ -1,0 +1,6 @@
+{
+    "fullName": "Dr. Vickie Stracke",
+    "emailAddress": "Karli.Windler27@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09076249489"
+}

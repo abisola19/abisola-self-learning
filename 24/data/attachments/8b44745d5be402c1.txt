@@ -1,0 +1,6 @@
+{
+    "fullName": "Barry Kutch",
+    "emailAddress": "JovaniTasty@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

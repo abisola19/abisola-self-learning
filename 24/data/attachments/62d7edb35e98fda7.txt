@@ -1,0 +1,6 @@
+{
+    "fullName": "Norma Emard",
+    "emailAddress": "Nicolettemetrics@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09050337686"
+}

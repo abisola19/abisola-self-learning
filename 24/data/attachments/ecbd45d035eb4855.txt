@@ -1,0 +1,6 @@
+{
+    "fullName": "Jeff Hansen",
+    "emailAddress": "CliftonMississippi@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09015714990"
+}

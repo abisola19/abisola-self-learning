@@ -1,6 +1,0 @@
-{
-    "fullName": "Elvira Leannon",
-    "emailAddress": "RichmondIntranet@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

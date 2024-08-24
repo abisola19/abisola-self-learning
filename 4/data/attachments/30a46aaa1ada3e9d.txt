@@ -1,4 +1,0 @@
-{
-    "name": "Strategist",
-    "description": "Eius reiciendis harum beatae voluptas a eligendi porro sit commodi. Voluptate aut vel optio in id. Dolorem dolore ut ratione quisquam est aut ullam minus. Nemo quam et quo occaecati non vel delectus non libero."
-}

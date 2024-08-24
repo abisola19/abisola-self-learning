@@ -1,0 +1,6 @@
+{
+    "fullName": "Misty Windler",
+    "emailAddress": "Golda.Langworth@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09083855830"
+}

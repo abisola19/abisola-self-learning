@@ -1,0 +1,6 @@
+{
+    "fullName": "Rosie White",
+    "emailAddress": "Hattiepayment@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

@@ -1,0 +1,4 @@
+{
+    "name": "Manager",
+    "description": "Quo qui non aut ducimus est fuga deserunt nobis voluptatem. A sunt iusto enim quas."
+}

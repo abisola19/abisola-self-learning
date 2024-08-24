@@ -1,6 +1,0 @@
-{
-    "fullName": "Lester Upton",
-    "emailAddress": "Rethaopen-source@mailinator.com",
-    "password": "Password12",
-    "phoneNumber": "09087485361"
-}

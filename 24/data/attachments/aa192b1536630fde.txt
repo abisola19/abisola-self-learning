@@ -1,0 +1,6 @@
+{
+    "fullName": "Gertrude Corkery",
+    "emailAddress": "Janetinvoice@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09018151160"
+}

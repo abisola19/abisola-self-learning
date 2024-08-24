@@ -1,6 +1,0 @@
-{
-    "fullName": "Myra Dickinson",
-    "emailAddress": "Kaela_Cassin54@hotmail.com",
-    "password": "password12@@",
-    "phoneNumber": "09070099757"
-}

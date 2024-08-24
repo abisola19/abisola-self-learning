@@ -1,0 +1,6 @@
+{
+    "fullName": "Estelle Hamill",
+    "emailAddress": "Stephon.McGlynn44@gmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09098373449"
+}

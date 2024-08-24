@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Jeff Hansen","emailAddress":"CliftonMississippi@mailinator.c","status":"active","phoneNumber":"09015714990","role":"admin","orders":[],"_id":"66c97ec0af64348993d980fc","cart":[],"createdAt":"2024-08-24T06:33:36.006Z","updatedAt":"2024-08-24T06:33:36.006Z"}}

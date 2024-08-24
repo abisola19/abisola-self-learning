@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Rosa Towne","emailAddress":"HesterBuckinghamshire@mailinator.c","status":"active","phoneNumber":"09080531302","role":"admin","orders":[],"_id":"66b7ab6d0f5503c0c80a5f41","cart":[],"createdAt":"2024-08-10T18:03:25.277Z","updatedAt":"2024-08-10T18:03:25.277Z"}}

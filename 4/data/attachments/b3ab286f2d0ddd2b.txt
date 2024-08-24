@@ -1,5 +1,0 @@
-{
-    "name": "Coordinator - David Osimen",
-    "description": "Illo eos mollitia quos et vel qui. Vel molestiae est. Dolores veritatis ipsa dignissimos et perferendis iure. Sed aut est provident quasi et quidem ipsa distinctio expedita.",
-    "inspiredBy": "David Osimen"
-}

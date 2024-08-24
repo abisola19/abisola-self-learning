@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Ms. Cathy Weissnat","emailAddress":"Kiera29@gmail.com","status":"active","phoneNumber":"09030930805","role":"customer","orders":[],"_id":"66c97ec4af64348993d98113","cart":[],"createdAt":"2024-08-24T06:33:40.704Z","updatedAt":"2024-08-24T06:33:40.704Z"}}

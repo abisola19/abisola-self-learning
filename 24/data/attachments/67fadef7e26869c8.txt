@@ -1,0 +1,6 @@
+{
+    "fullName": "Ms. Cathy Weissnat",
+    "emailAddress": "Kiera29@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09030930805"
+}

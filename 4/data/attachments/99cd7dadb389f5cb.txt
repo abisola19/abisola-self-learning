@@ -1,5 +1,0 @@
-{
-    "name": "Director - Eniola Adelowo",
-    "description": "Laborum veritatis distinctio quibusdam est sed similique. Ipsam nobis itaque qui iste ad tempora. Deleniti ex reiciendis. Maxime tempora unde tempore explicabo maxime sunt. Distinctio expedita tempore et repellat doloribus quod vero tempora.",
-    "inspiredBy": "Eniola Adelowo"
-}
