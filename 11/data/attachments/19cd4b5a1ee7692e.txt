@@ -1,6 +1,0 @@
-{
-    "fullName": "Holly Balistreri",
-    "emailAddress": "Prince81@gmail.com",
-    "password": "password12@@",
-    "phoneNumber": "09099413188"
-}

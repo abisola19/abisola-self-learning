@@ -1,0 +1,6 @@
+{
+    "fullName": "Miss Kristi Macejkovic",
+    "emailAddress": "Johnpaul_Veum@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09025699815"
+}

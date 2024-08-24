@@ -1,0 +1,6 @@
+{
+    "fullName": "Mrs. Darryl Gorczany",
+    "emailAddress": "Nolan_Jacobson@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "A900"
+}

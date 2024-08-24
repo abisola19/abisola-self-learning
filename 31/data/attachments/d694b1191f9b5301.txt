@@ -1,0 +1,6 @@
+{
+    "fullName": "Lester DuBuque",
+    "emailAddress": "Elizabethvalue-added@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09077019264"
+}

@@ -1,6 +1,0 @@
-{
-    "fullName": "Grace Koch",
-    "emailAddress": "Brian26@yahoo.com",
-    "password": "Password12@@",
-    "phoneNumber": "A900"
-}

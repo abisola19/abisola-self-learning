@@ -1,6 +1,0 @@
-{
-    "fullName": "Pearl Bartoletti",
-    "emailAddress": "Soledadcore@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "AB089"
-}

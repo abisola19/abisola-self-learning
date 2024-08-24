@@ -1,0 +1,6 @@
+{
+    "fullName": "Loren Wuckert",
+    "emailAddress": "VallieRhode@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

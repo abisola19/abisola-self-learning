@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Karl Rice PhD","emailAddress":"AlysaFTP@mailinator.c","status":"active","phoneNumber":"09028010979","role":"admin","orders":[],"_id":"66c9897faf64348993d982a0","cart":[],"createdAt":"2024-08-24T07:19:27.595Z","updatedAt":"2024-08-24T07:19:27.595Z"}}

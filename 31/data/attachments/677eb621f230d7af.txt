@@ -1,0 +1,6 @@
+{
+    "fullName": "Karl Rice PhD",
+    "emailAddress": "AlysaFTP@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09028010979"
+}

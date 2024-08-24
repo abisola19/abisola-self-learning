@@ -1,0 +1,6 @@
+{
+    "fullName": "Olivia Gutkowski",
+    "emailAddress": "Mylene.Padberg@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09019148645"
+}

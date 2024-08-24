@@ -1,4 +1,0 @@
-{
-    "name": "Specialist",
-    "description": "Atque similique omnis et fugit. Laboriosam incidunt dolorem. Omnis autem totam pariatur quod earum autem omnis."
-}

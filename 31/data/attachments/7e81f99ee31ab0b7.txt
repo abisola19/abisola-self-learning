@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Terrell Anderson","emailAddress":"Mabelle77@yahoo.com","status":"active","phoneNumber":"09023410370","role":"customer","orders":[],"_id":"66c98982af64348993d982b9","cart":[],"createdAt":"2024-08-24T07:19:30.441Z","updatedAt":"2024-08-24T07:19:30.441Z"}}

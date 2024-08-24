@@ -1,0 +1,6 @@
+{
+    "fullName": "Randolph Rath",
+    "emailAddress": "Valerieblack@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

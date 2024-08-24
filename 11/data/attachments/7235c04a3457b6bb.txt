@@ -1,6 +1,0 @@
-{
-    "fullName": "Erin King",
-    "emailAddress": "AlberthaBerkshire@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

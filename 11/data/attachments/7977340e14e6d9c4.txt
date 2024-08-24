@@ -1,6 +1,0 @@
-{
-    "fullName": "Jessica Beer",
-    "emailAddress": "KyleighAnalyst@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

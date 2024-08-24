@@ -1,5 +1,0 @@
-{
-    "name": "Executive - David Osimen",
-    "description": "Similique qui dolorem est labore voluptas fugiat nulla. Excepturi nesciunt assumenda repellat fuga quia sapiente. Nihil voluptatem quae delectus officiis expedita. Eos non quos delectus sed quia aut laborum. Quia repudiandae qui incidunt dolores consectetur voluptatem quis quam.",
-    "inspiredBy": "David Osimen"
-}

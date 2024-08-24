@@ -1,4 +1,0 @@
-{
-    "name": "mason",
-    "description": "Adipisci sunt illum dolores est non placeat ducimus autem cumque. Dolorem officiis et et perspiciatis ratione aut veniam."
-}

@@ -1,6 +1,0 @@
-{
-    "fullName": "Rogelio Wilkinson",
-    "emailAddress": "ShannaGardens@mailinator.c",
-    "password": "Password12@@",
-    "phoneNumber": "09034828025"
-}

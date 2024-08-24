@@ -1,0 +1,6 @@
+{
+    "fullName": "Terrell Anderson",
+    "emailAddress": "Mabelle77@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09023410370"
+}

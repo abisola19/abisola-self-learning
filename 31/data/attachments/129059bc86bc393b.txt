@@ -1,0 +1,6 @@
+{
+    "fullName": "Javier Littel",
+    "emailAddress": "Veronae-business@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09030448643"
+}

@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Olivia Gutkowski","emailAddress":"Mylene.Padberg@yahoo.com","status":"active","phoneNumber":"09019148645","role":"customer","orders":[],"_id":"66c98982af64348993d982bd","cart":[],"createdAt":"2024-08-24T07:19:30.618Z","updatedAt":"2024-08-24T07:19:30.618Z"}}

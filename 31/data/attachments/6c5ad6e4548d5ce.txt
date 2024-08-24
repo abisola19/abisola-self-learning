@@ -1,0 +1,5 @@
+{
+    "name": "Assistant - David Osimen",
+    "description": "Soluta aut et illo. Et aliquam tempora. Consectetur veniam aut illo voluptatem. Enim sequi sed veniam nulla labore tenetur ut quia. Dolorem maxime ea enim mollitia sed cupiditate sit sit ea.",
+    "inspiredBy": "David Osimen"
+}
