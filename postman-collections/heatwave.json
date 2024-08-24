@@ -1203,6 +1203,12 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{adminToken}}"
+									}
+								},
 								"method": "GET",
 								"header": [],
 								"url": "{{baseURL}}/collections"
@@ -1301,7 +1307,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{accessToken}}"
+										"token": "{{adminToken}}"
 									}
 								},
 								"method": "GET",
@@ -1505,6 +1511,12 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{adminToken}}"
+									}
+								},
 								"method": "POST",
 								"header": [
 									{
