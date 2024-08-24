@@ -1,0 +1,6 @@
+{
+    "fullName": "Domingo Russel PhD",
+    "emailAddress": "Bradly_Stehr82@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09017431119"
+}

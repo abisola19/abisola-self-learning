@@ -1,0 +1,5 @@
+{
+    "name": "Designer - Atiku Mohammed",
+    "description": "Quam accusantium corrupti voluptas. Consequatur natus ipsam voluptatibus atque temporibus sunt. A dolore sed quaerat et non. Nesciunt necessitatibus dolore.",
+    "inspiredBy": "Atiku Mohammed"
+}

@@ -1,6 +1,0 @@
-{
-    "fullName": "Mr. Lynn Rolfson",
-    "emailAddress": "BruceAutomotive@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

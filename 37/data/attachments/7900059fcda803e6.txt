@@ -1,0 +1,6 @@
+{
+    "fullName": "Troy Hudson II",
+    "emailAddress": "EmmaleeCliff@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

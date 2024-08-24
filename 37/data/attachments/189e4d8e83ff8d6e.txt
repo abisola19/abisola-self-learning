@@ -1,0 +1,6 @@
+{
+    "fullName": "Catherine Senger",
+    "emailAddress": "TabithaStand-alone@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09070279668"
+}

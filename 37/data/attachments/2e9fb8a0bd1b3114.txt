@@ -1,0 +1,6 @@
+{
+    "fullName": "Marcella Blanda",
+    "emailAddress": "Westley_Bernier@gmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09043272914"
+}

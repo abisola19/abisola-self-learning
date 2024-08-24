@@ -1,0 +1,1 @@
+{"message":"Delivery location created successfully","data":{"name":"Rosa Plaza","slug":"rosa-plaza","currency":"NGN","amount":1500,"_id":"66c98dd1af64348993d9843b","createdAt":"2024-08-24T07:37:53.380Z","updatedAt":"2024-08-24T07:37:53.380Z"}}

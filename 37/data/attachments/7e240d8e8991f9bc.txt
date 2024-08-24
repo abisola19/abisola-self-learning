@@ -1,0 +1,6 @@
+{
+    "fullName": "Cecilia King Sr.",
+    "emailAddress": "Marinaindexing@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09042476113"
+}

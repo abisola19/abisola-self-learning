@@ -1,6 +1,0 @@
-{
-    "fullName": "Malcolm Marvin",
-    "emailAddress": "Rudy.Yundt@hotmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09073593908"
-}

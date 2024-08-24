@@ -1,0 +1,4 @@
+{
+    "name": "Strategist",
+    "description": "Impedit incidunt quisquam. Enim doloribus neque rem assumenda. Quae qui voluptatem veritatis omnis officia itaque praesentium maiores. Natus totam at veniam vitae sit perspiciatis quam. Eligendi consectetur unde dolor excepturi molestias quaerat in nesciunt."
+}

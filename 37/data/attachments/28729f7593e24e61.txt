@@ -1,0 +1,6 @@
+{
+    "fullName": "Meredith Torp",
+    "emailAddress": "Estella_Quitzon@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "A900"
+}

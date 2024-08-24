@@ -1,0 +1,1 @@
+{"message":"Category created successfully","data":{"name":"Ruth Strosin","slug":"ruth-strosin","description":"Et aliquam voluptatem voluptates sed et voluptatem. Eaque ut deleniti et ipsum debitis nihil dolorem cum.","_id":"66c98dcfaf64348993d9842f","createdAt":"2024-08-24T07:37:51.554Z","updatedAt":"2024-08-24T07:37:51.554Z"}}

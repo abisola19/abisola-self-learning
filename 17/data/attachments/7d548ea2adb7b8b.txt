@@ -1,4 +1,0 @@
-{
-    "name": "Brandy Bergstrom",
-    "description": "Nulla qui iste delectus. Repellendus voluptatem est tempore inventore. Quae expedita voluptatem totam adipisci sit minima dolor doloremque. Quam eaque ea molestiae nulla eos consequatur nihil est porro. Accusamus voluptate explicabo est."
-}

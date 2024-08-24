@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Domingo Russel PhD","emailAddress":"Bradly_Stehr82@hotmail.com","status":"active","phoneNumber":"09017431119","role":"customer","orders":[],"_id":"66c98dd2af64348993d98447","cart":[],"createdAt":"2024-08-24T07:37:54.480Z","updatedAt":"2024-08-24T07:37:54.480Z"}}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Roberto Klocko DVM",
+    "emailAddress": "Lew_Hilpert@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09080741691"
+}

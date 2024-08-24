@@ -1,0 +1,1 @@
+{"message":"Profile fetched successfully","data":{"_id":"66c98dd1af64348993d9843f","fullName":"Troy Wyman","emailAddress":"Dangelo_Kub93@yahoo.com","status":"active","phoneNumber":"09092121154","role":"customer","orders":[],"cart":[],"createdAt":"2024-08-24T07:37:53.980Z","updatedAt":"2024-08-24T07:37:53.980Z"}}

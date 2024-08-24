@@ -1,6 +1,0 @@
-{
-    "fullName": "Minnie Emard IV",
-    "emailAddress": "Robertocopy@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

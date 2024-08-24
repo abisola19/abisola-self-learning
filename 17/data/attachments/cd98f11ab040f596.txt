@@ -1,5 +1,0 @@
-{
-    "name": "Administrator - Eniola Adelowo",
-    "description": "Ex repellendus vitae repudiandae laborum vitae vel. Corporis voluptas commodi dolorem. Reiciendis sint ut natus eum error. Nesciunt fugit ducimus ut nostrum est. Autem porro voluptates.",
-    "inspiredBy": "Eniola Adelowo"
-}

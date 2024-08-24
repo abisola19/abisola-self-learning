@@ -1,0 +1,6 @@
+{
+    "fullName": "Ernest Gottlieb",
+    "emailAddress": "Cesardrive@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

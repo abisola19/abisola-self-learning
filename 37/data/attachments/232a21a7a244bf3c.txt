@@ -1,0 +1,6 @@
+{
+    "fullName": "Meghan Padberg",
+    "emailAddress": "Kamrynbus@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09014618700"
+}

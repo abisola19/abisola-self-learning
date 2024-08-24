@@ -1,4 +1,0 @@
-{
-    "name": "Director",
-    "description": "Voluptatibus deleniti vero minima incidunt veniam dolorum. Voluptate voluptate asperiores qui nihil rerum dolore explicabo. Odit animi consequuntur. Qui rem dolorem placeat dolore. Neque accusantium soluta hic quasi ab. Reprehenderit alias ducimus."
-}

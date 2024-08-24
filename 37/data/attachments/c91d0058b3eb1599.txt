@@ -1,0 +1,4 @@
+{
+    "name": "Rosa Plaza",
+    "amount": 1500
+}

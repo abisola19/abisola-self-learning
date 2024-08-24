@@ -1,0 +1,6 @@
+{
+    "fullName": "Troy Wyman",
+    "emailAddress": "Dangelo_Kub93@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09092121154"
+}

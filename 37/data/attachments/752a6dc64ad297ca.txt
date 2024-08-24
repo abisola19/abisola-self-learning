@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Roberto Klocko DVM","emailAddress":"Lew_Hilpert@gmail.com","status":"active","phoneNumber":"09080741691","role":"customer","orders":[],"_id":"66c98dd2af64348993d98443","cart":[],"createdAt":"2024-08-24T07:37:54.222Z","updatedAt":"2024-08-24T07:37:54.222Z"}}
