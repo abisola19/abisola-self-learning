@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Dr. Traci Hauck","emailAddress":"Fabian.Considine@hotmail.com","status":"active","phoneNumber":"09046631092","role":"customer","orders":[],"_id":"66c980e8af64348993d9818d","cart":[],"createdAt":"2024-08-24T06:42:48.862Z","updatedAt":"2024-08-24T06:42:48.862Z"}}

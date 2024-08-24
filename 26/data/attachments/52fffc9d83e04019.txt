@@ -1,0 +1,4 @@
+{
+    "name": "Developer",
+    "description": "Quia ut ratione voluptatem culpa ipsum porro aut nemo. Rem quia nihil sed animi neque aliquid non. Est nostrum qui placeat similique vel iure sunt voluptas atque. Qui aspernatur dignissimos fugit dolores mollitia. Rem ad ea omnis officia dolorum dolorem deleniti. Corrupti aut molestiae."
+}

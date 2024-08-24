@@ -1,6 +1,0 @@
-{
-    "fullName": "Shannon Walsh",
-    "emailAddress": "Berniece53@hotmail.com",
-    "password": "password12@@",
-    "phoneNumber": "09033803678"
-}

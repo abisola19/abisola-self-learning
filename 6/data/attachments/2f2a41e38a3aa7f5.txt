@@ -1,4 +1,0 @@
-{
-    "name": "Facilitator",
-    "description": "Exercitationem ducimus perspiciatis modi quos qui porro ut aliquam a. Nobis voluptates totam commodi totam. Assumenda dignissimos enim voluptate est quos quas."
-}

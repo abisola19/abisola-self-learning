@@ -1,0 +1,6 @@
+{
+    "fullName": "Chester Wiza V",
+    "emailAddress": "abisola@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09093265134"
+}

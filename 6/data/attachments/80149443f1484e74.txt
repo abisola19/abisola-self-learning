@@ -1,4 +1,0 @@
-{
-    "name": "mason",
-    "description": "Assumenda et quis nam cupiditate sint. Cumque ipsum rerum occaecati dolorum sunt. Possimus quibusdam quia quasi porro. Unde ut qui quam eligendi maiores cupiditate eos harum et. Voluptate aperiam et aut sunt quasi earum facilis."
-}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Joyce Cruickshank MD",
+    "emailAddress": "VergieErgonomic@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09089086706"
+}

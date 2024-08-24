@@ -1,6 +1,0 @@
-{
-    "fullName": "Dr. Erma Mayert",
-    "emailAddress": "Golda.Langworth@hotmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09018254529"
-}

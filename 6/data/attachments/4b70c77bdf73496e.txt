@@ -1,5 +1,0 @@
-{
-    "name": "Facilitator - Atiku Mohammed",
-    "description": "Nemo nesciunt pariatur consectetur deleniti quasi expedita. Nam ut est in excepturi ut animi.",
-    "inspiredBy": "Atiku Mohammed"
-}

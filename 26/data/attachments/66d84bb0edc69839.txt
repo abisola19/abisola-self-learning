@@ -1,0 +1,6 @@
+{
+    "fullName": "Seth King",
+    "emailAddress": "Elisechannels@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

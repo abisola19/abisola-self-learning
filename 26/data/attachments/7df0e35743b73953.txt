@@ -1,0 +1,6 @@
+{
+    "fullName": "Dr. Traci Hauck",
+    "emailAddress": "Fabian.Considine@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09046631092"
+}

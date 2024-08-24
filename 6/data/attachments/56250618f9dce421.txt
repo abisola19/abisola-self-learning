@@ -1,6 +1,0 @@
-{
-    "fullName": "Kristine Jerde",
-    "emailAddress": "Carley36@hotmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09025736193"
-}

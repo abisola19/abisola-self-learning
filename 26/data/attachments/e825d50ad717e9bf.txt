@@ -1,0 +1,6 @@
+{
+    "fullName": "Ginger Friesen I",
+    "emailAddress": "Kariane_Reilly@hotmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09019074494"
+}

@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Kurt Gutmann","emailAddress":"Benton_Williamson@gmail.com","status":"active","phoneNumber":"09050032597","role":"customer","orders":[],"_id":"66c980e8af64348993d98189","cart":[],"createdAt":"2024-08-24T06:42:48.657Z","updatedAt":"2024-08-24T06:42:48.657Z"}}

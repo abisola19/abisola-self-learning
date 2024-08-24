@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Robert Nikolaus","emailAddress":"Bertrand.Cormier48@gmail.com","status":"active","phoneNumber":"09047365945","role":"customer","orders":[],"_id":"66c980e9af64348993d98191","cart":[],"createdAt":"2024-08-24T06:42:49.061Z","updatedAt":"2024-08-24T06:42:49.061Z"}}

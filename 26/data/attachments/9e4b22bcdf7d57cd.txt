@@ -1,0 +1,5 @@
+{
+    "name": "Officer - Eniola Adelowo",
+    "description": "Nihil nihil ullam dignissimos sed repellat mollitia. Corrupti saepe id sapiente in. Ipsa autem accusantium sunt amet laudantium quia qui ut. Necessitatibus placeat assumenda eveniet aut blanditiis atque dolor tenetur.",
+    "inspiredBy": "Eniola Adelowo"
+}

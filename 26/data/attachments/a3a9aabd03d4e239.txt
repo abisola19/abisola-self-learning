@@ -1,0 +1,1 @@
+{"message":"Category created successfully","data":{"name":"Cindy O'Conner","slug":"cindy-o'conner","description":"Sit eos velit. Harum est et fuga nisi itaque ipsum molestiae optio illo.","_id":"66c980e7af64348993d98184","createdAt":"2024-08-24T06:42:47.142Z","updatedAt":"2024-08-24T06:42:47.142Z"}}

@@ -1,6 +1,0 @@
-{
-    "fullName": "Blake Mayert",
-    "emailAddress": "Wilberfeed@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

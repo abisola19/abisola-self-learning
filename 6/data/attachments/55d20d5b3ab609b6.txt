@@ -1,6 +1,0 @@
-{
-    "fullName": "Harriet Kirlin",
-    "emailAddress": "Rolando.Johns@yahoo.com",
-    "password": "Password12@@",
-    "phoneNumber": "09074289186"
-}

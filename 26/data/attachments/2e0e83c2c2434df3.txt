@@ -1,0 +1,4 @@
+{
+    "name": "Facilitator",
+    "description": "Expedita quo nam quos doloribus quod et. Harum odio voluptas. Nostrum deserunt excepturi tempore doloremque qui error pariatur. Est cupiditate ut architecto repellendus quia qui nulla laboriosam rerum. Iure similique unde laudantium in facere occaecati tempora incidunt."
+}

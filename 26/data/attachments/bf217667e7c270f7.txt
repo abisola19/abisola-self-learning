@@ -1,0 +1,6 @@
+{
+    "fullName": "Robert Nikolaus",
+    "emailAddress": "Bertrand.Cormier48@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09047365945"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Consultant - Atiku Mohammed",
+    "description": "Id rerum quos vitae animi atque dolores. Fugit atque repellendus impedit ullam qui aut. Architecto rem ut id nulla neque.",
+    "inspiredBy": "Atiku Mohammed"
+}

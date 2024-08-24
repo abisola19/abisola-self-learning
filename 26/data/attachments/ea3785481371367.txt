@@ -1,0 +1,6 @@
+{
+    "fullName": "Amy Russel MD",
+    "emailAddress": "VincenzoAndorra@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09085213423"
+}

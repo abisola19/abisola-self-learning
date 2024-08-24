@@ -1,0 +1,6 @@
+{
+    "fullName": "Latoya Fahey",
+    "emailAddress": "EsmeraldaHarbors@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09041788305"
+}

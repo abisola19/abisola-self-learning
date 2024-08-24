@@ -1,0 +1,6 @@
+{
+    "fullName": "Kurt Gutmann",
+    "emailAddress": "Benton_Williamson@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09050032597"
+}
