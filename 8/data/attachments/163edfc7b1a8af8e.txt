@@ -1,6 +1,0 @@
-{
-    "fullName": "Donald Fisher",
-    "emailAddress": "MaeganTHX@mailinator.c",
-    "password": "Password12@@",
-    "phoneNumber": "09010732144"
-}

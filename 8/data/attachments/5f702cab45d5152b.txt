@@ -1,6 +1,0 @@
-{
-    "fullName": "Dwight Stracke",
-    "emailAddress": "Greta58@gmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09015966151"
-}

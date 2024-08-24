@@ -1,6 +1,0 @@
-{
-    "fullName": "Alexander Anderson",
-    "emailAddress": "Heberincremental@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09040353443"
-}

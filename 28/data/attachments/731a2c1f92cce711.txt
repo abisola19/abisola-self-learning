@@ -1,0 +1,6 @@
+{
+    "fullName": "Mrs. Essie Leannon",
+    "emailAddress": "Golda.Langworth@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09026936787"
+}

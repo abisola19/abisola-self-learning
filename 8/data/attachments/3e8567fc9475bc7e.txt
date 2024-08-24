@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Dwight Stracke","emailAddress":"Greta58@gmail.com","status":"active","phoneNumber":"09015966151","role":"customer","orders":[],"_id":"66b7aee10f5503c0c80a5ff9","cart":[],"createdAt":"2024-08-10T18:18:09.269Z","updatedAt":"2024-08-10T18:18:09.269Z"}}

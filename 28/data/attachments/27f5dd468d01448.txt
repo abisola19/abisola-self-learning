@@ -1,0 +1,6 @@
+{
+    "fullName": "Toby Jacobi",
+    "emailAddress": "Macydeposit@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09052920405"
+}

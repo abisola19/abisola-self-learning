@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Mr. Lucy Schroeder","emailAddress":"Nicklaus_Crooks@hotmail.com","status":"active","phoneNumber":"09050316477","role":"customer","orders":[],"_id":"66c98308af64348993d981f1","cart":[],"createdAt":"2024-08-24T06:51:52.316Z","updatedAt":"2024-08-24T06:51:52.316Z"}}

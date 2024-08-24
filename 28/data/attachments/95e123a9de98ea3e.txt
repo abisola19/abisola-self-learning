@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Alma Wisozk","emailAddress":"Gust_Breitenberg@yahoo.com","status":"active","phoneNumber":"09054697779","role":"customer","orders":[],"_id":"66c98308af64348993d981f5","cart":[],"createdAt":"2024-08-24T06:51:52.498Z","updatedAt":"2024-08-24T06:51:52.498Z"}}

@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Jeff Zieme","emailAddress":"ElenorJersey@mailinator.c","status":"active","phoneNumber":"09049544405","role":"admin","orders":[],"_id":"66c98305af64348993d981dc","cart":[],"createdAt":"2024-08-24T06:51:49.784Z","updatedAt":"2024-08-24T06:51:49.784Z"}}

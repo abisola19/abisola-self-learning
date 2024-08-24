@@ -1,0 +1,1 @@
+{"message":"Collection created successfully","data":{"name":"Facilitator - Eniola Adelowo","slug":"facilitator-eniola-adelowo","description":"Aut facilis illum soluta illo ut sed. Ullam ea quos facere.","inspiredBy":"Eniola Adelowo","_id":"66c98306af64348993d981e8","createdAt":"2024-08-24T06:51:50.772Z","updatedAt":"2024-08-24T06:51:50.772Z"}}

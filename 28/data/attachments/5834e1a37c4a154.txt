@@ -1,0 +1,5 @@
+{
+    "name": "Technician - David Osimen",
+    "description": "Eligendi a qui provident omnis. Dolores deserunt veniam. Consequatur molestiae cumque est corporis accusamus ducimus error veniam. Aut nostrum quod porro molestiae ratione quia id et. Optio neque similique aut natus labore qui. Et et debitis molestias numquam accusantium explicabo sapiente.",
+    "inspiredBy": "David Osimen"
+}

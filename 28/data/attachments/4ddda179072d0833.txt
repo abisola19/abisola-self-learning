@@ -1,0 +1,5 @@
+{
+    "name": "Consultant - David Osimen",
+    "description": "Repellendus iusto commodi odit vitae aut dolores et voluptatem corporis. Voluptate quis et debitis eveniet voluptate nemo optio. Vel optio qui aut harum dolorum tempore nihil.",
+    "inspiredBy": "David Osimen"
+}

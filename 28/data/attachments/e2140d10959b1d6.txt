@@ -1,0 +1,1 @@
+{"message":"Category created successfully","data":{"name":"Guy Renner","slug":"guy-renner","description":"Ad iste ut ut. In consequatur consectetur reprehenderit quae.","_id":"66c98307af64348993d981ec","createdAt":"2024-08-24T06:51:51.186Z","updatedAt":"2024-08-24T06:51:51.186Z"}}

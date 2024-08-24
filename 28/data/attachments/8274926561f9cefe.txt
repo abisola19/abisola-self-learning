@@ -1,0 +1,6 @@
+{
+    "fullName": "Alma Wisozk",
+    "emailAddress": "Gust_Breitenberg@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09054697779"
+}

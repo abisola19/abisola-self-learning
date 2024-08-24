@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Donald Fisher","emailAddress":"MaeganTHX@mailinator.c","status":"active","phoneNumber":"09010732144","role":"admin","orders":[],"_id":"66b7aedc0f5503c0c80a5fe9","cart":[],"createdAt":"2024-08-10T18:18:04.500Z","updatedAt":"2024-08-10T18:18:04.500Z"}}

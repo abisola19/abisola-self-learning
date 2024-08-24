@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Guadalupe Ward","emailAddress":"Dianaquantify@mailinator.com","status":"active","phoneNumber":"09068216688","role":"admin","orders":[],"_id":"66c98305af64348993d981d8","cart":[],"createdAt":"2024-08-24T06:51:49.501Z","updatedAt":"2024-08-24T06:51:49.501Z"}}

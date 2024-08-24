@@ -1,0 +1,6 @@
+{
+    "fullName": "Guadalupe Ward",
+    "emailAddress": "Dianaquantify@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09068216688"
+}

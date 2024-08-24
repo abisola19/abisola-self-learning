@@ -1,0 +1,6 @@
+{
+    "fullName": "Danny Treutel",
+    "emailAddress": "Laron50@gmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09049442470"
+}
