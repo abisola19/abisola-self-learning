@@ -1,0 +1,1 @@
+{"message":"Category created successfully","data":{"name":"Jo Predovic MD","slug":"jo-predovic-md","description":"Ipsam voluptatem animi. Voluptatem iure nemo. Odio sunt praesentium accusantium est cum.","_id":"66c98af3af64348993d9832c","createdAt":"2024-08-24T07:25:39.851Z","updatedAt":"2024-08-24T07:25:39.851Z"}}

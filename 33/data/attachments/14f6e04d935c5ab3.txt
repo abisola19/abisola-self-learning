@@ -1,0 +1,6 @@
+{
+    "fullName": "Miss Patsy Kertzmann",
+    "emailAddress": "SamsonFuture-proofed@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

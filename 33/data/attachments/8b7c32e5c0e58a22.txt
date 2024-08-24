@@ -1,0 +1,5 @@
+{
+    "name": "Agent - Eniola Adelowo",
+    "description": "Harum dolorem quos eum blanditiis est ducimus hic inventore pariatur. Aut et quas doloremque voluptas a maiores. Id explicabo ducimus quasi voluptas provident repellendus.",
+    "inspiredBy": "Eniola Adelowo"
+}

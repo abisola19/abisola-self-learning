@@ -1,0 +1,5 @@
+{
+    "name": "Agent - Eniola Adelowo",
+    "description": "Quo omnis unde dolorem qui aut nihil impedit magnam. Velit laborum veniam omnis. Harum enim consequuntur sequi neque eos hic voluptatibus facilis voluptatem. Facere voluptas earum. Commodi quia provident facilis voluptatum unde.",
+    "inspiredBy": "Eniola Adelowo"
+}

@@ -1,5 +1,0 @@
-{
-    "name": "Representative - David Osimen",
-    "description": "Quia et dolorum sunt vero id perferendis eos ipsa perspiciatis. Non porro illo hic eligendi dolor veritatis. Et et quia voluptatem aut consectetur libero. Rem ut voluptas sint.",
-    "inspiredBy": "David Osimen"
-}

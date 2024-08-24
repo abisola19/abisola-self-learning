@@ -1,0 +1,6 @@
+{
+    "fullName": "Courtney Baumbach",
+    "emailAddress": "KittyKiribati@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09025447930"
+}

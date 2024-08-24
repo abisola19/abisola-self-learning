@@ -1,0 +1,6 @@
+{
+    "fullName": "Clifford Schiller",
+    "emailAddress": "DaisySoft@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

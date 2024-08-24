@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Mr. Eloise Considine","emailAddress":"Lexie.Reilly@yahoo.com","status":"active","phoneNumber":"09074649184","role":"customer","orders":[],"_id":"66c98af6af64348993d9833c","cart":[],"createdAt":"2024-08-24T07:25:42.124Z","updatedAt":"2024-08-24T07:25:42.124Z"}}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Gwendolyn Stanton",
+    "emailAddress": "Thora_Murazik@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09074958936"
+}

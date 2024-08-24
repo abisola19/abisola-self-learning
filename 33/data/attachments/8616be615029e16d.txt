@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Gwendolyn Stanton","emailAddress":"Thora_Murazik@gmail.com","status":"active","phoneNumber":"09074958936","role":"customer","orders":[],"_id":"66c98af5af64348993d98334","cart":[],"createdAt":"2024-08-24T07:25:41.741Z","updatedAt":"2024-08-24T07:25:41.741Z"}}

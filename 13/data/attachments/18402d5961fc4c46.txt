@@ -1,6 +1,0 @@
-{
-    "fullName": "Ralph Medhurst DDS",
-    "emailAddress": "Mazie.Volkman@yahoo.com",
-    "password": "password12@@",
-    "phoneNumber": "09045377963"
-}

@@ -1,4 +1,0 @@
-{
-    "name": "Orchestrator",
-    "description": "Nihil dignissimos vero corporis ut sint quis ad repudiandae temporibus. Ea doloribus voluptas fuga et commodi nihil. Similique maiores voluptas iure repudiandae odit est aliquam est aut. Eveniet adipisci quasi consequatur ipsum consequatur. Et vitae consectetur error possimus consectetur omnis velit."
-}

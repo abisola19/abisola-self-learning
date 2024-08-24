@@ -1,0 +1,6 @@
+{
+    "fullName": "Mrs. Jonathon Hodkiewicz",
+    "emailAddress": "Yvonne61@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09090372669"
+}

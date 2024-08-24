@@ -1,6 +1,0 @@
-{
-    "fullName": "Juana White PhD",
-    "emailAddress": "NoelDjibouti@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

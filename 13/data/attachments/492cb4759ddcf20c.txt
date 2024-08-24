@@ -1,6 +1,0 @@
-{
-    "fullName": "Mr. Bobby Wiegand",
-    "emailAddress": "Dedrick.Feil@gmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09017763268"
-}

@@ -1,6 +1,0 @@
-{
-    "fullName": "Theresa Schroeder",
-    "emailAddress": "Mableindigo@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "AB089"
-}

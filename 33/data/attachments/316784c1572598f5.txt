@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Desiree Terry MD","emailAddress":"FosterOman@mailinator.c","status":"active","phoneNumber":"09092689084","role":"admin","orders":[],"_id":"66c98af1af64348993d9831c","cart":[],"createdAt":"2024-08-24T07:25:37.981Z","updatedAt":"2024-08-24T07:25:37.981Z"}}

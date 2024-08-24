@@ -1,0 +1,6 @@
+{
+    "fullName": "Desiree Terry MD",
+    "emailAddress": "FosterOman@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09092689084"
+}
