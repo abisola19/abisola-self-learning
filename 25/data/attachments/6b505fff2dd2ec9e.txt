@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Maggie Bergstrom","emailAddress":"Josephscalable@mailinator.com","status":"active","phoneNumber":"09026903723","role":"admin","orders":[],"_id":"66c9802eaf64348993d9813e","cart":[],"createdAt":"2024-08-24T06:39:42.182Z","updatedAt":"2024-08-24T06:39:42.182Z"}}

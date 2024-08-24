@@ -1,4 +1,0 @@
-{
-    "name": "Manager",
-    "description": "Voluptatem expedita sint velit ipsum vel nesciunt. Blanditiis vel eos qui pariatur."
-}

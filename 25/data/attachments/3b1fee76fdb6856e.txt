@@ -1,0 +1,6 @@
+{
+    "fullName": "Terrance Brekke",
+    "emailAddress": "Marianna_Dare@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09015240727"
+}

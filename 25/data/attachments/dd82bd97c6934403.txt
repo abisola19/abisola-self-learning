@@ -1,0 +1,1 @@
+{"message":"Category created successfully","data":{"name":"Jared Zboncak","slug":"jared-zboncak","description":"Placeat molestias sequi et. Facere exercitationem dignissimos.","_id":"66c98030af64348993d98150","createdAt":"2024-08-24T06:39:44.375Z","updatedAt":"2024-08-24T06:39:44.375Z"}}

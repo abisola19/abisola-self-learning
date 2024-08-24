@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Dwight Collier IV","emailAddress":"StanfordWooden@mailinator.c","status":"active","phoneNumber":"09063761963","role":"admin","orders":[],"_id":"66b7ac400f5503c0c80a5f6b","cart":[],"createdAt":"2024-08-10T18:06:56.460Z","updatedAt":"2024-08-10T18:06:56.460Z"}}

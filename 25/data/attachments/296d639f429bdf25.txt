@@ -1,0 +1,6 @@
+{
+    "fullName": "Douglas Rohan",
+    "emailAddress": "Nickmint@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09096560590"
+}

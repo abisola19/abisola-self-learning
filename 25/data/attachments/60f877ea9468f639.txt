@@ -1,0 +1,6 @@
+{
+    "fullName": "Spencer Nitzsche",
+    "emailAddress": "JeromeApplications@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

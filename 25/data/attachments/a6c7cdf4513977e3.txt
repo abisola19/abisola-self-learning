@@ -1,0 +1,6 @@
+{
+    "fullName": "Lisa McGlynn MD",
+    "emailAddress": "Henriette.Trantow@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09089214125"
+}

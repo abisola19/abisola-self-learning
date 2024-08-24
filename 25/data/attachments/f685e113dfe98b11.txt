@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Tracey Cartwright","emailAddress":"Diegosynthesizing@mailinator.c","status":"active","phoneNumber":"09045930934","role":"admin","orders":[],"_id":"66c9802eaf64348993d98142","cart":[],"createdAt":"2024-08-24T06:39:42.523Z","updatedAt":"2024-08-24T06:39:42.523Z"}}

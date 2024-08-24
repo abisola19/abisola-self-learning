@@ -1,5 +1,0 @@
-{
-    "name": "Administrator - Eniola Adelowo",
-    "description": "Veritatis voluptatibus et cum eveniet aliquid similique quaerat iure. Consequatur tempore ratione asperiores et explicabo.",
-    "inspiredBy": "Eniola Adelowo"
-}

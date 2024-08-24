@@ -1,0 +1,5 @@
+{
+    "name": "Orchestrator - Eniola Adelowo",
+    "description": "Voluptate cum assumenda et nobis quia numquam laborum saepe. Non rem ab necessitatibus deleniti rerum consequatur non et. Necessitatibus quaerat dicta voluptatibus nesciunt pariatur eaque ullam ullam placeat. Architecto vel fuga.",
+    "inspiredBy": "Eniola Adelowo"
+}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Maggie Bergstrom",
+    "emailAddress": "Josephscalable@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09026903723"
+}
