@@ -4021,6 +4021,12 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{customerAccessToken}}"
+									}
+								},
 								"method": "POST",
 								"header": [],
 								"body": {
