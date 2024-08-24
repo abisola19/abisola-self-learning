@@ -3757,6 +3757,12 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{adminToken}}"
+									}
+								},
 								"method": "POST",
 								"header": [],
 								"body": {
@@ -3876,7 +3882,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{userAccessToken}}"
+										"token": "{{userAccessToken}"
 									}
 								},
 								"method": "POST",
@@ -3997,7 +4003,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmI0Yzg3Mjk2MzI2ZmQ3ZjNmOWViOTIiLCJlbWFpbEFkZHJlc3MiOiJKdWxpYW4uU2hhbmFoYW5AeWFob28uY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkWFA1SUtiNlRadEsuT3FCMlRIVmlkLlBFVi9GVVJ4UUZVckFpTzhxeDBpWFNOdS91VnpHRWEiLCJpYXQiOjE3MjMyMjE0OTMsImV4cCI6MTcyMzIyNTA5M30.ooL5QQBEC_efiQmdLEoD96egu3bT-DgAmlCEzAC4NDU"
+										"token": "{{customerAccessToken}}"
 									}
 								},
 								"method": "POST",
