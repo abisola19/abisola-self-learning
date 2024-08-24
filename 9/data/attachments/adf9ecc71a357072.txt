@@ -1,6 +1,0 @@
-{
-    "fullName": "Melissa Rippin",
-    "emailAddress": "Paxton.Johnson@yahoo.com",
-    "password": "Password12@@",
-    "phoneNumber": "09052546322"
-}

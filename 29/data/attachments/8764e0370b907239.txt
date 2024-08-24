@@ -1,0 +1,6 @@
+{
+    "fullName": "Clinton Ankunding V",
+    "emailAddress": "Anastasia.Johnston41@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09069752354"
+}

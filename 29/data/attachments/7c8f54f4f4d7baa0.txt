@@ -1,0 +1,6 @@
+{
+    "fullName": "Danielle Rempel",
+    "emailAddress": "Beryltransmitter@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09010715091"
+}

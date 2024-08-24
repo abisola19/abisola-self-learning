@@ -1,0 +1,5 @@
+{
+    "name": "Architect - David Osimen",
+    "description": "Modi dignissimos autem. Praesentium inventore aut fugiat fuga aliquam nostrum quidem.",
+    "inspiredBy": "David Osimen"
+}

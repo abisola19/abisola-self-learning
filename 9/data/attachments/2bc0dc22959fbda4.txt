@@ -1,6 +1,0 @@
-{
-    "fullName": "Willis Ferry",
-    "emailAddress": "OttisVisionary@mailinator.com",
-    "password": "Password12",
-    "phoneNumber": "09043770619"
-}

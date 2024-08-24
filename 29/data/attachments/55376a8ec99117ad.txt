@@ -1,0 +1,5 @@
+{
+    "name": "Specialist - Eniola Adelowo",
+    "description": "Rerum dolorum sed magni sed rerum incidunt. Consequatur eaque magnam quis qui eveniet. Dolore delectus fugiat non. Voluptas eos ea id atque et id vel. Ipsum hic corrupti quis dolor ut eum. Excepturi sint consequatur vel.",
+    "inspiredBy": "Eniola Adelowo"
+}

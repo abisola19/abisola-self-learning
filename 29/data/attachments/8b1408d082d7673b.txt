@@ -1,0 +1,5 @@
+{
+    "name": "Coordinator - David Osimen",
+    "description": "Laborum ea a praesentium. Est architecto qui aut non est perferendis. Quisquam praesentium dolor maiores possimus aperiam sit totam. Pariatur odio qui delectus voluptatem illum laudantium tenetur magnam.",
+    "inspiredBy": "David Osimen"
+}

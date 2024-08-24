@@ -1,4 +1,0 @@
-{
-    "name": "Coordinator",
-    "description": "Quis eligendi et autem quia quas sed. Cum animi aut et ullam et inventore quos sed earum. Provident iste a voluptatem repudiandae et in officiis."
-}

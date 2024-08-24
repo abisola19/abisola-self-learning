@@ -1,0 +1,6 @@
+{
+    "fullName": "Frankie Kuhlman IV",
+    "emailAddress": "Dandre11@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09011637372"
+}

@@ -1,6 +1,0 @@
-{
-    "fullName": "Martin Kilback",
-    "emailAddress": "abisola@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09029523746"
-}

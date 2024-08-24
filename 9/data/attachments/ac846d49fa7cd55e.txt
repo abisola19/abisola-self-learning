@@ -1,6 +1,0 @@
-{
-    "fullName": "Jake Kub",
-    "emailAddress": "Orin.Morissette32@yahoo.com",
-    "password": "password12@@",
-    "phoneNumber": "09031731999"
-}

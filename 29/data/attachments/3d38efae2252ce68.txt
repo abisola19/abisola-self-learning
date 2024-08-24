@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Frankie Kuhlman IV","emailAddress":"Dandre11@gmail.com","status":"active","phoneNumber":"09011637372","role":"customer","orders":[],"_id":"66c98478af64348993d9822f","cart":[],"createdAt":"2024-08-24T06:58:00.796Z","updatedAt":"2024-08-24T06:58:00.796Z"}}

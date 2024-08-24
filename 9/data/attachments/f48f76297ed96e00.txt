@@ -1,6 +1,0 @@
-{
-    "fullName": "Roosevelt Labadie",
-    "emailAddress": "AnitaStreets@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09087115324"
-}

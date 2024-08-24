@@ -1,0 +1,6 @@
+{
+    "fullName": "Cesar Spencer",
+    "emailAddress": "Minerva_Johns77@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09099229786"
+}

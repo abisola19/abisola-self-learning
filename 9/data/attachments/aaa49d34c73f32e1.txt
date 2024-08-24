@@ -1,6 +1,0 @@
-{
-    "fullName": "Miss Penny Labadie",
-    "emailAddress": "Hankvortals@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "AB089"
-}

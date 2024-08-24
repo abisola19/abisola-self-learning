@@ -1,0 +1,1 @@
+{"message":"Profile fetched successfully","data":{"_id":"66c98478af64348993d9822b","fullName":"Cesar Spencer","emailAddress":"Minerva_Johns77@yahoo.com","status":"active","phoneNumber":"09099229786","role":"customer","orders":[],"cart":[],"createdAt":"2024-08-24T06:58:00.580Z","updatedAt":"2024-08-24T06:58:00.580Z"}}

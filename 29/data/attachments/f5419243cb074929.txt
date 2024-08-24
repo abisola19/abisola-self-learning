@@ -1,0 +1,6 @@
+{
+    "fullName": "Rene Toy",
+    "emailAddress": "Cristopher.Bailey@yahoo.com",
+    "password": "password12@@",
+    "phoneNumber": "09080034897"
+}
