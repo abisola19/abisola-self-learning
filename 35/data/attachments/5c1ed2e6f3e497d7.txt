@@ -1,0 +1,6 @@
+{
+    "fullName": "Marion Kilback",
+    "emailAddress": "Golda.Langworth@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09065777896"
+}

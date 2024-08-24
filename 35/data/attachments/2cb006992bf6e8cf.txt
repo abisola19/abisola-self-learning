@@ -1,0 +1,6 @@
+{
+    "fullName": "Angelica Spencer",
+    "emailAddress": "Ernestina.Weber@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09052218880"
+}

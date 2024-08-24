@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Kenneth Gaylord","emailAddress":"Karl_Rogahn82@gmail.com","status":"active","phoneNumber":"09029510617","role":"customer","orders":[],"_id":"66bcec988bfe92e9ea2b260e","cart":[],"createdAt":"2024-08-14T17:42:48.726Z","updatedAt":"2024-08-14T17:42:48.726Z"}}

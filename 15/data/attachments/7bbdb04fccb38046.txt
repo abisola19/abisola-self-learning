@@ -1,5 +1,0 @@
-{
-    "name": "Executive - David Osimen",
-    "description": "Veritatis et inventore neque illo ratione inventore numquam reprehenderit quia. Velit placeat minima. Vero expedita laborum earum rem voluptatem omnis. Soluta sint deserunt provident dolores et quam nisi tempore.",
-    "inspiredBy": "David Osimen"
-}

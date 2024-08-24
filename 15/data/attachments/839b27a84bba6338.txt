@@ -1,4 +1,0 @@
-{
-    "emailAddress": "Gordoninput@mailinator.com",
-    "password": "Password12@@"
-}

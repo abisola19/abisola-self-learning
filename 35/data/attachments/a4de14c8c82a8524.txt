@@ -1,0 +1,6 @@
+{
+    "fullName": "Mrs. Eddie Blanda",
+    "emailAddress": "OrlandoSingapore@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09076968215"
+}

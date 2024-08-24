@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Lois Ryan","emailAddress":"Jeanne_Bechtelar71@gmail.com","status":"active","phoneNumber":"09075556429","role":"customer","orders":[],"_id":"66bcec988bfe92e9ea2b260a","cart":[],"createdAt":"2024-08-14T17:42:48.531Z","updatedAt":"2024-08-14T17:42:48.531Z"}}

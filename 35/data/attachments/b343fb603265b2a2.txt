@@ -1,0 +1,6 @@
+{
+    "fullName": "Elizabeth Sipes",
+    "emailAddress": "Cortez.Grimes@yahoo.com",
+    "password": "password12@@",
+    "phoneNumber": "09026976588"
+}

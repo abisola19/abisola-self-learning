@@ -1,0 +1,18 @@
+{
+    "name": "Refined Cotton Towels",
+    "status": "active",
+    "description": "Rem quo sed voluptatem perspiciatis dignissimos voluptas veritatis nisi.",
+    "isLatestProduct": true,
+    "categoryId": "66c98477af64348993d98226",
+    "variants": [
+        {
+            "color": "string",
+            "size": "string",
+            "images": [
+                "https://img.freepik.com/free-vector/anime-chibi-boy-wearing-cap-character_18591-82515.jpg"
+            ],
+            "isAvailable": true,
+            "price": 200
+        }
+    ]
+}

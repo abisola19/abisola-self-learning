@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Mrs. Eddie Blanda","emailAddress":"OrlandoSingapore@mailinator.c","status":"active","phoneNumber":"09076968215","role":"admin","orders":[],"_id":"66c98c5caf64348993d98395","cart":[],"createdAt":"2024-08-24T07:31:40.322Z","updatedAt":"2024-08-24T07:31:40.322Z"}}

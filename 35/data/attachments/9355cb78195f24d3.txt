@@ -1,0 +1,5 @@
+{
+    "name": "Analyst - Atiku Mohammed",
+    "description": "Maxime ut eos quidem rerum dolor sit. Magni hic reiciendis maiores. Laboriosam ex debitis illum et. Optio voluptatum voluptatem voluptate. A at magni. Architecto cumque veritatis nisi dolorem consectetur.",
+    "inspiredBy": "Atiku Mohammed"
+}

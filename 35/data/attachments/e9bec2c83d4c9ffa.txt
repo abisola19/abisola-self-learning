@@ -1,0 +1,6 @@
+{
+    "fullName": "Kristina Langworth",
+    "emailAddress": "ShakiraCanyon@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

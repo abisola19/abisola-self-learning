@@ -1,0 +1,6 @@
+{
+    "fullName": "Blanche Wolff",
+    "emailAddress": "abisola@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09017967948"
+}

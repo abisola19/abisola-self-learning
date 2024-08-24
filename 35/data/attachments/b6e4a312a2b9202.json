@@ -1,0 +1,10 @@
+{
+    "Authorization": "Bearer {{adminAccessToken}",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "c4d35e1b-f181-46f0-a18d-bf6762e0bb90",
+    "Host": "heatwave-backend.vercel.app",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive"
+}

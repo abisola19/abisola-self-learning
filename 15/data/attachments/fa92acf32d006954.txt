@@ -1,5 +1,0 @@
-{
-    "name": "Orchestrator - Eniola Adelowo",
-    "description": "Officia cumque perferendis. Quae excepturi quaerat enim aut at sint. Facilis officia minima eius omnis quasi repellat. Ducimus dolor corporis. Minus aut fuga accusamus debitis minima sunt consequatur aut. In voluptas at voluptatem placeat et corporis aut.",
-    "inspiredBy": "Eniola Adelowo"
-}

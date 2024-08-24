@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Claudia Turcotte","emailAddress":"Charlene29@hotmail.com","status":"active","phoneNumber":"09079804063","role":"customer","orders":[],"_id":"66c98c61af64348993d983b6","cart":[],"createdAt":"2024-08-24T07:31:45.360Z","updatedAt":"2024-08-24T07:31:45.360Z"}}

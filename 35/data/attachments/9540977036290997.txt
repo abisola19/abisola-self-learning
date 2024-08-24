@@ -1,0 +1,6 @@
+{
+    "fullName": "Michael Reichert",
+    "emailAddress": "AllenGlobal@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09024973991"
+}

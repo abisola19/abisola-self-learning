@@ -1,6 +1,0 @@
-{
-    "fullName": "Wilbur Rau",
-    "emailAddress": "Tyrell_Bashirian@gmail.com",
-    "password": "password12@@",
-    "phoneNumber": "09072200292"
-}

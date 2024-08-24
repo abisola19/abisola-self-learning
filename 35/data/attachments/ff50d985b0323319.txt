@@ -1,0 +1,5 @@
+{
+    "name": "Liaison - Atiku Mohammed",
+    "description": "Quia voluptatem doloremque dolores velit esse error qui. Optio quia ad. Voluptas iure eum quaerat velit asperiores.",
+    "inspiredBy": "Atiku Mohammed"
+}

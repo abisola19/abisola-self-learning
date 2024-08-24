@@ -1,6 +1,0 @@
-{
-    "fullName": "Kenneth Gaylord",
-    "emailAddress": "Karl_Rogahn82@gmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09029510617"
-}

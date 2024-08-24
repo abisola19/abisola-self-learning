@@ -1,0 +1,4 @@
+{
+    "name": "Assistant",
+    "description": "Tempore quia ad saepe accusamus voluptas. Quos ut nihil. Ut repudiandae accusantium repellendus consequatur hic est. Molestiae impedit odit atque et explicabo voluptas. Ratione repudiandae ea sapiente occaecati enim. Placeat qui id."
+}

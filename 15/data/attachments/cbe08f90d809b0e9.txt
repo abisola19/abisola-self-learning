@@ -1,6 +1,0 @@
-{
-    "fullName": "Claire Zieme",
-    "emailAddress": "Gordoninput@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09038407412"
-}

@@ -1,0 +1,1 @@
+{"message":"Profile fetched successfully","data":{"_id":"66c98c61af64348993d983b2","fullName":"Kristen Kris","emailAddress":"Quinn.Trantow65@hotmail.com","status":"active","phoneNumber":"09090308912","role":"customer","orders":[],"cart":[],"createdAt":"2024-08-24T07:31:45.017Z","updatedAt":"2024-08-24T07:31:45.017Z"}}

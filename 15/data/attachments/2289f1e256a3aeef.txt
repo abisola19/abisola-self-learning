@@ -1,6 +1,0 @@
-{
-    "fullName": "Leslie Johnson",
-    "emailAddress": "Thelma_OReilly@yahoo.com",
-    "password": "Password12@@",
-    "phoneNumber": "09040785826"
-}

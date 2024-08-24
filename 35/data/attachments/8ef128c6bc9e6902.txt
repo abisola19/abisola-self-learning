@@ -1,0 +1,6 @@
+{
+    "fullName": "Alfredo Upton",
+    "emailAddress": "HopeAuto@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09016322203"
+}

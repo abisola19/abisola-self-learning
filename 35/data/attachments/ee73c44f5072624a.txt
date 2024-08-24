@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Angelica Spencer","emailAddress":"Ernestina.Weber@gmail.com","status":"active","phoneNumber":"09052218880","role":"customer","orders":[],"_id":"66c98c61af64348993d983ba","cart":[],"createdAt":"2024-08-24T07:31:45.618Z","updatedAt":"2024-08-24T07:31:45.618Z"}}

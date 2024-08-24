@@ -1,4 +1,0 @@
-{
-    "name": "Consultant",
-    "description": "Ab ut sint illum tenetur nostrum dolore aliquid aut sit. Autem eius aperiam sed consectetur fuga distinctio. Doloribus et vero hic maiores."
-}
