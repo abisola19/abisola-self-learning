@@ -1,5 +1,0 @@
-{
-    "name": "Strategist - Atiku Mohammed",
-    "description": "Placeat atque corrupti error at ipsam eos. Pariatur omnis dolores quam. Quis modi rem voluptatem blanditiis recusandae cupiditate deserunt id. Inventore modi odit. Alias delectus qui ut veniam.",
-    "inspiredBy": "Atiku Mohammed"
-}

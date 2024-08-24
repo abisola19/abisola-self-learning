@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Gerard Gusikowski PhD","emailAddress":"BrayanPersonal@mailinator.com","status":"active","phoneNumber":"09017020732","role":"admin","orders":[],"_id":"66c98ba4af64348993d98351","cart":[],"createdAt":"2024-08-24T07:28:36.021Z","updatedAt":"2024-08-24T07:28:36.021Z"}}

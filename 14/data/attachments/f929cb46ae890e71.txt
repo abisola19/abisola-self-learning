@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Abel Barton","emailAddress":"HarveyConfiguration@mailinator.c","status":"active","phoneNumber":"09051480096","role":"admin","orders":[],"_id":"66bcebda8bfe92e9ea2b25d4","cart":[],"createdAt":"2024-08-14T17:39:38.056Z","updatedAt":"2024-08-14T17:39:38.056Z"}}

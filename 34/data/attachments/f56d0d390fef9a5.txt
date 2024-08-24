@@ -1,0 +1,5 @@
+{
+    "name": "Producer - Eniola Adelowo",
+    "description": "Enim similique accusantium laudantium explicabo non. Recusandae id ducimus itaque eaque harum. Autem officiis voluptatem earum sunt aut voluptatem qui eveniet. Tempora qui rem eius et dignissimos at. Quia vero ad quibusdam itaque aut fugit. Ullam est qui ad ad expedita assumenda vel ipsam.",
+    "inspiredBy": "Eniola Adelowo"
+}

@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Elias Gibson","emailAddress":"Tess89@gmail.com","status":"active","phoneNumber":"09082325584","role":"customer","orders":[],"_id":"66c98ba7af64348993d98375","cart":[],"createdAt":"2024-08-24T07:28:39.799Z","updatedAt":"2024-08-24T07:28:39.799Z"}}

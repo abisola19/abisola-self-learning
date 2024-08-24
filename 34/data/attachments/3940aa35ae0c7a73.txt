@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Suzanne Grant","emailAddress":"Audra_Leffler@gmail.com","status":"active","phoneNumber":"09030194575","role":"customer","orders":[],"_id":"66c98ba7af64348993d98379","cart":[],"createdAt":"2024-08-24T07:28:39.996Z","updatedAt":"2024-08-24T07:28:39.996Z"}}

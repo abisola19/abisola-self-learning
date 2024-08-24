@@ -1,0 +1,6 @@
+{
+    "fullName": "Tracy Waters",
+    "emailAddress": "MarcelinaDivision@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09092362273"
+}

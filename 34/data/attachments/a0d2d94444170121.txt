@@ -1,0 +1,6 @@
+{
+    "fullName": "Robin Cruickshank",
+    "emailAddress": "Kaya_Rolfson@hotmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09054772172"
+}

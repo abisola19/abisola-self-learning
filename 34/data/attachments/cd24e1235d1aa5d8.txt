@@ -1,0 +1,1 @@
+{"message":"Profile fetched successfully","data":{"_id":"66c98ba7af64348993d98371","fullName":"Angie Block","emailAddress":"Milton.Pollich31@hotmail.com","status":"active","phoneNumber":"09066449066","role":"customer","orders":[],"cart":[],"createdAt":"2024-08-24T07:28:39.600Z","updatedAt":"2024-08-24T07:28:39.600Z"}}

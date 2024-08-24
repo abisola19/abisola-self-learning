@@ -1,0 +1,4 @@
+{
+    "name": "Specialist",
+    "description": "Molestiae accusamus non expedita voluptas optio est dolore. Corrupti natus eum unde voluptates est cupiditate officia in. Maxime quasi et laborum. Omnis cumque laboriosam sit."
+}

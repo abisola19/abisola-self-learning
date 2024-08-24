@@ -1,0 +1,6 @@
+{
+    "fullName": "Suzanne Grant",
+    "emailAddress": "Audra_Leffler@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09030194575"
+}

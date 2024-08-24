@@ -1,0 +1,6 @@
+{
+    "fullName": "Angie Block",
+    "emailAddress": "Milton.Pollich31@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09066449066"
+}

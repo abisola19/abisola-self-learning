@@ -1,0 +1,6 @@
+{
+    "fullName": "Jo Sawayn",
+    "emailAddress": "Agustinacutting-edge@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

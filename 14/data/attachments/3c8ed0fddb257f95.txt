@@ -1,5 +1,0 @@
-{
-    "name": "Liaison - Atiku Mohammed",
-    "description": "Ipsum illo dolorem. Corrupti dolor sapiente consectetur magnam necessitatibus aut. Vel repudiandae molestias deserunt cumque suscipit. Odio et ipsa nobis expedita. Quo officiis quo id cupiditate enim a expedita facere et.",
-    "inspiredBy": "Atiku Mohammed"
-}

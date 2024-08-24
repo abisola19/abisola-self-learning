@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Carroll Maggio","emailAddress":"Thora.Volkman44@yahoo.com","status":"active","phoneNumber":"09021245814","role":"customer","orders":[],"_id":"66bcebdf8bfe92e9ea2b25e8","cart":[],"createdAt":"2024-08-14T17:39:43.366Z","updatedAt":"2024-08-14T17:39:43.366Z"}}

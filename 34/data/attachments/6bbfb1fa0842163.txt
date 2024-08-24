@@ -1,0 +1,5 @@
+{
+    "name": "Coordinator - Atiku Mohammed",
+    "description": "Nesciunt non sequi nemo et assumenda corrupti reiciendis. Deserunt voluptate illum odio sit et amet. Ut nemo velit porro quo ipsam aperiam non. Et eius pariatur modi possimus. Est libero harum qui debitis voluptas nam. Iure nemo quas eum.",
+    "inspiredBy": "Atiku Mohammed"
+}

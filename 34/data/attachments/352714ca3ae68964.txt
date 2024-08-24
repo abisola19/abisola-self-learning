@@ -1,0 +1,5 @@
+{
+    "name": "Consultant - Eniola Adelowo",
+    "description": "Laboriosam tempora eaque eos mollitia aliquam et perferendis omnis cupiditate. Laboriosam reprehenderit voluptates.",
+    "inspiredBy": "Eniola Adelowo"
+}

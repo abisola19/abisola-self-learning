@@ -1,6 +1,0 @@
-{
-    "fullName": "Byron Hammes",
-    "emailAddress": "BradfordQuality-focused@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09089175431"
-}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Gerard Gusikowski PhD",
+    "emailAddress": "BrayanPersonal@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09017020732"
+}

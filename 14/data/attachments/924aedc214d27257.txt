@@ -1,6 +1,0 @@
-{
-    "fullName": "Ernesto Klein MD",
-    "emailAddress": "Trentoninvoice@mailinator.com",
-    "password": "Password12",
-    "phoneNumber": "09054422636"
-}

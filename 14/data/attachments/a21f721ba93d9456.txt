@@ -1,4 +1,0 @@
-{
-    "name": "mason",
-    "description": "Et quod sit et in qui est enim beatae iure. Quae sed libero ipsum non sint molestias omnis et tempore. Modi nemo et quae aut ut."
-}
