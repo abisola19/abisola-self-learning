@@ -1,6 +1,0 @@
-{
-    "fullName": "Joann Wilderman",
-    "emailAddress": "Zechariah42@hotmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "A900"
-}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Samantha Goodwin",
+    "emailAddress": "Erick.Schoen30@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09047179463"
+}

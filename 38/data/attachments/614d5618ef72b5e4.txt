@@ -1,0 +1,5 @@
+{
+    "name": "Producer - David Osimen",
+    "description": "Quis sed minima totam inventore. Qui libero id nihil deserunt ex rerum. In alias qui qui.",
+    "inspiredBy": "David Osimen"
+}

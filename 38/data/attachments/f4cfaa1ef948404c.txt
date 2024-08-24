@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Miss Conrad Parker","emailAddress":"Eliezerback-end@mailinator.com","status":"active","phoneNumber":"09020155774","role":"admin","orders":[],"_id":"66c98e8aaf64348993d98469","cart":[],"createdAt":"2024-08-24T07:40:58.940Z","updatedAt":"2024-08-24T07:40:58.940Z"}}

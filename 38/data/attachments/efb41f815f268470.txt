@@ -1,0 +1,6 @@
+{
+    "fullName": "Abel Pollich",
+    "emailAddress": "Caesar.Haley86@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09024623287"
+}

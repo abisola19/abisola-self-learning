@@ -1,6 +1,0 @@
-{
-    "fullName": "Janet Connelly",
-    "emailAddress": "Abdullah70@yahoo.com",
-    "password": "Password12@@",
-    "phoneNumber": "09084319678"
-}

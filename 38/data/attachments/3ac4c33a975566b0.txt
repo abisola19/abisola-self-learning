@@ -1,0 +1,4 @@
+{
+    "name": "Hirthe Circle",
+    "amount": 1500
+}

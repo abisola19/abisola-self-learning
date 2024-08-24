@@ -1,0 +1,6 @@
+{
+    "fullName": "Miss Conrad Parker",
+    "emailAddress": "Eliezerback-end@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09020155774"
+}

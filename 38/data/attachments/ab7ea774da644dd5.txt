@@ -1,0 +1,6 @@
+{
+    "fullName": "Leroy Muller",
+    "emailAddress": "Golda.Langworth@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09045814761"
+}

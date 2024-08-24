@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Timothy Grady","emailAddress":"LottieNeck@mailinator.c","status":"active","phoneNumber":"09012286896","role":"admin","orders":[],"_id":"66bcf150e459c25954b45cf8","cart":[],"createdAt":"2024-08-14T18:02:56.046Z","updatedAt":"2024-08-14T18:02:56.046Z"}}

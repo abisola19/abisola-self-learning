@@ -1,0 +1,6 @@
+{
+    "fullName": "Lindsey Rogahn",
+    "emailAddress": "abisola@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09068961154"
+}

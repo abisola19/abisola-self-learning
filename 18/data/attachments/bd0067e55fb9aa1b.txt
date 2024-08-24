@@ -1,6 +1,0 @@
-{
-    "fullName": "Deborah Terry",
-    "emailAddress": "Loriexperiences@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09052330617"
-}

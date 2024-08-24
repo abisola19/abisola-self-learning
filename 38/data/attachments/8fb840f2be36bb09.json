@@ -1,0 +1,10 @@
+{
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmM5OGU4YWFmNjQzNDg5OTNkOTg0NjkiLCJlbWFpbEFkZHJlc3MiOiJFbGllemVyYmFjay1lbmRAbWFpbGluYXRvci5jb20iLCJwYXNzd29yZCI6IiQyYiQxMCRwekRCY0hwT1FEQ2Yva3QuRTVVdjFla2xwTTJxR2ZVemc0YXlBT0pvUGpkbFZMWk93QkhWRyIsImlhdCI6MTcyNDQ4NTI1OSwiZXhwIjoxNzI0NDg4ODU5fQ.v0wuqiu_IOd7luzkmEdp473Gqt8C5hVihrPqv0D9F8I",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "b61678fa-d122-49c7-89ea-47abcc1604ab",
+    "Host": "heatwave-backend.vercel.app",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive"
+}

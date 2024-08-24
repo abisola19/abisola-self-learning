@@ -1,6 +1,0 @@
-{
-    "fullName": "Ms. Tony Nienow",
-    "emailAddress": "Myrtice_Torphy@gmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09011776189"
-}

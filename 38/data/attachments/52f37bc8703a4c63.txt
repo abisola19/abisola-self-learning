@@ -1,0 +1,1 @@
+{"message":"Profile fetched successfully","data":{"_id":"66c98e8eaf64348993d98496","fullName":"Abel Pollich","emailAddress":"Caesar.Haley86@hotmail.com","status":"active","phoneNumber":"09024623287","role":"customer","orders":[],"cart":[],"createdAt":"2024-08-24T07:41:02.579Z","updatedAt":"2024-08-24T07:41:02.579Z"}}

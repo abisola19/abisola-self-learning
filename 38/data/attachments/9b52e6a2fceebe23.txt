@@ -1,0 +1,1 @@
+{"message":"Delivery location created successfully","data":{"name":"Hirthe Circle","slug":"hirthe-circle","currency":"NGN","amount":1500,"_id":"66c98e8eaf64348993d98492","createdAt":"2024-08-24T07:41:02.133Z","updatedAt":"2024-08-24T07:41:02.133Z"}}

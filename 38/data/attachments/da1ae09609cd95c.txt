@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Tyler Hickle","emailAddress":"Buddypayment@mailinator.c","status":"active","phoneNumber":"09011454055","role":"admin","orders":[],"_id":"66c98e8baf64348993d9846d","cart":[],"createdAt":"2024-08-24T07:40:59.264Z","updatedAt":"2024-08-24T07:40:59.264Z"}}

@@ -1,0 +1,6 @@
+{
+    "fullName": "Tyler Hickle",
+    "emailAddress": "Buddypayment@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09011454055"
+}

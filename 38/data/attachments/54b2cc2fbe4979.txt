@@ -1,0 +1,6 @@
+{
+    "fullName": "Anne Schowalter",
+    "emailAddress": "Axel_Fadel60@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "A900"
+}

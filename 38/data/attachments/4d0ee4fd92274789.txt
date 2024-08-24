@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Ms. Erik Feil","emailAddress":"Gaylord75@gmail.com","status":"active","phoneNumber":"09015799999","role":"customer","orders":[],"_id":"66c98e8eaf64348993d9849a","cart":[],"createdAt":"2024-08-24T07:41:02.779Z","updatedAt":"2024-08-24T07:41:02.779Z"}}

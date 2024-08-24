@@ -1,0 +1,6 @@
+{
+    "fullName": "Roxanne Hamill",
+    "emailAddress": "FridaIncredible@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09040325592"
+}

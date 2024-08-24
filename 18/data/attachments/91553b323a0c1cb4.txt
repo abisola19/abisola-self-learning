@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Shawna Rosenbaum","emailAddress":"Brain_Schaden@gmail.com","status":"active","phoneNumber":"09073391992","role":"customer","orders":[],"_id":"66bcf153e459c25954b45d08","cart":[],"createdAt":"2024-08-14T18:02:59.139Z","updatedAt":"2024-08-14T18:02:59.139Z"}}

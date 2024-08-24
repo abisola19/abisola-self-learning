@@ -1,4 +1,0 @@
-{
-    "name": "Executive",
-    "description": "Fugit ut non voluptatem. Molestias sit debitis omnis explicabo dolore. Nemo dolores laboriosam consequatur ea possimus et magni corrupti qui. Id iste aut distinctio reprehenderit non accusamus quia. Facilis maxime corrupti ab aliquid qui cumque numquam."
-}

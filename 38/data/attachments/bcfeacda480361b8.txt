@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Samantha Goodwin","emailAddress":"Erick.Schoen30@yahoo.com","status":"active","phoneNumber":"09047179463","role":"customer","orders":[],"_id":"66c98e8eaf64348993d9849e","cart":[],"createdAt":"2024-08-24T07:41:02.981Z","updatedAt":"2024-08-24T07:41:02.981Z"}}

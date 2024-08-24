@@ -1,0 +1,6 @@
+{
+    "fullName": "Elena Strosin III",
+    "emailAddress": "Gillian_Ledner2@gmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09075882198"
+}

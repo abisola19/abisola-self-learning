@@ -1,0 +1,4 @@
+{
+    "name": "Specialist",
+    "description": "Laboriosam culpa qui voluptas eum. Nihil beatae quasi quos delectus officiis iure rerum."
+}

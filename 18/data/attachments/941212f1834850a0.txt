@@ -1,6 +1,0 @@
-{
-    "fullName": "Timothy Grady",
-    "emailAddress": "LottieNeck@mailinator.c",
-    "password": "Password12@@",
-    "phoneNumber": "09012286896"
-}
