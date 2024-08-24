@@ -1,0 +1,6 @@
+{
+    "fullName": "Jeanne Cassin",
+    "emailAddress": "Keon_Lueilwitz@gmail.com",
+    "password": "password12@@",
+    "phoneNumber": "09098227879"
+}

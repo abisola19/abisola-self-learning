@@ -1,6 +1,0 @@
-{
-    "fullName": "Kathleen Murray",
-    "emailAddress": "abisola@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09017866014"
-}

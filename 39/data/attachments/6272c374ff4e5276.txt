@@ -1,0 +1,6 @@
+{
+    "fullName": "Omar Aufderhar",
+    "emailAddress": "GretaFunctionality@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

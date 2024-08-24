@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Mrs. Helen Anderson","emailAddress":"Rachelle.Schultz11@yahoo.com","status":"active","phoneNumber":"09053962756","role":"customer","orders":[],"_id":"66c98f44c788f4014991e489","cart":[],"createdAt":"2024-08-24T07:44:04.542Z","updatedAt":"2024-08-24T07:44:04.542Z"}}

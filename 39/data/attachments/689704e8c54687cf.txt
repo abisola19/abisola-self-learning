@@ -1,0 +1,6 @@
+{
+    "fullName": "Lydia Stoltenberg",
+    "emailAddress": "JefferySoap@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "AB089"
+}

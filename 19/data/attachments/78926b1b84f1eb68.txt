@@ -1,6 +1,0 @@
-{
-    "fullName": "Gail Mills",
-    "emailAddress": "Gissellemulti-byte@mailinator.com",
-    "password": "Password12",
-    "phoneNumber": "09084082884"
-}

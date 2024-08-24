@@ -1,6 +1,0 @@
-{
-    "fullName": "Miss Sherman Kilback",
-    "emailAddress": "KelvinFacilitator@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "0783"
-}

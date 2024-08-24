@@ -1,0 +1,6 @@
+{
+    "fullName": "Elizabeth Lebsack",
+    "emailAddress": "ShaynaToys@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09054192516"
+}

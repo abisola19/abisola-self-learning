@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Elizabeth Lebsack","emailAddress":"ShaynaToys@mailinator.com","status":"active","phoneNumber":"09054192516","role":"admin","orders":[],"_id":"66c98f40c788f4014991e45c","cart":[],"createdAt":"2024-08-24T07:44:00.042Z","updatedAt":"2024-08-24T07:44:00.042Z"}}

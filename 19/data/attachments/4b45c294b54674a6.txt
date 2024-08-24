@@ -1,6 +1,0 @@
-{
-    "fullName": "Ms. Orlando Schinner",
-    "emailAddress": "Marvin_Gaylord86@hotmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "A900"
-}

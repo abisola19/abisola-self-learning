@@ -1,0 +1,6 @@
+{
+    "fullName": "Mae Smith",
+    "emailAddress": "WilfredoForward@mailinator.com",
+    "password": "Password12",
+    "phoneNumber": "09026346521"
+}

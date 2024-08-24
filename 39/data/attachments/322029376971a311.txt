@@ -1,0 +1,4 @@
+{
+    "name": "Developer",
+    "description": "Ut repellendus eos accusantium sed. Praesentium libero ratione sint nam quae nemo. Eaque quia eum quisquam enim perferendis. Repellat quod ut asperiores libero est. Dicta eveniet molestias mollitia."
+}

@@ -1,4 +1,0 @@
-{
-    "name": "Assistant",
-    "description": "Molestias recusandae odit rerum maxime est ad quasi veritatis. Est et omnis et unde et iusto quas vitae. Eos in porro et odio. Quia dignissimos quia quis autem vel voluptatem adipisci iusto. Soluta et officiis sint."
-}

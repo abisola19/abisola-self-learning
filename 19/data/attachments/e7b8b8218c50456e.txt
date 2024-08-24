@@ -1,5 +1,0 @@
-{
-    "name": "Associate - Atiku Mohammed",
-    "description": "Distinctio qui hic et sit delectus nihil praesentium deleniti dignissimos. Qui sed libero quod tempora accusantium aliquid qui officia. Non aliquid ea necessitatibus aut nihil. Cupiditate voluptatem accusamus est adipisci tenetur est porro exercitationem.",
-    "inspiredBy": "Atiku Mohammed"
-}

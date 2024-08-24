@@ -1,0 +1,5 @@
+{
+    "name": "Administrator - Atiku Mohammed",
+    "description": "Non omnis explicabo amet consequuntur et laboriosam dolorem et. Aut unde ullam nihil itaque exercitationem quos asperiores ut.",
+    "inspiredBy": "Atiku Mohammed"
+}

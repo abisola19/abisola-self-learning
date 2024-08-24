@@ -1,0 +1,6 @@
+{
+    "fullName": "Ellen O'Connell",
+    "emailAddress": "Frieda_Will50@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09070058421"
+}

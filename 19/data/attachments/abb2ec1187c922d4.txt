@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Lester Ferry","emailAddress":"Stefanie65@hotmail.com","status":"active","phoneNumber":"09052209357","role":"customer","orders":[],"_id":"66bcf88b11ebfaf6ff24d069","cart":[],"createdAt":"2024-08-14T18:33:47.988Z","updatedAt":"2024-08-14T18:33:47.988Z"}}

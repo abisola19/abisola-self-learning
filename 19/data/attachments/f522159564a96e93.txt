@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Earnest Koepp DVM","emailAddress":"Kurtis67@hotmail.com","status":"active","phoneNumber":"09062006641","role":"customer","orders":[],"_id":"66bcf88b11ebfaf6ff24d065","cart":[],"createdAt":"2024-08-14T18:33:47.811Z","updatedAt":"2024-08-14T18:33:47.811Z"}}

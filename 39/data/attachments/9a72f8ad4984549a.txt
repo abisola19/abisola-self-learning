@@ -1,0 +1,5 @@
+{
+    "name": "Planner - David Osimen",
+    "description": "Ut odio dolorem et maxime natus impedit voluptas est omnis. Aut sit pariatur in.",
+    "inspiredBy": "David Osimen"
+}

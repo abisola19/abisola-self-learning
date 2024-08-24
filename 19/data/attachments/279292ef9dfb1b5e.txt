@@ -1,6 +1,0 @@
-{
-    "fullName": "Lester Ferry",
-    "emailAddress": "Stefanie65@hotmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09052209357"
-}

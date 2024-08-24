@@ -1,0 +1,6 @@
+{
+    "fullName": "Mrs. Helen Anderson",
+    "emailAddress": "Rachelle.Schultz11@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09053962756"
+}

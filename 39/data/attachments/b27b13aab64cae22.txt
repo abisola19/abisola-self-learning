@@ -1,0 +1,5 @@
+{
+    "name": "Agent - Atiku Mohammed",
+    "description": "Hic dolore rerum ratione consectetur facere excepturi repellat magnam. Sapiente labore tempora excepturi ut. Et neque consequuntur debitis enim qui laudantium et aliquid excepturi.",
+    "inspiredBy": "Atiku Mohammed"
+}

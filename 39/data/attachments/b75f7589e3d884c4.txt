@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Ellen O'Connell","emailAddress":"Frieda_Will50@gmail.com","status":"active","phoneNumber":"09070058421","role":"customer","orders":[],"_id":"66c98f45c788f4014991e491","cart":[],"createdAt":"2024-08-24T07:44:05.097Z","updatedAt":"2024-08-24T07:44:05.097Z"}}
