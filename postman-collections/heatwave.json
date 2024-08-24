@@ -1137,7 +1137,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{accessToken}}"
+										"token": "{{accessToken}"
 									}
 								},
 								"method": "POST",
@@ -1307,7 +1307,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{adminToken}}"
+										"token": "{{adminAccessToken}}"
 									}
 								},
 								"method": "GET",
@@ -1583,6 +1583,12 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{adminToken}}"
+									}
+								},
 								"method": "POST",
 								"header": [
 									{
@@ -1614,6 +1620,8 @@
 										"exec": [
 											"try {\r",
 											"const jsonData = pm.response.json();\r",
+											"const categoryId = jsonData.data._id;\r",
+											"    pm.environment.set(\"categoryId\", categoryId);\r",
 											"pm.test(\"Response body property\", function () {\r",
 											"    pm.expect(jsonData).to.be.an('object');\r",
 											"    pm.expect(jsonData.message).to.be.a('string');\r",
@@ -1646,6 +1654,12 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{adminToken}}"
+									}
+								},
 								"method": "GET",
 								"header": [],
 								"url": "{{baseURL}}/categories"
@@ -1738,7 +1752,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{adminAccessToken}}"
+										"token": "{{adminAccessToken}"
 									}
 								},
 								"method": "GET",
