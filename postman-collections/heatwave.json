@@ -2363,7 +2363,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"name\": \"Gbagada\",\n    \"amount\": 1500\n}",
+									"raw": "{\n    \"name\": \"{{$randomStreetName}}\",\n    \"amount\": 1500\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -2484,7 +2484,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{accessToken}}"
+										"token": "{{accessToken}"
 									}
 								},
 								"method": "POST",
