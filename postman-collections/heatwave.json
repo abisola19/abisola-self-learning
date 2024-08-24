@@ -2536,6 +2536,74 @@
 						}
 					],
 					"id": "1fbd8b4f-bb7d-4d88-9687-c5ae5f25c005"
+				},
+				{
+					"name": "Product",
+					"item": [
+						{
+							"name": "Create Product",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "37f12a0c-d14a-4160-8cf3-c9b110522735",
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "dd7453e5-2e8c-453d-a2a8-e4a7751b0429",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{adminToken}}"
+									}
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-request-source",
+										"value": "admin",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"{{$randomProductName}}\",\n    \"status\": \"active\",\n    \"description\": \"{{$randomLoremSentence}}\",\n    \"isLatestProduct\": true,\n    \"categoryId\": \"66c98477af64348993d98226\",\n    \"variants\": [\n        {\n            \"color\": \"string\",\n            \"size\": \"string\",\n            \"images\": [\n                \"https://img.freepik.com/free-vector/anime-chibi-boy-wearing-cap-character_18591-82515.jpg\"\n            ],\n            \"isAvailable\": true,\n            \"price\": 200\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/products?x-resource =Admin",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"products"
+									],
+									"query": [
+										{
+											"key": "x-resource ",
+											"value": "Admin",
+											"type": "text"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"id": "e0f81036-d7be-4000-a505-4d1ded8d3766"
 				}
 			],
 			"id": "942b4ce0-5bd4-4fcf-ae77-db2cbf90a935",
