@@ -1,6 +1,0 @@
-{
-    "fullName": "Jodi Nienow",
-    "emailAddress": "Pearline.Wisoky81@gmail.com",
-    "password": "password12@@",
-    "phoneNumber": "09028648240"
-}

@@ -1,4 +1,0 @@
-{
-    "name": "Agent",
-    "description": "Suscipit et est. Occaecati pariatur voluptatem quis non tempora architecto aut est."
-}

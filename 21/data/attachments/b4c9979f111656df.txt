@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Rick Brakus Jr.","emailAddress":"Adrianna_Nitzsche13@yahoo.com","status":"active","phoneNumber":"09098323149","role":"customer","orders":[],"_id":"66bd0037e26c1336316be42b","cart":[],"createdAt":"2024-08-14T19:06:31.218Z","updatedAt":"2024-08-14T19:06:31.218Z"}}

@@ -1,6 +1,0 @@
-{
-    "fullName": "Mable Marquardt MD",
-    "emailAddress": "EllisUnbranded@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "09047167481"
-}

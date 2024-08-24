@@ -1,4 +1,0 @@
-{
-    "name": "Gilberto Lesch",
-    "description": "Suscipit et dolorem quas voluptatum doloremque quidem nostrum. Soluta non dignissimos consequatur saepe vel in expedita. Est maxime quasi."
-}

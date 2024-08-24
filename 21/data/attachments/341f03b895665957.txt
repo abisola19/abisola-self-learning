@@ -1,6 +1,0 @@
-{
-    "fullName": "Floyd Hagenes",
-    "emailAddress": "Orion50@hotmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "A900"
-}

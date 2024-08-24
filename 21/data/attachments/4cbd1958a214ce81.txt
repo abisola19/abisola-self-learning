@@ -1,6 +1,0 @@
-{
-    "fullName": "Kent Rutherford PhD",
-    "emailAddress": "Sydnee.Abshire52@gmail.com",
-    "password": "Password12@@",
-    "phoneNumber": "09082252745"
-}

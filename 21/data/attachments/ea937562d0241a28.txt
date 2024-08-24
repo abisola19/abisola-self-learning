@@ -1,6 +1,0 @@
-{
-    "fullName": "Emilio Baumbach",
-    "emailAddress": "Jakob.Stoltenberg93@yahoo.com",
-    "password": "Password12@@",
-    "phoneNumber": "09049270391"
-}

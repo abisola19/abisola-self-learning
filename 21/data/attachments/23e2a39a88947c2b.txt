@@ -1,4 +1,0 @@
-{
-    "name": "Planner",
-    "description": "Accusantium esse eaque quidem et quas officia quia illum quis. Fuga illum aut sint dolor."
-}

@@ -1,6 +1,0 @@
-{
-    "fullName": "Laverne Swift",
-    "emailAddress": "AntonettaUSB@mailinator.com",
-    "password": "Password12",
-    "phoneNumber": "09023780272"
-}

@@ -1,6 +1,0 @@
-{
-    "fullName": "Miss Nelson Flatley",
-    "emailAddress": "EmilioHDD@mailinator.c",
-    "password": "Password12@@",
-    "phoneNumber": "09080125453"
-}

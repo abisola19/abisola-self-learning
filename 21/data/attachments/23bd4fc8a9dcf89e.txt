@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Miss Nelson Flatley","emailAddress":"EmilioHDD@mailinator.c","status":"active","phoneNumber":"09080125453","role":"admin","orders":[],"_id":"66bd0032e26c1336316be41f","cart":[],"createdAt":"2024-08-14T19:06:26.338Z","updatedAt":"2024-08-14T19:06:26.338Z"}}
