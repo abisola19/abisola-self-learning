@@ -1,0 +1,6 @@
+{
+    "fullName": "Charlie Welch Jr.",
+    "emailAddress": "Gladys_Witting71@yahoo.com",
+    "password": "password12@@",
+    "phoneNumber": "09068394700"
+}

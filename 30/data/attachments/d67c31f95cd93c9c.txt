@@ -1,0 +1,6 @@
+{
+    "fullName": "Mrs. Virginia Hayes",
+    "emailAddress": "Alda_Hettinger@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09032112325"
+}

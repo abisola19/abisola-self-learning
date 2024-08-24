@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Mario Keebler","emailAddress":"Sadye.Herman24@yahoo.com","status":"active","phoneNumber":"09029351177","role":"customer","orders":[],"_id":"66c985edaf64348993d9826e","cart":[],"createdAt":"2024-08-24T07:04:13.400Z","updatedAt":"2024-08-24T07:04:13.400Z"}}

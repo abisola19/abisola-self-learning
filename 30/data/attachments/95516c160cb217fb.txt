@@ -1,0 +1,6 @@
+{
+    "fullName": "Sherri Cartwright",
+    "emailAddress": "Margaretteinfrastructure@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "09077479037"
+}

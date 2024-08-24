@@ -1,4 +1,0 @@
-{
-    "name": "mason",
-    "description": "Doloribus amet et nulla est. Consequatur animi voluptatem dolorem rerum. Quae voluptas omnis."
-}

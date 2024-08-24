@@ -1,0 +1,1 @@
+{"message":"Collection 'Assistant - David Osimen' already exists"}

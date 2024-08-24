@@ -1,4 +1,0 @@
-{
-    "name": "Analyst",
-    "description": "Corrupti reiciendis consequatur vitae numquam voluptas inventore. Magni id ipsam ipsam quaerat unde. Nesciunt quisquam soluta placeat voluptatem nihil sint. Mollitia voluptates hic."
-}

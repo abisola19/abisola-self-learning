@@ -1,0 +1,4 @@
+{
+    "name": "Developer",
+    "description": "Voluptatem placeat molestias quas ratione dolorem vero quis tempore repudiandae. Aut reprehenderit aut et adipisci omnis. Qui et repudiandae temporibus temporibus. Ipsam magnam odio ut deleniti non repudiandae unde non. Voluptatem quia provident architecto sed voluptates et qui nobis consequatur. Perferendis provident ab quo autem sunt labore sit."
+}

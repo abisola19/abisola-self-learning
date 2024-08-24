@@ -1,0 +1,5 @@
+{
+    "name": "Planner - David Osimen",
+    "description": "Numquam soluta totam soluta ipsa quae cum distinctio. Optio architecto porro quaerat eum aliquam. Enim amet et ut praesentium.",
+    "inspiredBy": "David Osimen"
+}

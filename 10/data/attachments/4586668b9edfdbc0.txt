@@ -1,1 +1,0 @@
-{"message":"User successfully signed up","data":{"fullName":"Stephanie Ruecker III","emailAddress":"Kian_Nicolas36@yahoo.com","status":"active","phoneNumber":"09080316441","role":"customer","orders":[],"_id":"66b7c478f9cd67bfdefd0a62","cart":[],"createdAt":"2024-08-10T19:50:16.100Z","updatedAt":"2024-08-10T19:50:16.100Z"}}

@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Mrs. Cynthia Schmeler","emailAddress":"Vidacohesive@mailinator.c","status":"active","phoneNumber":"09085455771","role":"admin","orders":[],"_id":"66c985e8af64348993d98253","cart":[],"createdAt":"2024-08-24T07:04:08.185Z","updatedAt":"2024-08-24T07:04:08.185Z"}}

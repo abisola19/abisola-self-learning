@@ -1,6 +1,0 @@
-{
-    "fullName": "Marlon Mraz",
-    "emailAddress": "KathleenAccount@mailinator.com",
-    "password": "Password12",
-    "phoneNumber": "09054368665"
-}

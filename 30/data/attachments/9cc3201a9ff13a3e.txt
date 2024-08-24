@@ -1,0 +1,6 @@
+{
+    "fullName": "Mrs. Cynthia Schmeler",
+    "emailAddress": "Vidacohesive@mailinator.c",
+    "password": "Password12@@",
+    "phoneNumber": "09085455771"
+}

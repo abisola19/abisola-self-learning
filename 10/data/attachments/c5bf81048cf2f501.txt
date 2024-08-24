@@ -1,6 +1,0 @@
-{
-    "fullName": "Rodolfo Rempel",
-    "emailAddress": "HalleGlobal@mailinator.com",
-    "password": "Password12@@",
-    "phoneNumber": "AB089"
-}

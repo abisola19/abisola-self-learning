@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Sherri Cartwright","emailAddress":"Margaretteinfrastructure@mailinator.com","status":"active","phoneNumber":"09077479037","role":"admin","orders":[],"_id":"66c985e7af64348993d9824f","cart":[],"createdAt":"2024-08-24T07:04:07.780Z","updatedAt":"2024-08-24T07:04:07.780Z"}}

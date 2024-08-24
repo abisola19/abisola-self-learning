@@ -1,4 +1,0 @@
-{
-    "name": "Executive",
-    "description": "Qui minus cum ratione et expedita. Ut quis suscipit quia sapiente."
-}

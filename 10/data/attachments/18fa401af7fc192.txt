@@ -1,6 +1,0 @@
-{
-    "fullName": "Stephanie Ruecker III",
-    "emailAddress": "Kian_Nicolas36@yahoo.com",
-    "password": "Password12@@",
-    "phoneNumber": "09080316441"
-}

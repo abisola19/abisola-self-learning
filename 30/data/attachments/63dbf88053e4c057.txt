@@ -1,0 +1,6 @@
+{
+    "fullName": "Dr. Gary Connelly",
+    "emailAddress": "Meaghanencompassing@mailinator.com",
+    "password": "Password12@@",
+    "phoneNumber": "0783"
+}

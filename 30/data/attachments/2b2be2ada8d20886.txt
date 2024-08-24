@@ -1,0 +1,1 @@
+{"message":"User successfully signed up","data":{"fullName":"Mrs. Virginia Hayes","emailAddress":"Alda_Hettinger@hotmail.com","status":"active","phoneNumber":"09032112325","role":"customer","orders":[],"_id":"66c985edaf64348993d9826a","cart":[],"createdAt":"2024-08-24T07:04:13.156Z","updatedAt":"2024-08-24T07:04:13.156Z"}}

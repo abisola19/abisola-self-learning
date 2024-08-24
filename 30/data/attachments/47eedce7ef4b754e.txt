@@ -1,0 +1,6 @@
+{
+    "fullName": "Marcos Cummerata",
+    "emailAddress": "Danial_Volkman84@gmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "A900"
+}

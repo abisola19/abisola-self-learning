@@ -1,0 +1,4 @@
+{
+    "name": "Analyst",
+    "description": "Provident nam repellendus ipsa soluta eum quos dolorem tempora dolore. Repellat aut velit facilis id dolor aliquam voluptate odit. Odit voluptatem maiores aut accusantium quia eos porro. Vel qui est voluptates molestias aut rerum maiores. Delectus et itaque."
+}

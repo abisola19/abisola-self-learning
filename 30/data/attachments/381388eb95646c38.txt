@@ -1,0 +1,6 @@
+{
+    "fullName": "Mario Keebler",
+    "emailAddress": "Sadye.Herman24@yahoo.com",
+    "password": "Password12@@",
+    "phoneNumber": "09029351177"
+}

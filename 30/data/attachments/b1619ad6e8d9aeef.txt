@@ -1,0 +1,1 @@
+{"message":"Category created successfully","data":{"name":"Lindsay Connelly","slug":"lindsay-connelly","description":"Inventore non pariatur aut debitis illum labore optio voluptatem. Ut dicta voluptas non sint eligendi recusandae earum.","_id":"66c985eaaf64348993d98261","createdAt":"2024-08-24T07:04:10.546Z","updatedAt":"2024-08-24T07:04:10.546Z"}}

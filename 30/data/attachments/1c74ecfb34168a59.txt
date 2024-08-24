@@ -1,0 +1,6 @@
+{
+    "fullName": "Pearl Bogan",
+    "emailAddress": "Golda.Langworth@hotmail.com",
+    "password": "Password12@@",
+    "phoneNumber": "09058225216"
+}
