@@ -2047,7 +2047,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{accessToken}}"
+										"token": "{{accessToken}"
 									}
 								},
 								"method": "GET",
@@ -2116,6 +2116,12 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{adminToken}}"
+									}
+								},
 								"method": "GET",
 								"header": [
 									{
@@ -2229,7 +2235,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{accessToken}}"
+										"token": "{{accessToken}"
 									}
 								},
 								"method": "GET",
@@ -2341,6 +2347,12 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{adminToken}}"
+									}
+								},
 								"method": "POST",
 								"header": [
 									{
